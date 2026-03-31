@@ -1,6 +1,7 @@
 {
   "name": "aicha-hatim",
   "private": true,
+  "packageManager": "npm@11.9.0",
   "workspaces": ["apps/*"],
   "scripts": {
     "dev": "turbo run dev",
