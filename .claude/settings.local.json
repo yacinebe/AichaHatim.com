@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/14YBE/CodeRepos/AichaHatim.com/apps/web/src -type f -name *.js -o -name *.jsx -o -name *.ts -o -name *.tsx)",
+      "Bash(find /c/Users/14YBE/CodeRepos/AichaHatim.com/apps/api/src -type f -name *.js -o -name *.ts)",
+      "Bash(wc -l /c/Users/14YBE/CodeRepos/AichaHatim.com/apps/api/src/routes/*.js /c/Users/14YBE/CodeRepos/AichaHatim.com/apps/api/src/routes/admin/*.js)",
+      "WebFetch(domain:www.coachingwithkrista.com)",
+      "WebFetch(domain:www.amyporterfield.com)",
+      "WebFetch(domain:www.liveasyouwellness.com)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
