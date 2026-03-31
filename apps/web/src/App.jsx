@@ -14,6 +14,7 @@ import FAQ from "./pages/FAQ.jsx";
 import Shop from "./pages/Shop.jsx";
 import Login from "./pages/Login.jsx";
 import MagicLinkVerify from "./pages/MagicLinkVerify.jsx";
+import PhotoPicker from "./pages/PhotoPicker.jsx";
 
 // Client area
 import ClientDashboard from "./pages/client/Dashboard.jsx";
@@ -82,6 +83,7 @@ export default function App() {
             <Route path="/boutique" element={<Shop />} />
             <Route path="/connexion" element={<Login />} />
             <Route path="/auth/verify" element={<MagicLinkVerify />} />
+            <Route path="/test-photos" element={<PhotoPicker />} />
           </Route>
 
           {/* Client area */}

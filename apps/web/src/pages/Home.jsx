@@ -5,6 +5,39 @@ import { api } from "../api/client.js";
 
 const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "#";
 
+const PHOTOS = [
+  "IMG_4586.JPG","IMG_4587.JPG","IMG_4589.JPG","IMG_4591.JPG","IMG_4592.JPG",
+  "IMG_4593.JPG","IMG_4594 2.JPG","IMG_4594.JPG","IMG_4595 2.JPG","IMG_4595.JPG",
+  "IMG_4596.JPG","IMG_4597 2.JPG","IMG_4597.JPG","IMG_4599.JPG","IMG_4600.JPG",
+  "IMG_4601.JPG","IMG_4602.JPG","IMG_4603.JPG","IMG_4604.JPG","IMG_4605.JPG",
+  "IMG_4606.JPG","IMG_4607.JPG","IMG_4608.JPG","IMG_4609.JPG","IMG_4610.JPG",
+  "IMG_4611.JPG","IMG_4612.JPG","IMG_4613.JPG","IMG_4618.JPG",
+];
+
+function PhotoSwitcher({ label, startIndex = 0 }) {
+  const [idx, setIdx] = useState(startIndex % PHOTOS.length);
+  const prev = () => setIdx((i) => (i - 1 + PHOTOS.length) % PHOTOS.length);
+  const next = () => setIdx((i) => (i + 1) % PHOTOS.length);
+
+  return (
+    <>
+      <img src={`/pictures/${PHOTOS[idx]}`} alt="Aicha Hatim" />
+      <div style={{
+        position: "absolute", bottom: "0.75rem", left: "50%", transform: "translateX(-50%)",
+        display: "flex", gap: "0.5rem", alignItems: "center",
+        background: "rgba(0,0,0,0.55)", borderRadius: "50px", padding: "0.3rem 0.75rem",
+        zIndex: 2,
+      }}>
+        <button onClick={prev} style={{ background: "none", border: "none", color: "#fff", cursor: "pointer", fontSize: "1rem", padding: "0 0.25rem" }}>◀</button>
+        <span style={{ color: "rgba(255,255,255,0.8)", fontSize: "0.7rem", minWidth: "80px", textAlign: "center" }}>
+          {PHOTOS[idx].replace(".JPG", "")} ({idx + 1}/{PHOTOS.length})
+        </span>
+        <button onClick={next} style={{ background: "none", border: "none", color: "#fff", cursor: "pointer", fontSize: "1rem", padding: "0 0.25rem" }}>▶</button>
+      </div>
+    </>
+  );
+}
+
 function EmailCapture() {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState(null);
@@ -128,11 +161,8 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="hero-image">
-            {content?.hero_image_url
-              ? <img src={content.hero_image_url} alt="Aicha Hatim" />
-              : <div style={{ width:"100%", height:"100%", display:"flex", alignItems:"center", justifyContent:"center", color:"var(--text-light)", fontFamily:"var(--font-serif)", fontSize:"1.1rem" }}>Photo à venir</div>
-            }
+          <div className="hero-image" style={{ position: "relative" }}>
+            <PhotoSwitcher label="Hero" startIndex={0} />
           </div>
         </div>
       </section>
@@ -160,11 +190,8 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div className="about-grid">
-            <div className="about-image">
-              {content?.about_image_url
-                ? <img src={content.about_image_url} alt="Aicha Hatim" />
-                : <div style={{ width:"100%", height:"100%", display:"flex", alignItems:"center", justifyContent:"center", color:"var(--text-light)" }}>Photo</div>
-              }
+            <div className="about-image" style={{ position: "relative" }}>
+              <PhotoSwitcher label="À propos" startIndex={10} />
             </div>
             <div className="about-content">
               <div className="section-header">
