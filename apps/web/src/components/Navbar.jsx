@@ -7,6 +7,7 @@ const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "#";
 export default function Navbar() {
   const { client } = useAuth();
   const [open, setOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
 
   return (
     <nav className="navbar">
@@ -14,17 +15,28 @@ export default function Navbar() {
         <Link to="/" className="navbar-logo">Aicha Hatim</Link>
 
         <ul className="navbar-links">
-          <li><NavLink to="/a-propos">À propos</NavLink></li>
-          <li><NavLink to="/podcast">Podcast</NavLink></li>
-          <li><NavLink to="/faq">FAQ</NavLink></li>
-          <li><NavLink to="/boutique">Boutique</NavLink></li>
+          <li><NavLink to="/">Réinvention Intérieure</NavLink></li>
+          <li
+            className="nav-dropdown"
+            onMouseEnter={() => setAboutOpen(true)}
+            onMouseLeave={() => setAboutOpen(false)}
+          >
+            <NavLink to="/a-propos">À propos ▾</NavLink>
+            {aboutOpen && (
+              <div className="dropdown-menu">
+                <NavLink to="/a-propos#histoire" onClick={() => setAboutOpen(false)}>Mon histoire</NavLink>
+                <NavLink to="/a-propos#coaching" onClick={() => setAboutOpen(false)}>Mon coaching</NavLink>
+              </div>
+            )}
+          </li>
+          <li><NavLink to="/podcast">Mon podcast</NavLink></li>
           {client
-            ? <li><NavLink to="/espace-client">Mon espace</NavLink></li>
-            : <li><NavLink to="/connexion">Connexion</NavLink></li>
+            ? <li><NavLink to="/espace-client">Espace Perso</NavLink></li>
+            : <li><NavLink to="/connexion">Espace Perso</NavLink></li>
           }
           <li className="nav-cta">
-            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
-              Séance découverte
+            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-accent btn-sm nav-cta-btn">
+              Coaching offert
             </a>
           </li>
         </ul>
@@ -35,17 +47,17 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="mobile-menu" onClick={() => setOpen(false)}>
-          <NavLink to="/a-propos">À propos</NavLink>
-          <NavLink to="/podcast">Podcast</NavLink>
-          <NavLink to="/faq">FAQ</NavLink>
-          <NavLink to="/boutique">Boutique</NavLink>
+        <div className="mobile-menu">
+          <NavLink to="/" onClick={() => setOpen(false)}>Réinvention Intérieure</NavLink>
+          <NavLink to="/a-propos#histoire" onClick={() => setOpen(false)}>Mon histoire</NavLink>
+          <NavLink to="/a-propos#coaching" onClick={() => setOpen(false)}>Mon coaching</NavLink>
+          <NavLink to="/podcast" onClick={() => setOpen(false)}>Mon podcast</NavLink>
           {client
-            ? <NavLink to="/espace-client">Mon espace</NavLink>
-            : <NavLink to="/connexion">Connexion</NavLink>
+            ? <NavLink to="/espace-client" onClick={() => setOpen(false)}>Espace Perso</NavLink>
+            : <NavLink to="/connexion" onClick={() => setOpen(false)}>Espace Perso</NavLink>
           }
-          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-            Séance découverte
+          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-accent nav-cta-btn">
+            Coaching offert
           </a>
         </div>
       )}

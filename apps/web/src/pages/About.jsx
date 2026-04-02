@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { api } from "../api/client.js";
 
@@ -44,27 +44,40 @@ export default function About() {
     queryFn: () => api.getContent("about"),
   });
 
+  const { hash } = useLocation();
+  useEffect(() => {
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [hash]);
+
   return (
     <div className="page">
-      {/* Hero */}
+      {/* Header */}
       <section className="section" style={{ background: "var(--surface-2)", paddingBottom: "3rem" }}>
         <div className="container">
           <div className="section-header centered">
             <span className="section-eyebrow">À propos</span>
-            <h1>{content?.title ?? "Mon histoire"}</h1>
+            <h1>{content?.title ?? "Découvrez mon parcours"}</h1>
             <div className="section-divider" />
           </div>
         </div>
       </section>
 
-      {/* Main story */}
-      <section className="section">
+      {/* ── MON HISTOIRE ── */}
+      <section id="histoire" className="section">
         <div className="container">
           <div className="about-grid">
             <div className="about-image" style={{ position: "relative" }}>
               <PhotoSwitcher startIndex={5} />
             </div>
             <div className="about-content">
+              <div className="section-header">
+                <span className="section-eyebrow">Mon histoire</span>
+                <h2>Le chemin qui m'a menée ici</h2>
+                <div className="section-divider" />
+              </div>
               {content?.body
                 ? <div dangerouslySetInnerHTML={{ __html: content.body }} />
                 : (
@@ -81,21 +94,20 @@ export default function About() {
                   </>
                 )
               }
-
               <div className="badges" style={{ marginTop: "1.5rem" }}>
-                <span className="badge">🏅 ICF Certified Coach</span>
-                <span className="badge">🎓 CTI Trained</span>
+                <span className="badge">ICF Certified Coach</span>
+                <span className="badge">CTI Trained</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values */}
-      <section className="section" style={{ background: "var(--surface-2)" }}>
+      {/* ── MON COACHING ── */}
+      <section id="coaching" className="section" style={{ background: "var(--surface-2)" }}>
         <div className="container">
           <div className="section-header centered">
-            <span className="section-eyebrow">Mon approche</span>
+            <span className="section-eyebrow">Mon coaching</span>
             <h2>Ce en quoi je crois</h2>
             <div className="section-divider" />
           </div>
@@ -122,7 +134,7 @@ export default function About() {
             <h2>Travaillons ensemble</h2>
             <p>Une conversation de 30 minutes pour explorer si mon accompagnement est fait pour vous.</p>
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-accent btn-lg">
-              Réserver une séance découverte
+              Coaching offert
             </a>
           </div>
         </div>
