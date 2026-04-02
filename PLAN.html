@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AichaHatim.com — Plan de projet</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "Inter", system-ui, sans-serif; background: #faf7f2; color: #1c1c1c; line-height: 1.6; padding: 2rem; }
+    .container { max-width: 900px; margin: 0 auto; }
+    h1 { font-family: "Cormorant Garamond", Georgia, serif; color: #2d4a3e; font-size: 2.2rem; margin-bottom: 0.5rem; }
+    h2 { font-family: "Cormorant Garamond", Georgia, serif; color: #2d4a3e; font-size: 1.5rem; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #c9a96e; }
+    h3 { font-size: 1rem; color: #2d4a3e; margin: 1.25rem 0 0.5rem; }
+    p.subtitle { color: #7a6e64; margin-bottom: 2rem; }
+    .legend { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem; font-size: 0.85rem; color: #7a6e64; }
+    .legend span { display: flex; align-items: center; gap: 0.4rem; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+    .dot-done { background: #4a8c6f; }
+    .dot-progress { background: #c9a96e; }
+    .dot-todo { background: #e8ddd0; }
+    .dot-blocked { background: #c0392b; }
+
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+    th { text-align: left; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: #7a6e64; padding: 0.6rem 0.75rem; border-bottom: 2px solid #e8ddd0; }
+    td { padding: 0.7rem 0.75rem; border-bottom: 1px solid #e8ddd0; font-size: 0.9rem; vertical-align: top; }
+    tr:hover { background: rgba(201,169,110,0.06); }
+
+    .status { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 50px; font-size: 0.75rem; font-weight: 500; }
+    .s-done { background: rgba(74,140,111,0.12); color: #4a8c6f; }
+    .s-progress { background: rgba(201,169,110,0.15); color: #a88850; }
+    .s-todo { background: #f3ede4; color: #7a6e64; }
+    .s-blocked { background: rgba(192,57,43,0.1); color: #c0392b; }
+
+    .aicha { background: #fff8ee; border-left: 3px solid #c9a96e; padding: 0.4rem 0.75rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: #7a6e64; margin-top: 0.25rem; }
+    .aicha strong { color: #a88850; }
+
+    .phase-bar { display: flex; height: 8px; border-radius: 8px; overflow: hidden; margin-bottom: 2rem; }
+    .phase-bar div { height: 100%; }
+    .pb-done { background: #4a8c6f; }
+    .pb-progress { background: #c9a96e; }
+    .pb-todo { background: #e8ddd0; }
+
+    .note { background: #fff; border: 1px solid #e8ddd0; border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0; font-size: 0.88rem; color: #7a6e64; }
+    .note strong { color: #2d4a3e; }
+
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      h1 { font-size: 1.6rem; }
+      table { font-size: 0.82rem; }
+      td, th { padding: 0.5rem; }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+
+    <h1>AichaHatim.com — Plan de projet</h1>
+    <p class="subtitle">Dernière mise à jour : 2 avril 2026</p>
+
+    <div class="phase-bar">
+      <div class="pb-done" style="width: 25%"></div>
+      <div class="pb-progress" style="width: 10%"></div>
+      <div class="pb-todo" style="width: 65%"></div>
+    </div>
+
+    <div class="legend">
+      <span><span class="dot dot-done"></span> Terminé</span>
+      <span><span class="dot dot-progress"></span> En cours</span>
+      <span><span class="dot dot-todo"></span> À faire</span>
+      <span><span class="dot dot-blocked"></span> Bloqué (besoin d'info)</span>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <h2>Phase 1 — Frontend (coquille visuelle)</h2>
+
+    <table>
+      <thead><tr><th style="width:45%">Tâche</th><th style="width:15%">Statut</th><th>Input Aicha</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Structure React + Routing (App.jsx)</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Navbar + Footer</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>
+            Page d'accueil (Hero, VSL, Témoignages, CTA, Email capture)
+            <div class="aicha"><strong>Aicha :</strong> Choisir la photo Hero et la photo À propos (via le sélecteur de photos)</div>
+            <div class="aicha"><strong>Aicha :</strong> Valider/modifier les textes (titre hero, sous-titre, intro à propos)</div>
+          </td>
+          <td><span class="status s-progress">En cours</span></td>
+          <td>Photos + textes</td>
+        </tr>
+        <tr>
+          <td>
+            Page À propos (Mon histoire + Mon coaching)
+            <div class="aicha"><strong>Aicha :</strong> Rédiger "Mon histoire" (texte personnel)</div>
+            <div class="aicha"><strong>Aicha :</strong> Rédiger/valider "Mon coaching" (les 3 valeurs)</div>
+            <div class="aicha"><strong>Aicha :</strong> Choisir la photo</div>
+          </td>
+          <td><span class="status s-progress">En cours</span></td>
+          <td>Textes + photo</td>
+        </tr>
+        <tr>
+          <td>Page Podcast</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Page FAQ</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Boutique (produits + Stripe checkout)</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Connexion client (magic link)</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Espace client (Dashboard, Ressources, Workbook, Achats)</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Admin portal (13 pages CRUD)</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Design responsive (mobile)</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>
+            Finaliser photos définitives + retirer sélecteur
+            <div class="aicha"><strong>Aicha :</strong> Communiquer les photos choisies pour chaque emplacement</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Choix photos</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <h2>Phase 2 — Backend (API + Base de données)</h2>
+
+    <table>
+      <thead><tr><th style="width:45%">Tâche</th><th style="width:15%">Statut</th><th>Input Aicha</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Routes API Fastify (code)</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Schéma SQL (13 tables)</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Créer la base de données PostgreSQL (Railway ou Neon)</td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Déployer l'API sur Railway</td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Tester toutes les routes API en conditions réelles</td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>
+            Définir le mot de passe admin
+            <div class="aicha"><strong>Aicha :</strong> Choisir un mot de passe pour accéder à l'admin du site</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Mot de passe</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <h2>Phase 3 — Intégrations externes</h2>
+
+    <table>
+      <thead><tr><th style="width:45%">Tâche</th><th style="width:15%">Statut</th><th>Input Aicha</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>
+            Configurer Stripe (paiements)
+            <div class="aicha"><strong>Aicha :</strong> Créer un compte Stripe (stripe.com) et partager les clés API</div>
+          </td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>Compte Stripe</td>
+        </tr>
+        <tr>
+          <td>
+            Configurer Resend (emails magic link + inscriptions)
+            <div class="aicha"><strong>Aicha :</strong> Valider l'adresse email d'envoi (ex: hello@aichahatim.com)</div>
+          </td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>Email d'envoi</td>
+        </tr>
+        <tr>
+          <td>
+            Configurer Calendly
+            <div class="aicha"><strong>Aicha :</strong> Fournir le lien Calendly de prise de rendez-vous</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Lien Calendly</td>
+        </tr>
+        <tr>
+          <td>
+            Intégration podcast (Spotify / Apple / YouTube)
+            <div class="aicha"><strong>Aicha :</strong> Fournir les liens des plateformes podcast</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Liens podcast</td>
+        </tr>
+        <tr>
+          <td>Intégration Instagram feed (optionnel)</td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>Compte Instagram</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <h2>Phase 4 — Contenu</h2>
+
+    <div class="note">
+      <strong>Note :</strong> Tout le contenu sera modifiable par Aicha via le portail admin une fois la Phase 2 terminée. En attendant, voici les contenus à préparer.
+    </div>
+
+    <table>
+      <thead><tr><th style="width:45%">Tâche</th><th style="width:15%">Statut</th><th>Input Aicha</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>
+            Textes page d'accueil
+            <div class="aicha"><strong>Aicha :</strong> Titre hero, sous-titre, texte intro "à propos"</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Textes</td>
+        </tr>
+        <tr>
+          <td>
+            Texte "Mon histoire"
+            <div class="aicha"><strong>Aicha :</strong> Rédiger son parcours personnel (3-5 paragraphes)</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Texte</td>
+        </tr>
+        <tr>
+          <td>
+            Texte "Mon coaching"
+            <div class="aicha"><strong>Aicha :</strong> Décrire son approche, ses valeurs, sa méthode</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Texte</td>
+        </tr>
+        <tr>
+          <td>
+            Témoignages clients
+            <div class="aicha"><strong>Aicha :</strong> Collecter 3-5 témoignages (nom, texte, et/ou vidéo YouTube)</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Témoignages</td>
+        </tr>
+        <tr>
+          <td>
+            Questions FAQ
+            <div class="aicha"><strong>Aicha :</strong> Lister 5-10 questions fréquentes + réponses</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Q&amp;R</td>
+        </tr>
+        <tr>
+          <td>
+            Vidéo VSL (présentation)
+            <div class="aicha"><strong>Aicha :</strong> Enregistrer et uploader sur YouTube, fournir le lien</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Vidéo YouTube</td>
+        </tr>
+        <tr>
+          <td>
+            Produits numériques
+            <div class="aicha"><strong>Aicha :</strong> Définir les produits (nom, description, prix, image)</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Fiches produits</td>
+        </tr>
+        <tr>
+          <td>
+            Ressources clients (PDF / audio)
+            <div class="aicha"><strong>Aicha :</strong> Préparer les fichiers à mettre en ligne</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Fichiers</td>
+        </tr>
+        <tr>
+          <td>
+            Workbook bilan de compétences
+            <div class="aicha"><strong>Aicha :</strong> Définir les sections et questions du bilan</div>
+          </td>
+          <td><span class="status s-blocked">Bloqué</span></td>
+          <td>Sections + questions</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <h2>Phase 5 — Mise en production</h2>
+
+    <table>
+      <thead><tr><th style="width:45%">Tâche</th><th style="width:15%">Statut</th><th>Input Aicha</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Connecter le frontend Vercel (fait)</td>
+          <td><span class="status s-done">Terminé</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Connecter le domaine aichahatim.com sur Vercel</td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>Accès DNS du domaine</td>
+        </tr>
+        <tr>
+          <td>SSL / HTTPS (automatique sur Vercel)</td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Test complet end-to-end (navigation, auth, paiement, admin)</td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Former Aicha à l'admin
+            <div class="aicha"><strong>Aicha :</strong> Session de formation sur l'interface admin (30 min)</div>
+          </td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>Disponibilité</td>
+        </tr>
+        <tr>
+          <td>Lancement ! 🚀</td>
+          <td><span class="status s-todo">À faire</span></td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <h2>Récapitulatif — Actions Aicha</h2>
+
+    <div class="note">
+      <strong>Pour débloquer le projet, Aicha doit fournir :</strong>
+    </div>
+
+    <table>
+      <thead><tr><th style="width:5%">#</th><th style="width:50%">Action</th><th style="width:15%">Urgence</th><th>Phase</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Choisir les photos définitives (hero, à propos) via le sélecteur</td><td><span class="status s-blocked">Haute</span></td><td>Phase 1</td></tr>
+        <tr><td>2</td><td>Choisir le mot de passe admin du site</td><td><span class="status s-blocked">Haute</span></td><td>Phase 2</td></tr>
+        <tr><td>3</td><td>Fournir le lien Calendly</td><td><span class="status s-blocked">Haute</span></td><td>Phase 3</td></tr>
+        <tr><td>4</td><td>Rédiger les textes : hero, "Mon histoire", "Mon coaching"</td><td><span class="status s-progress">Moyenne</span></td><td>Phase 4</td></tr>
+        <tr><td>5</td><td>Collecter 3-5 témoignages clients</td><td><span class="status s-progress">Moyenne</span></td><td>Phase 4</td></tr>
+        <tr><td>6</td><td>Écrire 5-10 questions FAQ + réponses</td><td><span class="status s-progress">Moyenne</span></td><td>Phase 4</td></tr>
+        <tr><td>7</td><td>Enregistrer la vidéo VSL et la mettre sur YouTube</td><td><span class="status s-todo">Basse</span></td><td>Phase 4</td></tr>
+        <tr><td>8</td><td>Créer un compte Stripe (stripe.com)</td><td><span class="status s-todo">Basse</span></td><td>Phase 3</td></tr>
+        <tr><td>9</td><td>Fournir les liens podcast (Spotify, Apple, YouTube)</td><td><span class="status s-todo">Basse</span></td><td>Phase 3</td></tr>
+        <tr><td>10</td><td>Préparer les ressources clients (PDF, audio)</td><td><span class="status s-todo">Basse</span></td><td>Phase 4</td></tr>
+        <tr><td>11</td><td>Définir les produits numériques à vendre</td><td><span class="status s-todo">Basse</span></td><td>Phase 4</td></tr>
+        <tr><td>12</td><td>Définir les sections et questions du workbook</td><td><span class="status s-todo">Basse</span></td><td>Phase 4</td></tr>
+      </tbody>
+    </table>
+
+  </div>
+</body>
+</html>
