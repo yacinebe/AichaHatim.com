@@ -100,48 +100,60 @@ function MiroirSection() {
             Mais qui, au fond, <strong>ne se sent pas bien.</strong>
           </p>
 
-          {/* Au travail */}
-          <div className="miroir-block">
-            <h3 className="miroir-block-title">Au travail</h3>
-            <p className="landing-text">
-              Elle est irréprochable. Elle gère, elle délivre, elle anticipe. On peut compter sur elle.
-            </p>
-            <p className="landing-text">
-              Mais elle fonctionne sous pression, elle doute beaucoup, elle se suradapte.
-              Et elle espère qu'à force de tout donner… elle finira par se sentir légitime
-              et évoluera sur des postes de leadership.
-            </p>
-          </div>
+          {/* 3 cards */}
+          <div className="miroir-cards">
+            {/* Au travail */}
+            <div className="miroir-card">
+              <div className="miroir-card-icon">💼</div>
+              <h3 className="miroir-card-title">Au travail</h3>
+              <p className="miroir-card-pos">
+                Elle est irréprochable. Elle gère, elle délivre, elle anticipe. On peut compter sur elle.
+              </p>
+              <div className="miroir-card-sep" />
+              <p className="miroir-card-neg">
+                Mais elle fonctionne sous pression, elle doute beaucoup, elle se suradapte.
+                Et elle espère qu'à force de tout donner… elle finira par se sentir <em>légitime.</em>
+              </p>
+            </div>
 
-          {/* Vie perso */}
-          <div className="miroir-block">
-            <h3 className="miroir-block-title">Dans sa vie perso</h3>
-            <p className="landing-text">
-              Elle tient aussi. Elle gère la maison, les enfants, la charge mentale.
-              Mais elle est fatiguée, irritable parfois.
-              Et elle culpabilise de ne pas être la femme, la mère, la partenaire qu'elle voudrait être.
-            </p>
-          </div>
+            {/* Vie perso */}
+            <div className="miroir-card">
+              <div className="miroir-card-icon">🏠</div>
+              <h3 className="miroir-card-title">Dans sa vie perso</h3>
+              <p className="miroir-card-pos">
+                Elle tient aussi. Elle gère la maison, les enfants, la charge mentale.
+              </p>
+              <div className="miroir-card-sep" />
+              <p className="miroir-card-neg">
+                Mais elle est fatiguée, irritable parfois.
+                Et elle culpabilise de ne pas être la femme, la mère, la partenaire <em>qu'elle voudrait être.</em>
+              </p>
+            </div>
 
-          {/* Avec elle-même */}
-          <div className="miroir-block">
-            <h3 className="miroir-block-title">Avec elle-même</h3>
-            <p className="landing-text">
-              Elle est dure, exigeante, jamais vraiment satisfaite.
-              Elle a du mal à ralentir, à profiter, ou à se sentir fière.
-            </p>
+            {/* Avec elle-même */}
+            <div className="miroir-card">
+              <div className="miroir-card-icon">🪞</div>
+              <h3 className="miroir-card-title">Avec elle-même</h3>
+              <p className="miroir-card-pos">
+                Elle essaie de prendre soin d'elle. Elle fait du sport, elle mange « bien »,
+                elle fait sa skin-care, elle lit, elle écoute des podcasts.
+              </p>
+              <div className="miroir-card-sep" />
+              <p className="miroir-card-neg">
+                Mais malgré tout ça, elle reste dure, exigeante, jamais vraiment satisfaite.
+                Elle a du mal à ralentir, à profiter, ou à <em>se sentir fière.</em>
+              </p>
+            </div>
           </div>
 
           {/* Et pourtant */}
           <div className="miroir-pourtant">
-            <p className="landing-text" style={{ textAlign: "center", marginBottom: "1.5rem" }}>
-              Et pourtant…
-            </p>
-            <ul className="arrow-list" style={{ alignItems: "center" }}>
-              <li>Elle a « tout bien fait »</li>
-              <li>Elle a réussi</li>
-              <li>Elle a construit une belle vie</li>
-            </ul>
+            <p className="miroir-pourtant-label">Et pourtant…</p>
+            <div className="miroir-pills">
+              <span className="miroir-pill">Elle a « tout bien fait »</span>
+              <span className="miroir-pill">Elle a réussi</span>
+              <span className="miroir-pill">Elle a construit une belle vie</span>
+            </div>
             <p className="miroir-punchline">
               Mais elle ne ressent pas la fierté, la joie ou l'épanouissement
               qu'elle imaginait en arrivant là.
