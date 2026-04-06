@@ -677,20 +677,34 @@ function FaqLandingSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function CtaFinalSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--surface-3)", color: "#fff", textAlign: "center" }}>
+    <section className="landing-section" style={{ background: "var(--surface-3)" }}>
       <div className="container">
-        <div style={{ maxWidth: "900px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem", alignItems: "center" }}>
-          <p className="landing-subtitle" style={{ color: "var(--accent-light)" }}>Prête ?</p>
-          <h2 className="landing-title" style={{ color: "#fff" }}>
-            Et si on en parlait ?
-          </h2>
-          <p style={{ color: "rgba(255,255,255,0.75)", fontSize: "1.05rem", lineHeight: 1.8, maxWidth: "50ch" }}>
-            Une session découverte de 30 minutes, offerte et sans engagement.
-            Un espace pour sentir si c'est le bon moment — et si on est faites pour travailler ensemble.
-          </p>
-          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: "var(--accent)", marginTop: "0.5rem" }}>
-            Réserver ma session offerte
-          </a>
+        <div className="cta-final-content">
+
+          <h2 className="cta-final-title">Et si on en parlait ?</h2>
+
+          <div className="cta-final-body">
+            <div className="cta-final-text">
+              <p>
+                Une session découverte de <strong>30 minutes</strong>, offerte et sans engagement.
+              </p>
+              <p>
+                Un espace pour poser tes questions, sentir si c'est le bon moment —
+                et voir si on est faites pour travailler ensemble.
+              </p>
+              <p style={{ opacity: 0.6, fontSize: "0.88rem" }}>
+                Pas de pitch. Pas de pression. Une vraie conversation.
+              </p>
+            </div>
+
+            <div className="cta-final-action">
+              <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta cta-final-btn">
+                Réserver ma session offerte
+              </a>
+              <p className="cta-final-reassurance">Gratuit · 30 min · Sans engagement</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

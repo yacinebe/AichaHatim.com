@@ -561,21 +561,68 @@ label {
 }
 .capture-form .input { border-radius: 50px; }
 
-/* ── Calendly CTA ── */
-.cta-section {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dim) 100%);
-  color: #fff;
-  text-align: center;
-}
-.cta-section h2 { color: #fff; }
-.cta-section p { color: rgba(255,255,255,0.75); margin: 0 auto; }
-.cta-inner {
-  max-width: 600px;
+/* ── CTA Final ── */
+.cta-final-content {
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2.5rem;
+}
+
+.cta-final-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.cta-final-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
   align-items: center;
+}
+
+.cta-final-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.cta-final-text p {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.75;
+  max-width: none;
+}
+.cta-final-text strong { color: #fff; font-weight: 600; }
+
+.cta-final-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.cta-final-btn {
+  background: var(--accent) !important;
+  font-size: 1rem !important;
+  padding: 1rem 2.5rem !important;
+  width: 100%;
+  justify-content: center;
+}
+
+.cta-final-reassurance {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 900px) {
+  .cta-final-body { grid-template-columns: 1fr; gap: 1.5rem; text-align: center; }
+  .cta-final-btn { width: auto; }
 }
 
 /* ── Podcast page ── */
