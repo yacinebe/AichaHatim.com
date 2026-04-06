@@ -2,20 +2,20 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:          #faf8f5;
+  --bg:          #faf7f2;
   --surface:     #ffffff;
-  --surface-2:   #f4efe8;
-  --surface-3:   #2d4a3e;
-  --border:      #e5dcd0;
-  --text:        #2b2b2b;
-  --text-muted:  #6b5e53;
-  --text-light:  #a09488;
-  --primary:     #3b3b3b;
-  --primary-deep:#2d4a3e;
-  --primary-dim: #1e3329;
-  --accent:      #c4a265;
-  --accent-dim:  #a6873f;
-  --accent-light:#dfc99a;
+  --surface-2:   #f5ede8;
+  --surface-3:   #6b1f3a;
+  --border:      #e8d8d0;
+  --text:        #2c1018;
+  --text-muted:  #5c3d35;
+  --text-light:  #9c7060;
+  --primary:     #2c1018;
+  --primary-deep:#6b1f3a;
+  --primary-dim: #4a0f25;
+  --accent:      #c4603a;
+  --accent-dim:  #a04a28;
+  --accent-light:#e8a080;
   --warm:        #d4a373;
   --warm-light:  #e6c9a8;
   --success:     #4a8c6f;
@@ -353,12 +353,12 @@ label {
 }
 
 .hero-btn {
-  background: var(--primary) !important;
-  box-shadow: 0 4px 20px rgba(45,74,62,0.3) !important;
+  background: var(--primary-deep) !important;
+  box-shadow: 0 4px 20px rgba(107,31,58,0.3) !important;
 }
 .hero-btn:hover {
   background: var(--primary-dim) !important;
-  box-shadow: 0 6px 28px rgba(45,74,62,0.4) !important;
+  box-shadow: 0 6px 28px rgba(107,31,58,0.4) !important;
 }
 
 .hero-reassurance {
@@ -1146,7 +1146,7 @@ label {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(160deg, #faf7f2 0%, #f0e8d8 50%, #e8ddd0 100%);
+  background: linear-gradient(160deg, #faf7f2 0%, #f5ede8 50%, #edddd5 100%);
   position: relative;
   overflow: hidden;
 }
