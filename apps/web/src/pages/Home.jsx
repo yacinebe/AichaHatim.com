@@ -159,17 +159,29 @@ function MiroirSection() {
           </div>
 
           {/* Et pourtant */}
-          <div className="miroir-pourtant">
-            <p className="miroir-pourtant-label">Et pourtant…</p>
-            <div className="miroir-pills">
-              <span className="miroir-pill">Elle a tout bien fait</span>
-              <span className="miroir-pill">Elle a réussi</span>
-              <span className="miroir-pill">Elle a construit une belle vie</span>
+          <div className="miroir-pourtant-grid">
+            <div className="miroir-pourtant-left">
+              <p className="miroir-pourtant-label">Et pourtant…</p>
+              <div className="miroir-pourtant-item">
+                <div className="miroir-pourtant-check">✓</div>
+                <span>Elle a tout bien fait</span>
+              </div>
+              <div className="miroir-pourtant-item">
+                <div className="miroir-pourtant-check">✓</div>
+                <span>Elle a réussi</span>
+              </div>
+              <div className="miroir-pourtant-item">
+                <div className="miroir-pourtant-check">✓</div>
+                <span>Elle a construit une belle vie</span>
+              </div>
             </div>
-            <p className="miroir-punchline">
-              Mais elle ne ressent pas la fierté, la joie ou l'épanouissement
-              qu'elle s'était imaginé en arrivant là.
-            </p>
+            <div className="miroir-pourtant-right">
+              <p className="miroir-pourtant-but">Mais…</p>
+              <p className="miroir-punchline">
+                Elle ne ressent pas la fierté, la joie ou l'épanouissement
+                qu'elle s'était imaginé en arrivant là.
+              </p>
+            </div>
           </div>
 
           <p className="miroir-conclusion">
