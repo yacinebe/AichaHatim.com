@@ -104,7 +104,7 @@ function HeroSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function MiroirSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--bg)" }}>
+    <section className="landing-section" style={{ background: "#ffffff" }}>
       <div className="container">
         <div className="miroir-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>Qui est la bonne élève ?</h2>
@@ -215,7 +215,7 @@ function MiroirSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function EssayeSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--surface-2)" }}>
+    <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="essaye-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>
@@ -309,7 +309,7 @@ function EssayeSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function ProgrammeSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--bg)" }}>
+    <section className="landing-section" style={{ background: "var(--surface-3)" }}>
       <div className="container">
         <div className="programme-content">
 
@@ -527,7 +527,7 @@ function TemoignagesSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function QuiSuisJeSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--surface-2)" }}>
+    <section className="landing-section" style={{ background: "#ffffff" }}>
       <div className="container">
         <div className="quisuisje-content">
           <p className="landing-subtitle" style={{ textAlign: "center" }}>Qui suis-je</p>
