@@ -376,18 +376,14 @@ function ProgrammeSection() {
               <div className="programme-mcard">
                 <span className="programme-mcard-num">01</span>
                 <div className="programme-mcard-title">Clarté</div>
-                <div className="programme-mcard-sub">Comprendre comment tu fonctionnes</div>
+                <div className="programme-mcard-sub">Rencontrer tes voix intérieures</div>
                 <p className="programme-mcard-body">
-                  Tes schémas de pression, de surcontrôle, de fatigue.
-                  Les mécanismes automatiques qui te maintiennent là.
+                  On identifie tes mécanismes automatiques : la voix qui dit "tu n'es pas assez",
+                  les réflexes de sur-contrôle, la peur d'être démasquée. On comprend d'où ils viennent
+                  — et pourquoi seule, tu tournes en rond.
                 </p>
-                <ul className="programme-mcard-list">
-                  <li>Saboteurs et réflexes automatiques</li>
-                  <li>Dialogue intérieur</li>
-                  <li>Croyances limitantes & peurs</li>
-                </ul>
                 <p className="programme-mcard-result">
-                  Tu comprends enfin <strong>pourquoi</strong> tu fonctionnes comme ça.
+                  Tu comprends enfin pourquoi tu fonctionnes comme ça. <strong>Et tu arrêtes de te battre contre toi-même.</strong>
                 </p>
               </div>
               <div className="programme-mcard">
@@ -395,16 +391,12 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Reconnexion</div>
                 <div className="programme-mcard-sub">Revenir à toi</div>
                 <p className="programme-mcard-body">
-                  Ta vision de vie, tes valeurs, tes émotions, ton corps.
-                  Ce qui compte vraiment pour toi.
+                  On reconnecte avec ce qui compte vraiment pour toi : tes valeurs, tes émotions, ton corps.
+                  Tu apprends à écouter ta sagesse intérieure plutôt que de la noyer sous la pression.
+                  On travaille aussi avec des pratiques somatiques pour relâcher les tensions que tu portes physiquement.
                 </p>
-                <ul className="programme-mcard-list">
-                  <li>Écouter au lieu de pousser</li>
-                  <li>Te comprendre au lieu de te juger</li>
-                  <li>Te réguler au lieu de te suradapter</li>
-                </ul>
                 <p className="programme-mcard-result">
-                  Tu passes de <strong>« je subis »</strong> à <strong>« je choisis »</strong>.
+                  Tu passes de <strong>« je subis »</strong> à <strong>« je ressens et je choisis »</strong>.
                 </p>
               </div>
               <div className="programme-mcard">
@@ -412,15 +404,12 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Réinvention</div>
                 <div className="programme-mcard-sub">Agir autrement dans ta vraie vie</div>
                 <p className="programme-mcard-body">
-                  On traduit tout ça dans ton quotidien, à partir de tes vraies situations.
+                  On ancre tout ça dans ton quotidien réel : prendre la parole en réunion,
+                  déléguer sans culpabiliser, poser des limites, gérer ton énergie,
+                  être présente à la maison. Pas de la théorie — des vrais changements dans tes vraies situations.
                 </p>
-                <ul className="programme-mcard-list">
-                  <li>Prendre ta place sans te suradapter</li>
-                  <li>Poser des limites sans culpabiliser</li>
-                  <li>Ton leadership & ton équilibre de vie</li>
-                </ul>
                 <p className="programme-mcard-result">
-                  <strong>On change ce qui se joue dans ta vraie vie.</strong>
+                  <strong>Tu fonctionnes autrement. Dans ta vie, pas dans les exercices.</strong>
                 </p>
               </div>
             </div>
