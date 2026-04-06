@@ -364,10 +364,6 @@ function ProgrammeSection() {
                 <span>Tu te projettes dans l'avenir avec <strong>optimisme</strong> — et même avec excitation.</span>
               </div>
             </div>
-            <p className="programme-vision-finale">
-              Tu ne fais plus que « tenir ».<br />
-              <strong>Tu te sens vraiment épanouie dans ta vie.</strong>
-            </p>
           </div>
 
           {/* Méthode */}
