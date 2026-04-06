@@ -89,7 +89,7 @@ function HeroSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function MiroirSection() {
   return (
-    <section className="landing-section landing-section-narrow" style={{ background: "var(--bg)" }}>
+    <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="miroir-content">
           <p className="landing-subtitle" style={{ textAlign: "center" }}>Tu te reconnais ?</p>
@@ -183,7 +183,7 @@ function MiroirSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function EssayeSection() {
   return (
-    <section className="landing-section landing-section-narrow" style={{ background: "var(--surface-2)" }}>
+    <section className="landing-section" style={{ background: "var(--surface-2)" }}>
       <div className="container">
         <div className="essaye-content">
           <p className="landing-subtitle" style={{ textAlign: "center" }}>Le cercle vicieux</p>
@@ -264,7 +264,7 @@ function EssayeSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function ReinventionSection() {
   return (
-    <section className="landing-section landing-section-narrow" style={{ background: "var(--bg)" }}>
+    <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="reinvention-content">
           <p className="landing-subtitle" style={{ textAlign: "center" }}>Le programme</p>
@@ -652,9 +652,9 @@ function FaqLandingSection() {
   const [openIdx, setOpenIdx] = useState(null);
 
   return (
-    <section className="landing-section landing-section-narrow" style={{ background: "var(--bg)" }}>
+    <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
-        <div style={{ maxWidth: "var(--max-w-narrow)", margin: "0 auto" }}>
+        <div>
           <div style={{ textAlign: "center", marginBottom: "3rem" }}>
             <p className="landing-subtitle">Questions</p>
             <h2 className="landing-title">Tu te demandes peut-être…</h2>
@@ -696,7 +696,7 @@ function CtaFinalSection() {
   return (
     <section className="landing-section" style={{ background: "var(--surface-3)", color: "#fff", textAlign: "center" }}>
       <div className="container">
-        <div style={{ maxWidth: "600px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem", alignItems: "center" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem", alignItems: "center" }}>
           <p className="landing-subtitle" style={{ color: "var(--accent-light)" }}>Prête ?</p>
           <h2 className="landing-title" style={{ color: "#fff" }}>
             Et si on en parlait ?

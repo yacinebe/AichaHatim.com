@@ -1553,7 +1553,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  max-width: var(--max-w-narrow);
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -1600,7 +1600,7 @@ label {
 
 /* ── Section Vision ── */
 .vision-content {
-  max-width: var(--max-w-narrow);
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -1782,7 +1782,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
-  max-width: var(--max-w-narrow);
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -1867,7 +1867,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: var(--max-w-narrow);
+  max-width: 900px;
   margin: 0 auto;
 }
 
