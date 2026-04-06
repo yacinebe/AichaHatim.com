@@ -92,7 +92,6 @@ function MiroirSection() {
     <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="miroir-content">
-          <p className="landing-subtitle" style={{ textAlign: "center" }}>Tu te reconnais ?</p>
           <h2 className="landing-title" style={{ textAlign: "center" }}>Qui est la bonne élève ?</h2>
 
           <p className="miroir-intro">
