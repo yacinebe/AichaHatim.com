@@ -309,14 +309,14 @@ function EssayeSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function ProgrammeSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--bg)" }}>
+    <section className="landing-section" style={{ background: "#e8ddd0" }}>
       <div className="container">
         <div className="programme-content">
 
           {/* Header */}
           <div className="programme-header">
-            <p className="landing-subtitle" style={{ textAlign: "center" }}>Le programme</p>
-            <h2 className="landing-title" style={{ textAlign: "center" }}>Réinvention Intérieure</h2>
+            <p className="programme-eyebrow">Le programme</p>
+            <h2 className="programme-big-title">Réinvention<br /><em>Intérieure</em></h2>
           </div>
 
           {/* Définition */}
@@ -739,12 +739,19 @@ export default function Home() {
   return (
     <div className="page">
       <HeroSection />
+      <WaveDivider from="#e8ddd5" to="#ffffff" />
       <MiroirSection />
+      <WaveDivider from="#ffffff" to="var(--bg)" />
       <EssayeSection />
+      <WaveDivider from="var(--bg)" to="#e8ddd0" />
       <ProgrammeSection />
+      <WaveDivider from="#e8ddd0" to="var(--bg)" />
       <TemoignagesSection />
+      <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <QuiSuisJeSection />
+      <WaveDivider from="var(--surface-2)" to="#ffffff" />
       <FaqLandingSection />
+      <WaveDivider from="#ffffff" to="var(--surface-3)" />
       <CtaFinalSection />
     </div>
   );

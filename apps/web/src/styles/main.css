@@ -2394,3 +2394,47 @@ label {
   background: var(--accent) !important;
   box-shadow: 0 4px 20px rgba(181,98,42,0.4) !important;
 }
+
+/* ── Programme grand titre serif ── */
+.programme-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.programme-big-title {
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 0;
+}
+.programme-big-title em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+/* ── Eyebrows en caps espacés (style Johanne Averdy) ── */
+.landing-subtitle {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+/* ── FAQ titre en accent ── */
+.faq-content > .landing-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  color: var(--accent);
+}
