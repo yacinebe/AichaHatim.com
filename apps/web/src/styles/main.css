@@ -1146,7 +1146,7 @@ label {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(160deg, #faf7f2 0%, #f0e8d8 50%, #e8ddd0 100%);
+  background: var(--bg);
   position: relative;
   overflow: hidden;
 }
