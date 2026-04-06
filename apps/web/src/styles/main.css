@@ -345,7 +345,43 @@ label {
   max-width: 50ch;
 }
 
-.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; margin-top: 0.5rem; }
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hero-reassurance {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  padding-left: 0.25rem;
+  letter-spacing: 0.02em;
+}
+
+.hero-proof {
+  display: flex;
+  gap: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.hero-proof-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hero-proof-num {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.hero-proof-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
 
 .hero-image {
   position: relative;

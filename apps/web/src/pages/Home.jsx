@@ -67,13 +67,28 @@ function HeroSection() {
             et tu sens que ce mode te limite — au travail comme dans ta vie.
           </p>
           <p className="landing-hero-mission">
-            Je t'aide à sortir du rôle de la bonne élève pour prendre ta place de leader
+            Je t'aide à sortir du rôle de la bonne élève pour prendre ta place —
             et rayonner dans tous les domaines de ta vie.
           </p>
-          <div>
+          <div className="hero-actions">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
               Réserver ma session offerte
             </a>
+            <span className="hero-reassurance">Gratuit · 30 min · Sans engagement</span>
+          </div>
+          <div className="hero-proof">
+            <div className="hero-proof-item">
+              <span className="hero-proof-num">+10 ans</span>
+              <span className="hero-proof-label">d'expérience corporate</span>
+            </div>
+            <div className="hero-proof-item">
+              <span className="hero-proof-num">ICF</span>
+              <span className="hero-proof-label">Coach certifiée</span>
+            </div>
+            <div className="hero-proof-item">
+              <span className="hero-proof-num">4 mois</span>
+              <span className="hero-proof-label">d'accompagnement 1:1</span>
+            </div>
           </div>
         </div>
         <div className="landing-photo">
