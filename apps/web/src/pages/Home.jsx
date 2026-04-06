@@ -341,27 +341,27 @@ function ProgrammeSection() {
             <div className="programme-vision-grid">
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu te sens <strong>calme</strong>, même quand il y a de la pression.</span>
+                <span>Tu avances dans tes journées avec <strong>légèreté</strong> — pas avec dureté et sur-contrôle.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu avances <strong>sans te suradapter</strong> en permanence.</span>
+                <span>Tu te sens <strong>légitime</strong> dans la salle. Tu prends la parole sans te justifier.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu <strong>prends ta place</strong>, naturellement.</span>
+                <span>Tu rentres à la maison <strong>présente</strong> — pas épuisée et irritable.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu travailles bien — mais <strong>sans t'épuiser.</strong></span>
+                <span>Tu travailles avec <strong>ambition</strong> — sans te perdre et sans t'épuiser.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu es <strong>présente</strong> avec tes proches. <strong>En paix</strong> avec toi-même.</span>
+                <span>Tu es ta propre <strong>meilleure alliée</strong> — pas ta pire ennemie.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu as de l'<strong>énergie</strong>. De la <strong>clarté</strong>. De la <strong>légèreté</strong>.</span>
+                <span>Tu te projettes dans l'avenir avec <strong>optimisme</strong> — et même avec excitation.</span>
               </div>
             </div>
             <p className="programme-vision-finale">
