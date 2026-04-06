@@ -504,7 +504,7 @@ label {
 .faq-content {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2rem;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -575,7 +575,7 @@ label {
   gap: 0.75rem;
 }
 .faq-answer-body p {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.75;
   max-width: none;
@@ -618,7 +618,7 @@ label {
 
 .cta-final-title {
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
   font-weight: 600;
   color: #fff;
   text-align: center;
@@ -638,7 +638,7 @@ label {
   gap: 0.75rem;
 }
 .cta-final-text p {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: rgba(255,255,255,0.75);
   line-height: 1.75;
   max-width: none;
@@ -764,7 +764,7 @@ label {
 }
 
 .quisuisje-beat-text {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.7;
 }
@@ -776,7 +776,7 @@ label {
   border-radius: 0 var(--radius) var(--radius) 0;
   padding: 1.5rem 2rem;
   font-family: var(--font-heading);
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 500;
   color: var(--primary);
   line-height: 1.6;
@@ -805,7 +805,7 @@ label {
   color: var(--accent-dim);
 }
 .quisuisje-today-text {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.65;
 }
@@ -1237,33 +1237,33 @@ label {
 /* Section title — Poppins style */
 .landing-title {
   font-family: var(--font-heading);
-  font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 1.25;
   color: var(--primary);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .landing-subtitle {
   font-family: var(--font-heading);
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 0.75rem;
+  font-weight: 600;
   color: var(--accent-dim);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Body text for landing sections */
 .landing-text {
-  font-size: 1.02rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
-  line-height: 1.85;
+  line-height: 1.8;
   max-width: 64ch;
 }
 .landing-text strong {
   color: var(--text);
-  font-weight: 500;
+  font-weight: 600;
 }
 .landing-text em {
   color: var(--primary);
@@ -1820,7 +1820,7 @@ label {
 .programme-content {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2.5rem;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -1841,10 +1841,10 @@ label {
   gap: 0.6rem;
   align-items: center;
 }
-.programme-def-small { font-size: 0.92rem; color: var(--text-muted); line-height: 1.6; }
+.programme-def-small { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
 .programme-def-big {
   font-family: var(--font-heading);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--primary);
   line-height: 1.5;
@@ -1867,13 +1867,13 @@ label {
 .programme-vision { display: flex; flex-direction: column; gap: 1rem; }
 .programme-section-title {
   font-family: var(--font-heading);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--primary);
   text-align: center;
 }
 .programme-section-sub {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   text-align: center;
   max-width: 56ch;
@@ -1940,7 +1940,7 @@ label {
 }
 .programme-mcard-title { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 600; color: var(--primary); }
 .programme-mcard-sub { font-size: 0.82rem; font-weight: 500; color: var(--accent-dim); }
-.programme-mcard-body { font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; }
+.programme-mcard-body { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
 .programme-mcard-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.3rem; }
 .programme-mcard-list li {
   font-size: 0.88rem;
@@ -1951,7 +1951,7 @@ label {
 }
 .programme-mcard-list li::before { content: "→"; position: absolute; left: 0; color: var(--accent); }
 .programme-mcard-result {
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   border-top: 1px solid var(--border);
   padding-top: 0.6rem;
@@ -1980,7 +1980,7 @@ label {
   color: var(--accent);
   line-height: 1;
 }
-.programme-stat-label { font-size: 0.9rem; color: var(--text-muted); line-height: 1.4; }
+.programme-stat-label { font-size: 0.95rem; color: var(--text-muted); line-height: 1.4; }
 .programme-structure-two { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .programme-scard {
   background: var(--surface);
@@ -1991,7 +1991,7 @@ label {
 .programme-scard-title { font-size: 0.88rem; font-weight: 600; color: var(--accent-dim); margin-bottom: 0.75rem; }
 .programme-scard-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
 .programme-scard-list li {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   padding-left: 1.25rem;
   position: relative;
@@ -2010,7 +2010,7 @@ label {
 .essaye-content {
   display: flex;
   flex-direction: column;
-  gap: 1.75rem;
+  gap: 2rem;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -2039,7 +2039,7 @@ label {
 }
 
 .essaye-col-body {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.65;
 }
@@ -2062,7 +2062,7 @@ label {
 }
 
 .essaye-col-punchline {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--primary);
   font-family: var(--font-heading);
@@ -2115,14 +2115,14 @@ label {
 .miroir-content {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2rem;
   max-width: 900px;
   margin: 0 auto;
 }
 
 .miroir-intro {
   font-family: var(--font-heading);
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.8;
   color: var(--text-muted);
@@ -2169,7 +2169,7 @@ label {
 }
 
 .miroir-card-pos {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.65;
 }
@@ -2181,7 +2181,7 @@ label {
 }
 
 .miroir-card-neg {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.65;
 }
@@ -2229,7 +2229,7 @@ label {
 
 .miroir-punchline {
   font-family: var(--font-heading);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--primary);
   line-height: 1.6;
@@ -2238,7 +2238,7 @@ label {
 
 .miroir-conclusion {
   font-family: var(--font-heading);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.7;
   color: var(--text-muted);
