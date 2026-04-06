@@ -119,13 +119,13 @@ function MiroirSection() {
               <div className="miroir-card-icon">💼</div>
               <h3 className="miroir-card-title">Au travail</h3>
               <p className="miroir-card-pos">
-                Elle livre, performe, anticipe. On peut compter sur elle — et elle le sait.
+                Elle livre, performe, anticipe. On peut compter sur elle.
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
-                Mais elle fonctionne sous pression constante. Elle doute d'elle en réunion,
-                n'ose pas prendre certaines places. Elle a peur qu'on découvre qu'elle n'est
-                pas si sûre d'elle. Et malgré tout ce qu'elle accomplit… elle n'arrive pas à <em>être fière.</em>
+                Mais elle doute en réunion, n'ose pas prendre certaines places.
+                Elle a peur qu'on découvre qu'elle n'est pas si sûre d'elle.
+                Et malgré tout… elle n'arrive pas à <em>être fière.</em>
               </p>
             </div>
 
@@ -186,8 +186,7 @@ function MiroirSection() {
 
           <p className="miroir-conclusion">
             La bonne élève, c'est une femme brillante…<br />
-            <strong>coincée dans un mode de fonctionnement qui l'épuise, l'isole
-            et l'empêche de profiter de la vie qu'elle a mis tant d'efforts à construire.</strong>
+            <strong>coincée dans un mode qui l'épuise et l'empêche de profiter de la vie qu'elle a mis tant d'efforts à construire.</strong>
           </p>
 
           {/* Placeholder vidéo */}
