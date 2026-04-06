@@ -232,9 +232,9 @@ a { color: inherit; text-decoration: none; }
 .btn-primary:hover { opacity: 0.9; box-shadow: 0 4px 20px rgba(45,74,62,0.3); }
 
 .btn-accent {
-  background: var(--accent);
+  background: var(--primary);
   color: #fff;
-  box-shadow: 0 2px 12px rgba(201,169,110,0.35);
+  box-shadow: 0 2px 12px rgba(28,28,46,0.25);
 }
 .btn-accent:hover { opacity: 0.9; }
 
@@ -1213,11 +1213,15 @@ label {
   cursor: pointer;
   text-decoration: none;
   transition: all 0.25s ease;
-  background: var(--accent);
+  background: var(--primary);
   color: #fff;
-  box-shadow: 0 4px 20px rgba(201,169,110,0.35);
+  box-shadow: 0 4px 20px rgba(28,28,46,0.25);
 }
 .btn-cta:hover {
+  background: var(--primary-dim);
+  box-shadow: 0 6px 28px rgba(28,28,46,0.35);
+  transform: translateY(-2px);
+}
   background: var(--primary);
   box-shadow: 0 6px 28px rgba(45,74,62,0.35);
   transform: translateY(-2px);
