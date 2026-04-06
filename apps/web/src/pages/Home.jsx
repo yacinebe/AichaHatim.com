@@ -614,28 +614,28 @@ function QuiSuisJeSection() {
 // ═══════════════════════════════════════════════════════════════════════
 const FAQ_DATA = [
   {
-    q: "« Je peux faire ce travail seule. »",
-    a: "Oui. Mais si tu pouvais vraiment le faire seule… tu ne serais probablement pas ici.\n\nLe sujet, ce n'est pas ta capacité. C'est que tu es déjà à l'intérieur de tes propres schémas : tu comprends beaucoup de choses, tu analyses, tu réfléchis. Mais tu restes au même endroit.\n\nLe coaching, ce n'est pas « t'apprendre des choses ». C'est voir ce que tu ne vois pas, mettre de la conscience là où tu es en automatique, et t'aider à agir autrement, concrètement.",
+    q: "« Je devrais pouvoir m'en sortir seule. »",
+    a: "Tu es capable — c'est pas la question. Le problème, c'est que tu essaies de te sortir de tes schémas… avec ces mêmes schémas. C'est comme essayer de voir ta propre nuque sans miroir.\n\nCe n'est pas un manque de capacité. C'est juste que certaines choses ne se voient pas de l'intérieur.",
   },
   {
-    q: "« Je n'ai pas le temps pour un coaching. »",
-    a: "C'est souvent ce que disent les femmes… qui en ont le plus besoin.\n\nTon problème aujourd'hui, ce n'est pas le manque de temps. C'est la manière dont tu utilises ton énergie. Tu réfléchis beaucoup, tu rumines, tu suranalyses, tu te mets la pression. Et ça te prend déjà énormément de place.\n\nLe coaching ne vient pas rajouter une charge. Il vient t'aider à arrêter de t'éparpiller, retrouver de la clarté et fonctionner avec moins de pression.\n\nLa vraie question, ce n'est pas « est-ce que j'ai le temps ? » — c'est : « qu'est-ce qui se passe si je continue comme ça encore 1 an ? »",
+    q: "« Je n'ai vraiment pas le temps en ce moment. »",
+    a: "C'est souvent ce que disent les femmes qui en ont le plus besoin. Et je le comprends — ton agenda est déjà plein.\n\nMais le coaching ne vient pas rajouter une charge. Il vient t'aider à récupérer de l'énergie, de la clarté, de l'espace mental.\n\nLa vraie question : qu'est-ce qui se passe si tu continues comme ça encore 6 mois ?",
+  },
+  {
+    q: "« J'ai peur que ça ne marche pas pour moi. »",
+    a: "Cette peur, je la comprends. Tu as déjà essayé des choses — des livres, des podcasts, peut-être une thérapie — et tu as l'impression de tourner en rond.\n\nCe qui est différent ici, c'est qu'on travaille directement sur tes mécanismes, dans tes vraies situations. Pas de la théorie générale. Un travail fait pour toi, avec toi.",
+  },
+  {
+    q: "« C'est quoi la différence avec une thérapie ? »",
+    a: "Les deux sont complémentaires. La thérapie explore souvent le passé — pourquoi tu es comme ça. Le coaching est orienté présent et futur — comment tu fonctionnes aujourd'hui, et comment tu veux fonctionner demain.\n\nDans mon approche, on va aussi en profondeur. Mais l'objectif est toujours concret : que quelque chose change dans ta vraie vie.",
   },
   {
     q: "« Est-ce que c'est le bon moment ? »",
-    a: "Si tu te poses la question… c'est souvent que oui.\n\nTu sens qu'il y a un décalage. Tu sens que ton mode de fonctionnement actuel a ses limites. Mais tu continues… parce que « ça va sur le papier ».\n\nSauf que rester comme ça a un coût : en énergie, en clarté, en plaisir, dans tes relations, dans ton rapport au travail. Et surtout : ça t'éloigne petit à petit de toi-même.\n\nDécider de te faire accompagner, ce n'est pas « faire un grand changement ». C'est arrêter de subir, reprendre la main, et créer du mouvement.",
+    a: "Si tu te poses la question, c'est souvent que oui. Tu sens qu'il y a un décalage. Tu sens que tu ne peux pas continuer comme ça indéfiniment.\n\nAttendre « le bon moment » c'est souvent attendre que ça aille encore plus mal.\n\nLe bon moment, c'est quand tu décides que tu mérites mieux que de juste tenir.",
   },
   {
-    q: "« C'est quoi concrètement le coaching ? »",
-    a: "Le coaching, ce n'est pas te donner des conseils. C'est t'aider à comprendre comment tu fonctionnes, voir tes schémas, et créer tes propres réponses.\n\nJe ne suis pas là pour te dire quoi faire. Je suis là pour te poser les bonnes questions, t'aider à accéder à ce que tu sais déjà (mais que tu n'écoutes pas), et t'accompagner à passer à l'action.\n\nL'objectif : que tu développes ta clarté, ta confiance et ton autonomie.",
-  },
-  {
-    q: "« Quelle différence avec une thérapie ? »",
-    a: "Les deux sont complémentaires.\n\nLa thérapie va souvent explorer le passé, comprendre pourquoi. Le coaching est orienté vers le présent et le futur : comment tu fonctionnes aujourd'hui, ce que tu veux créer, et comment tu y vas concrètement.\n\nDans mon approche, on travaille aussi en profondeur (émotions, parts, saboteurs…). Mais toujours avec un objectif : que ça change dans ta vraie vie.",
-  },
-  {
-    q: "« Et si j'ai encore des questions ? »",
-    a: "Tu peux simplement m'écrire par email ou réserver une session découverte. C'est un espace pour poser tes questions, expérimenter l'espace que je crée, et sentir si c'est un bon match entre nous.",
+    q: "« Comment ça se passe concrètement ? »",
+    a: "On commence par une session découverte gratuite de 30 minutes — pour qu'on se rencontre, que tu poses tes questions, et qu'on voie ensemble si c'est le bon fit.\n\nSi on décide d'avancer : 8 sessions en visio sur 4 mois, à un rythme qui s'adapte à toi, avec un support WhatsApp entre les sessions.",
   },
 ];
 
