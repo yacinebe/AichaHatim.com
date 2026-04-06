@@ -226,9 +226,9 @@ function EssayeSection() {
           <div className="essaye-two-col">
             {/* Col 1 */}
             <div className="essaye-col">
-              <h3 className="essaye-col-title">Tu as essayé de te reprendre</h3>
+              <h3 className="essaye-col-title">Tu serres les dents et tu continues</h3>
               <p className="essaye-col-body">
-                Quand ça ne va plus… tu essaies de t'en sortir par la volonté. Tu te dis :
+                Quand ça ne va plus… tu pousses encore plus fort.
               </p>
               <div className="essaye-thoughts">
                 <div className="essaye-thought">« Je dois mieux m'organiser »</div>
@@ -237,44 +237,58 @@ function EssayeSection() {
               </div>
               <p className="essaye-col-body">
                 Tu lis, tu écoutes des podcasts, des livres de dev perso ou de leadership.
-                Tu comprends plein de choses.
+                Tu comprends plein de choses. Tu sais même exactement ce qui ne va pas.
               </p>
-              <p className="essaye-col-punchline">Mais concrètement… tu continues à fonctionner pareil.</p>
+              <p className="essaye-col-punchline">Mais tu continues à fonctionner exactement pareil.</p>
             </div>
 
             {/* Col 2 */}
             <div className="essaye-col">
-              <h3 className="essaye-col-title">Tu as voulu tout plaquer</h3>
+              <h3 className="essaye-col-title">Tu veux tout plaquer</h3>
               <p className="essaye-col-body">
-                Ou alors, tu penses que la solution c'est de <strong>tout changer</strong> :
+                Ou alors tu te dis que la solution c'est de repartir de zéro.
+                Changer d'air. Changer de cadre. Que quelque chose à l'extérieur
+                va enfin changer ce que tu ressens à l'intérieur.
               </p>
-              <div className="essaye-tags">
-                <span className="essaye-tag">changer de job</span>
-                <span className="essaye-tag">changer de rythme</span>
-                <span className="essaye-tag">changer de vie</span>
+              <div className="essaye-strike-list">
+                <div className="essaye-strike-item">
+                  <div className="essaye-strike-x">✕</div>
+                  <span className="essaye-strike-text">quitter ton job</span>
+                </div>
+                <div className="essaye-strike-item">
+                  <div className="essaye-strike-x">✕</div>
+                  <span className="essaye-strike-text">changer de carrière</span>
+                </div>
+                <div className="essaye-strike-item">
+                  <div className="essaye-strike-x">✕</div>
+                  <span className="essaye-strike-text">déménager</span>
+                </div>
+                <div className="essaye-strike-item">
+                  <div className="essaye-strike-x">✕</div>
+                  <span className="essaye-strike-text">tout recommencer ailleurs</span>
+                </div>
               </div>
               <p className="essaye-col-body">
-                Mais au fond, tu le sens : tu ne veux pas tout envoyer balader.<br />
-                Et surtout… tu sens que même si tu changes tout —{" "}
-                <strong>tu vas recréer la même pression ailleurs.</strong>
+                Mais au fond tu le sais déjà. Tu ne veux pas vraiment tout envoyer balader.
+                Et même si tu changeais tout…
               </p>
+              <p className="essaye-col-punchline">Tu recrééerais la même pression ailleurs.</p>
             </div>
           </div>
 
           <div className="essaye-highlight">
             <p>Parce que le problème n'est pas ta vie.</p>
-            <p className="essaye-highlight-big">C'est la manière dont tu la vis.</p>
+            <p className="essaye-highlight-big">C'est ta façon de fonctionner de l'intérieur.</p>
             <p>
-              Et ça, tu ne peux pas le résoudre seule.<br />
-              Pas parce que tu n'es pas capable…<br />
-              mais parce que <strong>c'est avec ce même mode de fonctionnement
-              que tu essaies de t'en sortir.</strong>
+              Et ça, tu ne peux pas le voir seule.<br />
+              Pas parce que tu n'es pas capable —<br />
+              mais parce que <strong>c'est avec ce même mode que tu essaies de t'en sortir.</strong>
             </p>
           </div>
 
           <p className="landing-text" style={{ textAlign: "center", margin: "0 auto", fontWeight: 500, color: "var(--primary)" }}>
             Si tu sens que tu tournes en rond…<br />
-            c'est exactement ce qu'on vient débloquer en coaching.
+            c'est exactement ce qu'on vient débloquer ensemble.
           </p>
 
           <div className="section-cta">

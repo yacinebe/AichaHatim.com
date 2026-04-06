@@ -2068,19 +2068,38 @@ label {
   font-family: var(--font-heading);
 }
 
-.essaye-tags {
+.essaye-strike-list {
   display: flex;
-  gap: 0.6rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.essaye-tag {
-  font-size: 0.85rem;
+.essaye-strike-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.92rem;
   color: var(--text-muted);
+  font-style: italic;
+}
+
+.essaye-strike-x {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
   background: var(--surface-2);
   border: 1px solid var(--border);
-  border-radius: 50px;
-  padding: 0.35rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.essaye-strike-text {
+  text-decoration: line-through;
+  text-decoration-color: var(--accent);
 }
 
 .essaye-highlight {
