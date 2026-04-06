@@ -217,16 +217,16 @@ function EssayeSection() {
       <div className="container">
         <div className="essaye-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>
-            Ce que tu as essayé<br />
+            Ce que tu as déjà essayé<br />
             <span style={{ fontSize: "0.75em", fontWeight: 400, color: "var(--text-muted)" }}>
-              (et pourquoi ça ne marche pas)
+              (et pourquoi ça n'a pas suffi)
             </span>
           </h2>
 
           <div className="essaye-two-col">
             {/* Col 1 */}
             <div className="essaye-col">
-              <h3 className="essaye-col-title">Tu te reprends seule</h3>
+              <h3 className="essaye-col-title">Tu as essayé de te reprendre</h3>
               <p className="essaye-col-body">
                 Quand ça ne va plus… tu essaies de t'en sortir par la volonté. Tu te dis :
               </p>
@@ -244,7 +244,7 @@ function EssayeSection() {
 
             {/* Col 2 */}
             <div className="essaye-col">
-              <h3 className="essaye-col-title">Tu veux tout changer</h3>
+              <h3 className="essaye-col-title">Tu as voulu tout plaquer</h3>
               <p className="essaye-col-body">
                 Ou alors, tu penses que la solution c'est de <strong>tout changer</strong> :
               </p>
