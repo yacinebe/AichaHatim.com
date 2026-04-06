@@ -1836,22 +1836,25 @@ label {
 }
 
 .programme-def {
-  background: var(--surface-2);
-  border-radius: var(--radius);
-  padding: 2rem 2.5rem;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
-  align-items: center;
+  gap: 1.25rem;
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
 }
-.programme-def-small { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
-.programme-def-big {
-  font-family: var(--font-heading);
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--primary);
-  line-height: 1.5;
+.programme-def-intro {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+.programme-def-intro strong { color: var(--accent); font-weight: 600; }
+.programme-def-quote {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1.7;
 }
 .programme-pillars { display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; margin-top: 0.5rem; }
 .programme-pillar {
@@ -2437,4 +2440,12 @@ label {
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 400;
   color: var(--accent);
+}
+
+.programme-def-big {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary);
+  line-height: 1.55;
 }

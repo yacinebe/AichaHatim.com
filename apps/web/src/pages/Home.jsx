@@ -321,17 +321,19 @@ function ProgrammeSection() {
 
           {/* Définition */}
           <div className="programme-def">
-            <p className="programme-def-small">Tu n'as pas besoin de tout casser. Tu n'as pas besoin de faire plus.</p>
+            <p className="programme-def-intro">
+              Tu n'as pas besoin de tout casser. Tu n'as pas besoin de faire plus.
+            </p>
             <p className="programme-def-big">
               Ce qui doit changer, c'est ce qui se passe à l'intérieur — ces voix qui te disent
               que tu n'es pas assez, ces mécanismes automatiques qui te poussent à sur-contrôler,
               à sur-performer, à t'oublier.
             </p>
-            <p className="programme-def-small">
+            <p className="programme-def-intro">
               C'est un travail en profondeur. Pas théorique.{" "}
               <strong>Ancré dans ta vraie vie, dès la première session.</strong>
             </p>
-            <p className="programme-def-small" style={{ fontStyle: "italic" }}>
+            <p className="programme-def-quote">
               Pour que tu passes d'un mode « je serre les dents et je tiens »
               à un mode « je me fais confiance et j'avance ».
             </p>
