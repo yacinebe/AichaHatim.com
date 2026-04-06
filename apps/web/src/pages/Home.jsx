@@ -197,7 +197,6 @@ function EssayeSection() {
     <section className="landing-section" style={{ background: "var(--surface-2)" }}>
       <div className="container">
         <div className="essaye-content">
-          <p className="landing-subtitle" style={{ textAlign: "center" }}>Le cercle vicieux</p>
           <h2 className="landing-title" style={{ textAlign: "center" }}>
             Ce que tu as essayé<br />
             <span style={{ fontSize: "0.75em", fontWeight: 400, color: "var(--text-muted)" }}>
@@ -205,43 +204,43 @@ function EssayeSection() {
             </span>
           </h2>
 
-          <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-            Et quand ça ne va plus… tu essaies de t'en sortir seule.<br />
-            Tu te dis :
-          </p>
+          <div className="essaye-two-col">
+            {/* Col 1 */}
+            <div className="essaye-col">
+              <h3 className="essaye-col-title">Tu te reprends seule</h3>
+              <p className="essaye-col-body">
+                Quand ça ne va plus… tu essaies de t'en sortir par la volonté. Tu te dis :
+              </p>
+              <div className="essaye-thoughts">
+                <div className="essaye-thought">« Je dois mieux m'organiser »</div>
+                <div className="essaye-thought">« Je dois me reprendre »</div>
+                <div className="essaye-thought">« Je dois être plus disciplinée »</div>
+              </div>
+              <p className="essaye-col-body">
+                Tu lis, tu écoutes des podcasts, des livres de dev perso ou de leadership.
+                Tu comprends plein de choses.
+              </p>
+              <p className="essaye-col-punchline">Mais concrètement… tu continues à fonctionner pareil.</p>
+            </div>
 
-          <div className="essaye-quotes">
-            <div className="essaye-quote">« Je dois mieux m'organiser »</div>
-            <div className="essaye-quote">« Je dois me reprendre »</div>
-            <div className="essaye-quote">« Je dois être plus disciplinée »</div>
+            {/* Col 2 */}
+            <div className="essaye-col">
+              <h3 className="essaye-col-title">Tu veux tout changer</h3>
+              <p className="essaye-col-body">
+                Ou alors, tu penses que la solution c'est de <strong>tout changer</strong> :
+              </p>
+              <div className="essaye-tags">
+                <span className="essaye-tag">changer de job</span>
+                <span className="essaye-tag">changer de rythme</span>
+                <span className="essaye-tag">changer de vie</span>
+              </div>
+              <p className="essaye-col-body">
+                Mais au fond, tu le sens : tu ne veux pas tout envoyer balader.<br />
+                Et surtout… tu sens que même si tu changes tout —{" "}
+                <strong>tu vas recréer la même pression ailleurs.</strong>
+              </p>
+            </div>
           </div>
-
-          <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-            Tu lis. Tu écoutes des podcasts. Tu lis des livres de développement personnel
-            ou de leadership. Bref, tu comprends plein de choses et tu es dans la maîtrise théorique.
-          </p>
-
-          <p className="essaye-punchline">
-            Mais concrètement… tu continues à fonctionner pareil.
-          </p>
-
-          <div className="essaye-divider" />
-
-          <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-            Ou alors, tu penses que la solution, c'est de <strong>tout changer</strong> :
-          </p>
-
-          <div className="essaye-list">
-            <span>changer de job</span>
-            <span>changer de rythme</span>
-            <span>changer de vie</span>
-          </div>
-
-          <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-            Mais au fond, tu le sens : tu ne veux pas tout envoyer balader.<br />
-            Et surtout… tu sens que même si tu changes tout…<br />
-            <strong>tu vas recréer la même pression ailleurs.</strong>
-          </p>
 
           <div className="essaye-highlight">
             <p>Parce que le problème n'est pas ta vie.</p>
