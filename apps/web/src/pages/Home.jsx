@@ -58,8 +58,8 @@ function HeroSection() {
       <div className="landing-hero-inner">
         <div className="landing-hero-content">
           <h1 className="landing-hero-headline">
-            Tu as suivi toutes les règles. Travaillé dur. Tout donné.{" "}
-            <span className="headline-warm">Mais tu cours encore — et tu ne sais même plus pourquoi.</span>
+            Tu performes. Tu gères. Tu tiens.{" "}
+            <span className="headline-warm">Mais à l'intérieur, tu es épuisée.</span>
           </h1>
           <p className="landing-hero-body">
             Tu réussis à l'extérieur. Mais à l'intérieur, tu es à bout.
