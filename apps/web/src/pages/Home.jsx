@@ -270,248 +270,179 @@ function EssayeSection() {
 }
 
 // ═══════════════════════════════════════════════════════════════════════
-// SECTION 4 — RÉINVENTION INTÉRIEURE (présentation programme)
+// SECTION 4 — PROGRAMME (unifié : définition + vision + méthode + structure)
 // ═══════════════════════════════════════════════════════════════════════
-function ReinventionSection() {
+function ProgrammeSection() {
   return (
     <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
-        <div className="reinvention-content">
-          <p className="landing-subtitle" style={{ textAlign: "center" }}>Le programme</p>
-          <h2 className="landing-title" style={{ textAlign: "center" }}>Réinvention Intérieure</h2>
+        <div className="programme-content">
 
-          <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-            Tu comprends que : <strong>faire plus</strong> ne va pas t'aider à évoluer professionnellement,
-            être la « meilleure version de toi » ne va pas t'épanouir
-            et <strong>tenir encore</strong> va continuer à te coûter.
-          </p>
-
-          <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-            Ce qui doit changer… c'est ce qui se passe <strong>à l'intérieur de toi</strong> :
-            la manière dont tu te parles, tes croyances autour de la réussite
-            et les réflexes qui te poussent à surperformer ou à te suradapter.
-          </p>
-
-          <div className="reinvention-highlight">
-            <p>C'est ça, la réinvention intérieure.</p>
-            <p>Pas tout casser ou repartir de zéro.</p>
-            <p><strong>Mais sortir de ce mode « bonne élève » qui t'a construite…
-            mais qui aujourd'hui te limite.</strong></p>
-          </div>
-
-          <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-            Et apprendre à fonctionner autrement :
-          </p>
-
-          <div className="reinvention-pillars">
-            <div className="reinvention-pillar">
-              <span className="reinvention-pillar-icon">🛡</span>
-              <span>avec plus de <strong>sécurité intérieure</strong></span>
-            </div>
-            <div className="reinvention-pillar">
-              <span className="reinvention-pillar-icon">✦</span>
-              <span>avec plus de <strong>confiance</strong></span>
-            </div>
-            <div className="reinvention-pillar">
-              <span className="reinvention-pillar-icon">💡</span>
-              <span>avec plus de <strong>clarté</strong></span>
-            </div>
-          </div>
-
-          <p className="landing-text" style={{ textAlign: "center", margin: "0 auto", fontWeight: 500, color: "var(--primary)" }}>
-            Pour te sentir à nouveau aux commandes de ta vie.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// ═══════════════════════════════════════════════════════════════════════
-// SECTION 5 — IMAGINE UNE VIE OÙ (vision/désir)
-// ═══════════════════════════════════════════════════════════════════════
-function VisionSection() {
-  return (
-    <section className="landing-section" style={{ background: "var(--surface-3)", color: "#fff" }}>
-      <div className="container">
-        <div className="vision-content">
-          <p className="landing-subtitle" style={{ textAlign: "center", color: "var(--accent-light)" }}>Ta transformation</p>
-          <h2 className="landing-title" style={{ textAlign: "center", color: "#fff" }}>Imagine une vie où…</h2>
-
-          <div className="vision-list">
-            <div className="vision-item">
-              <span className="vision-icon">✨</span>
-              <p>Tu te sens <strong>calme</strong>, même quand il y a de la pression.</p>
-            </div>
-            <div className="vision-item">
-              <span className="vision-icon">✨</span>
-              <p>Tu avances <strong>sans te suradapter</strong> en permanence ou être dans le contrôle.</p>
-            </div>
-            <div className="vision-item">
-              <span className="vision-icon">✨</span>
-              <p>Tu <strong>prends ta place</strong>, naturellement.</p>
-            </div>
-            <div className="vision-item">
-              <span className="vision-icon">✨</span>
-              <p>Tu travailles bien. Mais sur les bons sujets, avec la posture que tu choisis et <strong>sans t'épuiser</strong>.</p>
-            </div>
-            <div className="vision-item">
-              <span className="vision-icon">✨</span>
-              <p>Tu es <strong>présente</strong> avec tes enfants. <strong>Disponible</strong> avec ton partenaire. <strong>En paix</strong> avec toi-même.</p>
-            </div>
-            <div className="vision-item">
-              <span className="vision-icon">✨</span>
-              <p>Tu as de l'<strong>énergie</strong>. De la <strong>clarté</strong>. De la <strong>légèreté</strong>.</p>
-            </div>
-          </div>
-
-          <div className="vision-finale">
-            <p>Et surtout…</p>
-            <p className="vision-big">Tu ne fais plus que « tenir ».</p>
-            <p className="vision-big">Tu te sens <strong>vraiment épanouie</strong> dans ta vie.</p>
-            <p style={{ fontSize: "0.95rem", opacity: 0.7, marginTop: "1rem" }}>
-              Pas parfaite. Pas toujours simple.<br />
-              Mais pleine, vivante… et profondément à ta place.
+          {/* Header */}
+          <div className="programme-header">
+            <p className="landing-subtitle" style={{ textAlign: "center" }}>Le programme</p>
+            <h2 className="landing-title" style={{ textAlign: "center" }}>Réinvention Intérieure</h2>
+            <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
+              Tu comprends que <strong>faire plus</strong> ne va pas t'aider à évoluer,
+              et que <strong>tenir encore</strong> va continuer à te coûter.
+              Ce qui doit changer, c'est ce qui se passe <strong>à l'intérieur de toi.</strong>
             </p>
           </div>
 
-          <div className="section-cta">
-            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: "#fff", color: "var(--primary)" }}>
-              Prendre ma place (enfin)
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// ═══════════════════════════════════════════════════════════════════════
-// SECTION 6 — MA MÉTHODE (3 piliers)
-// ═══════════════════════════════════════════════════════════════════════
-function MethodeSection() {
-  return (
-    <section className="landing-section" style={{ background: "var(--bg)" }}>
-      <div className="container">
-        <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-          <p className="landing-subtitle">Mon approche</p>
-          <h2 className="landing-title">Ma méthode</h2>
-          <p className="landing-text" style={{ margin: "0 auto" }}>
-            Un travail en profondeur qui transforme concrètement ta manière de travailler, de décider et de vivre.
-          </p>
-          <p className="landing-text" style={{ margin: "0.5rem auto 0", fontWeight: 500, color: "var(--primary)" }}>
-            On ne fait pas que comprendre. On change ta manière de fonctionner — durablement.
-          </p>
-        </div>
-
-        <div className="methode-grid">
-          {/* Pilier 1 */}
-          <div className="methode-card">
-            <span className="methode-number">01</span>
-            <h3 className="methode-card-title">Clarté</h3>
-            <p className="methode-card-subtitle">Comprendre comment tu fonctionnes</p>
-            <p className="landing-text">On commence par comprendre : tes schémas de pression, de surcontrôle et de fatigue. Les mécanismes automatiques qui te maintiennent là.</p>
-            <p className="methode-card-label">Concrètement, on travaille sur :</p>
-            <ul className="methode-list">
-              <li>Tes saboteurs et réflexes automatiques</li>
-              <li>Ton dialogue intérieur</li>
-              <li>Tes croyances limitantes</li>
-              <li>Tes peurs</li>
-            </ul>
-            <p className="methode-card-result">Tu comprends enfin <strong>pourquoi</strong> tu fonctionnes comme ça. Et pourquoi, seule, tu tournes en rond.</p>
+          {/* Définition */}
+          <div className="programme-def">
+            <p className="programme-def-small">Pas tout casser. Pas repartir de zéro.</p>
+            <p className="programme-def-big">
+              Sortir du mode « bonne élève » qui t'a construite…<br />
+              mais qui aujourd'hui te limite.
+            </p>
+            <p className="programme-def-small">Et apprendre à fonctionner autrement :</p>
+            <div className="programme-pillars">
+              <div className="programme-pillar">🛡 avec plus de <strong>sécurité intérieure</strong></div>
+              <div className="programme-pillar">✦ avec plus de <strong>confiance</strong></div>
+              <div className="programme-pillar">💡 avec plus de <strong>clarté</strong></div>
+            </div>
           </div>
 
-          {/* Pilier 2 */}
-          <div className="methode-card">
-            <span className="methode-number">02</span>
-            <h3 className="methode-card-title">Reconnexion</h3>
-            <p className="methode-card-subtitle">Revenir à toi</p>
-            <p className="landing-text">On reconnecte avec ce qui compte vraiment pour toi : ta vision de vie, tes valeurs, tes émotions, ton corps.</p>
-            <p className="methode-card-label">Tu apprends à :</p>
-            <ul className="methode-list">
-              <li>Écouter au lieu de pousser</li>
-              <li>Te comprendre au lieu de te juger</li>
-              <li>Te réguler au lieu de te suradapter</li>
-            </ul>
-            <p className="methode-card-result">Tu passes d'un mode <strong>« je subis / je tiens »</strong> à un mode <strong>« je ressens / je choisis »</strong>.</p>
-          </div>
-
-          {/* Pilier 3 */}
-          <div className="methode-card">
-            <span className="methode-number">03</span>
-            <h3 className="methode-card-title">Réinvention</h3>
-            <p className="methode-card-subtitle">Agir autrement dans ta vraie vie</p>
-            <p className="landing-text">On traduit tout ça dans ton quotidien, à partir de tes vraies situations.</p>
-            <p className="methode-card-label">On travaille aussi :</p>
-            <ul className="methode-list">
-              <li>Prendre ta place sans te suradapter</li>
-              <li>Poser des limites sans culpabiliser</li>
-              <li>Ton leadership et ton rapport à la réussite</li>
-              <li>Ton équilibre de vie</li>
-            </ul>
-            <p className="methode-card-result">On ne reste pas dans la réflexion. <strong>On change ce qui se joue dans ta vraie vie.</strong></p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// ═══════════════════════════════════════════════════════════════════════
-// SECTION 7 — STRUCTURE DU PROGRAMME
-// ═══════════════════════════════════════════════════════════════════════
-function StructureSection() {
-  return (
-    <section className="landing-section" style={{ background: "var(--surface-2)" }}>
-      <div className="container">
-        <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-          <p className="landing-subtitle">Comment ça se passe</p>
-          <h2 className="landing-title">Concrètement</h2>
-        </div>
-
-        <div className="structure-grid">
-          <div className="structure-card structure-main">
-            <h3 style={{ fontSize: "1.6rem", color: "var(--primary)", marginBottom: "1rem" }}>Réinvention Intérieure, c'est :</h3>
-            <div className="structure-stats">
-              <div className="structure-stat">
-                <span className="structure-stat-num">8</span>
-                <span className="structure-stat-label">sessions individuelles en visio (1:1)</span>
+          {/* Vision */}
+          <div className="programme-vision">
+            <h3 className="programme-section-title">Imagine une vie où…</h3>
+            <div className="programme-vision-grid">
+              <div className="programme-vision-item">
+                <div className="programme-vision-dot" />
+                <span>Tu te sens <strong>calme</strong>, même quand il y a de la pression.</span>
               </div>
-              <div className="structure-stat">
-                <span className="structure-stat-num">4</span>
-                <span className="structure-stat-label">mois d'accompagnement sur mesure</span>
+              <div className="programme-vision-item">
+                <div className="programme-vision-dot" />
+                <span>Tu avances <strong>sans te suradapter</strong> en permanence.</span>
+              </div>
+              <div className="programme-vision-item">
+                <div className="programme-vision-dot" />
+                <span>Tu <strong>prends ta place</strong>, naturellement.</span>
+              </div>
+              <div className="programme-vision-item">
+                <div className="programme-vision-dot" />
+                <span>Tu travailles bien — mais <strong>sans t'épuiser.</strong></span>
+              </div>
+              <div className="programme-vision-item">
+                <div className="programme-vision-dot" />
+                <span>Tu es <strong>présente</strong> avec tes proches. <strong>En paix</strong> avec toi-même.</span>
+              </div>
+              <div className="programme-vision-item">
+                <div className="programme-vision-dot" />
+                <span>Tu as de l'<strong>énergie</strong>. De la <strong>clarté</strong>. De la <strong>légèreté</strong>.</span>
+              </div>
+            </div>
+            <p className="programme-vision-finale">
+              Tu ne fais plus que « tenir ».<br />
+              <strong>Tu te sens vraiment épanouie dans ta vie.</strong>
+            </p>
+          </div>
+
+          {/* Méthode */}
+          <div className="programme-methode">
+            <h3 className="programme-section-title">Ma méthode — 3 piliers</h3>
+            <p className="programme-section-sub">
+              On ne fait pas que comprendre. On change ta manière de fonctionner — durablement.
+            </p>
+            <div className="programme-methode-cards">
+              <div className="programme-mcard">
+                <span className="programme-mcard-num">01</span>
+                <div className="programme-mcard-title">Clarté</div>
+                <div className="programme-mcard-sub">Comprendre comment tu fonctionnes</div>
+                <p className="programme-mcard-body">
+                  Tes schémas de pression, de surcontrôle, de fatigue.
+                  Les mécanismes automatiques qui te maintiennent là.
+                </p>
+                <ul className="programme-mcard-list">
+                  <li>Saboteurs et réflexes automatiques</li>
+                  <li>Dialogue intérieur</li>
+                  <li>Croyances limitantes & peurs</li>
+                </ul>
+                <p className="programme-mcard-result">
+                  Tu comprends enfin <strong>pourquoi</strong> tu fonctionnes comme ça.
+                </p>
+              </div>
+              <div className="programme-mcard">
+                <span className="programme-mcard-num">02</span>
+                <div className="programme-mcard-title">Reconnexion</div>
+                <div className="programme-mcard-sub">Revenir à toi</div>
+                <p className="programme-mcard-body">
+                  Ta vision de vie, tes valeurs, tes émotions, ton corps.
+                  Ce qui compte vraiment pour toi.
+                </p>
+                <ul className="programme-mcard-list">
+                  <li>Écouter au lieu de pousser</li>
+                  <li>Te comprendre au lieu de te juger</li>
+                  <li>Te réguler au lieu de te suradapter</li>
+                </ul>
+                <p className="programme-mcard-result">
+                  Tu passes de <strong>« je subis »</strong> à <strong>« je choisis »</strong>.
+                </p>
+              </div>
+              <div className="programme-mcard">
+                <span className="programme-mcard-num">03</span>
+                <div className="programme-mcard-title">Réinvention</div>
+                <div className="programme-mcard-sub">Agir autrement dans ta vraie vie</div>
+                <p className="programme-mcard-body">
+                  On traduit tout ça dans ton quotidien, à partir de tes vraies situations.
+                </p>
+                <ul className="programme-mcard-list">
+                  <li>Prendre ta place sans te suradapter</li>
+                  <li>Poser des limites sans culpabiliser</li>
+                  <li>Ton leadership & ton équilibre de vie</li>
+                </ul>
+                <p className="programme-mcard-result">
+                  <strong>On change ce qui se joue dans ta vraie vie.</strong>
+                </p>
               </div>
             </div>
           </div>
 
-          <div className="structure-card">
-            <h3 style={{ color: "var(--accent-dim)", marginBottom: "1rem" }}>Chaque session, c'est :</h3>
-            <ul className="arrow-list">
-              <li>Un espace sûr, sans jugement, où tu n'as pas à performer</li>
-              <li>Des conversations profondes qui t'aident à voir clair</li>
-              <li>Des prises de conscience qui changent ta manière de te percevoir</li>
-              <li>Des mises en action douces mais puissantes</li>
-            </ul>
+          {/* Structure */}
+          <div className="programme-structure">
+            <h3 className="programme-section-title">Concrètement, c'est :</h3>
+            <div className="programme-stats">
+              <div className="programme-stat">
+                <span className="programme-stat-num">8</span>
+                <span className="programme-stat-label">sessions individuelles en visio (1:1)</span>
+              </div>
+              <div className="programme-stat">
+                <span className="programme-stat-num">4</span>
+                <span className="programme-stat-label">mois d'accompagnement sur mesure</span>
+              </div>
+            </div>
+            <div className="programme-structure-two">
+              <div className="programme-scard">
+                <p className="programme-scard-title">Chaque session, c'est :</p>
+                <ul className="programme-scard-list">
+                  <li>Un espace sûr, sans jugement, où tu n'as pas à performer</li>
+                  <li>Des conversations profondes qui t'aident à voir clair</li>
+                  <li>Des prises de conscience qui changent ta manière de te percevoir</li>
+                  <li>Des mises en action douces mais puissantes</li>
+                </ul>
+              </div>
+              <div className="programme-scard">
+                <p className="programme-scard-title">Entre les sessions :</p>
+                <ul className="programme-scard-list">
+                  <li>Support WhatsApp pour ne pas rester seule</li>
+                  <li>Ressources audio et vidéo exclusives</li>
+                  <li>Exercices personnalisés pour ancrer ce que l'on travaille</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          <div className="structure-card">
-            <h3 style={{ color: "var(--accent-dim)", marginBottom: "1rem" }}>🔁 Entre les sessions</h3>
-            <p className="landing-text">Tu es soutenue entre chaque session :</p>
-            <ul className="arrow-list">
-              <li>Support WhatsApp pour ne pas rester seule</li>
-              <li>Ressources audio et vidéo exclusives</li>
-              <li>Exercices personnalisés pour ancrer ce que l'on travaille</li>
-            </ul>
+          {/* CTA */}
+          <div className="section-cta">
+            <p style={{ textAlign: "center", fontWeight: 500, color: "var(--primary)", marginBottom: "1rem" }}>
+              Si tu veux faire ce travail accompagnée…
+            </p>
+            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
+              Réserver ma session offerte
+            </a>
           </div>
-        </div>
 
-        <p className="landing-text" style={{ textAlign: "center", margin: "2.5rem auto 0", fontWeight: 500, color: "var(--primary)" }}>
-          Si tu veux faire ce travail accompagnée…
-        </p>
-        <div className="section-cta">
-          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
-            Réserver ma session offerte
-          </a>
         </div>
       </div>
     </section>
@@ -736,17 +667,12 @@ export default function Home() {
       <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <EssayeSection />
       <WaveDivider from="var(--surface-2)" to="var(--bg)" />
-      <ReinventionSection />
-      <VisionSection />
-      <WaveDivider from="var(--surface-3)" to="var(--bg)" />
-      <MethodeSection />
+      <ProgrammeSection />
       <WaveDivider from="var(--bg)" to="var(--surface-2)" />
-      <StructureSection />
-      <WaveDivider from="var(--surface-2)" to="var(--bg)" />
       <TemoignagesSection />
-      <WaveDivider from="var(--bg)" to="var(--surface-2)" />
-      <QuiSuisJeSection />
       <WaveDivider from="var(--surface-2)" to="var(--bg)" />
+      <QuiSuisJeSection />
+      <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <FaqLandingSection />
       <CtaFinalSection />
     </div>
