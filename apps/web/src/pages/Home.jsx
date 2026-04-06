@@ -67,8 +67,7 @@ function HeroSection() {
             et tu sens que ce mode te limite — au travail comme dans ta vie.
           </p>
           <p className="landing-hero-mission">
-            Je t'aide à sortir du rôle de la bonne élève pour prendre ta place —
-            et rayonner dans tous les domaines de ta vie.
+            Je t'aide à sortir du rôle de la bonne élève pour <strong>prendre ta place</strong> — et rayonner dans tous les domaines de ta vie.
           </p>
           <div className="hero-actions">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta hero-btn">

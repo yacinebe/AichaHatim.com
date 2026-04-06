@@ -1183,14 +1183,17 @@ label {
   max-width: 52ch;
 }
 .landing-hero-mission {
-  font-family: var(--font-heading);
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
   color: var(--primary);
-  line-height: 1.6;
-  border-left: 3px solid var(--accent);
-  padding-left: 1.25rem;
-  border-radius: 0;
+  line-height: 1.5;
+}
+.landing-hero-mission strong {
+  font-style: normal;
+  font-weight: 600;
+  color: var(--accent);
 }
 
 /* Section CTA button — big warm style */
