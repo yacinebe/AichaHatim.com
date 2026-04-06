@@ -58,16 +58,16 @@ function HeroSection() {
       <div className="landing-hero-inner">
         <div className="landing-hero-content">
           <h1 className="landing-hero-headline">
-            Tu as été une bonne élève toute ta vie.<br />
-            <span className="headline-warm">Mais aujourd'hui… ça ne te suffit plus.</span>
+            Tu as suivi toutes les règles. Travaillé dur. Tout donné.<br />
+            <span className="headline-warm">Mais tu cours encore — et tu ne sais même plus pourquoi.</span>
           </h1>
           <p className="landing-hero-body">
-            Tu es compétente, fiable et tu fais « tout comme il faut ».<br />
-            Mais tu fonctionnes sous pression, tu doutes de toi,<br />
-            et tu sens que ce mode te limite — au travail comme dans ta vie.
+            Tu réussis à l'extérieur. Mais à l'intérieur, tu es à bout.<br />
+            Fatiguée, irritable, jamais assez. Et tu sens que si tu continues comme ça,<br />
+            quelque chose va lâcher.
           </p>
           <p className="landing-hero-mission">
-            Je t'aide à sortir du rôle de la bonne élève pour prendre ta place et rayonner dans tous les domaines de ta vie.
+            Je t'aide à passer de la bonne élève qui s'épuise… à la femme qui s'épanouit.
           </p>
           <div className="hero-actions">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta hero-btn">
