@@ -512,47 +512,82 @@ function QuiSuisJeSection() {
   return (
     <section className="landing-section" style={{ background: "var(--surface-2)" }}>
       <div className="container">
-        <div style={{ display: "grid", gridTemplateColumns: "0.9fr 1.1fr", gap: "4rem", alignItems: "center" }}>
-          <div className="landing-photo">
-            <PhotoSwitcher startIndex={10} />
-          </div>
-          <div>
-            <p className="landing-subtitle">Qui suis-je</p>
-            <h2 className="landing-title">Et pourquoi je te parle de ça</h2>
+        <div className="quisuisje-content">
+          <p className="landing-subtitle" style={{ textAlign: "center" }}>Qui suis-je</p>
+          <h2 className="landing-title" style={{ textAlign: "center" }}>Et pourquoi je te parle de ça</h2>
 
-            <p className="landing-text">
-              Je connais très bien ce mode « bonne élève ». <strong>Je l'ai vécu de l'intérieur.</strong>
-            </p>
-            <p className="landing-text">
-              Pendant plus de 10 ans, j'ai évolué dans le corporate, en sales et en management.
-              J'aimais mon travail. Je performais. J'ai été promue, encore et encore.
-              J'étais celle sur qui on peut compter : organisée, fiable, toujours à 110%.
-            </p>
-            <p className="landing-text">
-              De l'extérieur… ça ressemblait exactement à ce qu'on appelle une « réussite ».
-            </p>
-            <p className="landing-text">
-              <strong>Mais à l'intérieur… c'était une autre histoire.</strong><br />
-              Beaucoup de pression. Une exigence constante.
-              Cette voix qui dit « ce n'est jamais assez ».
-            </p>
-            <p className="landing-text">
-              Jusqu'au moment où j'ai décidé de me faire accompagner.<br />
-              Et là… <strong>tout a changé.</strong>
-            </p>
-            <p className="landing-text" style={{ color: "var(--primary)", fontWeight: 500 }}>
-              Le problème n'était pas ma vie — mais la manière dont je la vivais.
-            </p>
-            <p className="landing-text">
-              Aujourd'hui, je suis toujours ambitieuse. Mais je ne vis plus mon ambition dans la pression.
-              Je la vis avec plus de sérénité, plus d'intention, plus d'épanouissement.
-            </p>
-            <p className="landing-text" style={{ marginTop: "1rem" }}>
-              Je suis <strong>coach certifiée</strong> (International Coaching Federation), formée à une approche en profondeur.<br />
-              Mais au-delà des certifications — je connais ce terrain, je parle ton langage
-              et je sais ce que ça demande, pour de vrai.
-            </p>
+          {/* Photo + timeline */}
+          <div className="quisuisje-top">
+            <div className="quisuisje-photo">
+              <PhotoSwitcher startIndex={10} />
+              <div className="quisuisje-photo-accent" />
+            </div>
+
+            <div className="quisuisje-story">
+              <div className="quisuisje-beat">
+                <div className="quisuisje-beat-line">
+                  <div className="quisuisje-beat-dot" />
+                  <div className="quisuisje-beat-connector" />
+                </div>
+                <p className="quisuisje-beat-text">
+                  Je connais très bien ce mode « bonne élève ».{" "}
+                  <strong>Je l'ai vécu de l'intérieur.</strong> Pendant plus de 10 ans,
+                  j'ai évolué dans le corporate, en sales et en management. J'aimais mon travail.
+                  Je performais. J'étais celle sur qui on peut compter : organisée, fiable, toujours à 110%.
+                </p>
+              </div>
+              <div className="quisuisje-beat">
+                <div className="quisuisje-beat-line">
+                  <div className="quisuisje-beat-dot" />
+                  <div className="quisuisje-beat-connector" />
+                </div>
+                <p className="quisuisje-beat-text">
+                  De l'extérieur… ça ressemblait exactement à ce qu'on appelle une « réussite ».{" "}
+                  <strong>Mais à l'intérieur… c'était une autre histoire.</strong> Beaucoup de pression.
+                  Une exigence constante. Cette voix qui dit « ce n'est jamais assez ».
+                </p>
+              </div>
+              <div className="quisuisje-beat">
+                <div className="quisuisje-beat-line">
+                  <div className="quisuisje-beat-dot" />
+                </div>
+                <p className="quisuisje-beat-text">
+                  Jusqu'au moment où j'ai décidé de me faire accompagner.<br />
+                  Et là… <strong>tout a changé.</strong>
+                </p>
+              </div>
+            </div>
           </div>
+
+          {/* Phrase pivot */}
+          <div className="quisuisje-pivot">
+            Le problème n'était pas ma vie —<br />
+            mais la manière dont je la vivais.
+          </div>
+
+          {/* Aujourd'hui + légitimité */}
+          <div className="quisuisje-today">
+            <div className="quisuisje-today-card">
+              <p className="quisuisje-today-label">Aujourd'hui</p>
+              <p className="quisuisje-today-text">
+                Je suis toujours ambitieuse. Mais je ne vis plus mon ambition dans la pression.
+                Je la vis avec plus de <strong>sérénité</strong>, plus d'<strong>intention</strong>,
+                plus d'<strong>épanouissement</strong>.
+              </p>
+            </div>
+            <div className="quisuisje-today-card">
+              <p className="quisuisje-today-label">Ma légitimité</p>
+              <p className="quisuisje-today-text">
+                Au-delà des certifications — je connais ce terrain, je parle ton langage
+                et je sais ce que ça demande, pour de vrai.
+              </p>
+              <div className="quisuisje-certifs">
+                <span className="quisuisje-certif">ICF Certified</span>
+                <span className="quisuisje-certif">+10 ans corporate</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

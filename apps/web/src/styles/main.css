@@ -548,25 +548,143 @@ label {
 /* ── Resource gate ── */
 .resource-gate { max-width: 480px; margin: 0 auto; text-align: center; padding: var(--section-gap) 1.5rem; }
 
-/* ── About page ── */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
+/* ── Qui suis-je ── */
+.quisuisje-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
-.about-image {
+
+.quisuisje-top {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.quisuisje-photo {
+  position: relative;
   border-radius: var(--radius);
   overflow: hidden;
-  aspect-ratio: 3/4;
-  background: var(--surface-2);
+  aspect-ratio: 4/5;
+  background: var(--surface);
 }
-.about-image img { width: 100%; height: 100%; object-fit: cover; }
-.about-content { display: flex; flex-direction: column; gap: 1.5rem; }
-.about-content p { color: var(--text-muted); }
+.quisuisje-photo img { width: 100%; height: 100%; object-fit: cover; }
+.quisuisje-photo-accent {
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  width: 75%;
+  height: 75%;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  z-index: -1;
+}
 
-.badges { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 0.5rem; }
-.badge { border: 1.5px solid var(--border); border-radius: var(--radius-sm); padding: 0.5rem 1rem; font-size: 0.8rem; font-weight: 500; color: var(--text-muted); }
+.quisuisje-story {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-top: 0.5rem;
+}
+
+.quisuisje-beat {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1.75rem;
+}
+.quisuisje-beat:last-child { padding-bottom: 0; }
+
+.quisuisje-beat-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+.quisuisje-beat-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.quisuisje-beat-connector {
+  width: 1px;
+  background: var(--border);
+  flex: 1;
+  margin-top: 6px;
+}
+
+.quisuisje-beat-text {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+.quisuisje-beat-text strong { color: var(--primary); font-weight: 600; }
+
+.quisuisje-pivot {
+  background: var(--surface);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1.5rem 2rem;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--primary);
+  line-height: 1.6;
+  text-align: center;
+}
+
+.quisuisje-today {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.quisuisje-today-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.quisuisje-today-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-dim);
+}
+.quisuisje-today-text {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+.quisuisje-today-text strong { color: var(--primary); font-weight: 600; }
+.quisuisje-certifs {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+.quisuisje-certif {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--success);
+  background: rgba(74,140,111,0.1);
+  border-radius: 50px;
+  padding: 0.2rem 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .quisuisje-top { grid-template-columns: 1fr; }
+  .quisuisje-photo { max-width: 320px; margin: 0 auto; }
+  .quisuisje-today { grid-template-columns: 1fr; }
+}
 
 /* ── Client area ── */
 .client-layout {
