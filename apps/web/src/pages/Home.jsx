@@ -700,16 +700,16 @@ function CtaFinalSection() {
       <div className="container">
         <div className="cta-final-content">
 
-          <h2 className="cta-final-title">Et si on en parlait ?</h2>
+          <h2 className="cta-final-title">Tu mérites mieux que de juste tenir.</h2>
 
           <div className="cta-final-body">
             <div className="cta-final-text">
               <p>
-                Une session découverte de <strong>30 minutes</strong>, offerte et sans engagement.
+                Si tu te reconnais dans ce que tu viens de lire — si tu sens que quelque chose doit changer — cette session est pour toi.
               </p>
               <p>
-                Un espace pour poser tes questions, sentir si c'est le bon moment —
-                et voir si on est faites pour travailler ensemble.
+                <strong>30 minutes</strong>, offertes, sans engagement. On se rencontre,
+                tu poses tes questions, on voit ensemble si c'est le bon fit.
               </p>
               <p style={{ opacity: 0.6, fontSize: "0.88rem" }}>
                 Pas de pitch. Pas de pression. Une vraie conversation.
