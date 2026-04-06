@@ -71,8 +71,8 @@ function HeroSection() {
             et rayonner dans tous les domaines de ta vie.
           </p>
           <div className="hero-actions">
-            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
-              Réserver ma session offerte
+            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta hero-btn">
+              Réserver ma session offerte →
             </a>
             <span className="hero-reassurance">Gratuit · 30 min · Sans engagement</span>
           </div>

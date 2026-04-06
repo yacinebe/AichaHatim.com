@@ -352,6 +352,15 @@ label {
   align-items: flex-start;
 }
 
+.hero-btn {
+  background: var(--primary) !important;
+  box-shadow: 0 4px 20px rgba(45,74,62,0.3) !important;
+}
+.hero-btn:hover {
+  background: var(--primary-dim) !important;
+  box-shadow: 0 6px 28px rgba(45,74,62,0.4) !important;
+}
+
 .hero-reassurance {
   font-size: 0.8rem;
   color: var(--text-muted);
@@ -1158,9 +1167,9 @@ label {
 }
 .landing-hero-headline {
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.2;
   color: var(--primary);
 }
 .landing-hero-headline .headline-warm {
@@ -1168,19 +1177,20 @@ label {
   font-weight: 700;
 }
 .landing-hero-body {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
-  line-height: 1.8;
+  line-height: 1.75;
   max-width: 52ch;
 }
 .landing-hero-mission {
   font-family: var(--font-heading);
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-weight: 500;
   color: var(--primary);
   line-height: 1.6;
   border-left: 3px solid var(--accent);
   padding-left: 1.25rem;
+  border-radius: 0;
 }
 
 /* Section CTA button — big warm style */
