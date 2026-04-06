@@ -107,11 +107,6 @@ function MiroirSection() {
         <div className="miroir-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>Qui est la bonne élève ?</h2>
 
-          <p className="miroir-intro">
-            C'est toi qui as tout fait « comme il faut ».<br />
-            Et qui, malgré ça, <strong>ne se sent toujours pas bien.</strong>
-          </p>
-
           {/* 3 cards */}
           <div className="miroir-cards">
             {/* Au travail */}
