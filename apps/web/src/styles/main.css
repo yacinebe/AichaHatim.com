@@ -2187,8 +2187,8 @@ label {
 }
 .miroir-card-neg em {
   color: var(--primary);
-  font-style: normal;
-  font-weight: 600;
+  font-style: italic;
+  font-weight: 500;
 }
 
 /* Et pourtant */

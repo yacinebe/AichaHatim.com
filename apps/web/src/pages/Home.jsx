@@ -125,7 +125,7 @@ function MiroirSection() {
               <p className="miroir-card-neg">
                 Mais elle fonctionne sous pression constante. Elle doute d'elle en réunion,
                 n'ose pas prendre certaines places. Elle a peur qu'on découvre qu'elle n'est
-                pas si sûre d'elle. Et malgré tout ce qu'elle accomplit… <em>elle n'arrive pas à être fière.</em>
+                pas si sûre d'elle. Et malgré tout ce qu'elle accomplit… elle n'arrive pas à <em>être fière.</em>
               </p>
             </div>
 
@@ -139,7 +139,7 @@ function MiroirSection() {
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
                 Mais elle rentre épuisée, irritable. Elle réagit trop fort pour des petites choses.
-                Et elle culpabilise — parce qu'elle ne veut pas être <em>cette maman-là, cette partenaire-là.</em>
+                Et elle culpabilise — parce qu'elle ne veut pas être <em>cette maman-là.</em>
               </p>
             </div>
 
@@ -152,8 +152,8 @@ function MiroirSection() {
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
-                Mais malgré tout ça, elle reste dure avec elle-même. Jamais assez.
-                Elle a du mal à ralentir, à ne rien faire, à profiter — <em>sans culpabiliser.</em>
+                Mais malgré tout ça, elle reste <em>dure avec elle-même.</em> Jamais assez.
+                Elle a du mal à ralentir, à ne rien faire, à profiter sans culpabiliser.
               </p>
             </div>
           </div>
