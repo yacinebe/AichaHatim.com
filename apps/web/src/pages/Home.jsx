@@ -108,8 +108,8 @@ function MiroirSection() {
           <h2 className="landing-title" style={{ textAlign: "center" }}>Qui est la bonne élève ?</h2>
 
           <p className="miroir-intro">
-            La bonne élève, c'est celle qui fait tout « comme il faut ».<br />
-            Mais qui, au fond, <strong>ne se sent pas bien.</strong>
+            C'est toi qui as tout fait « comme il faut ».<br />
+            Et qui, malgré ça, <strong>ne se sent toujours pas bien.</strong>
           </p>
 
           {/* 3 cards */}
@@ -119,12 +119,13 @@ function MiroirSection() {
               <div className="miroir-card-icon">💼</div>
               <h3 className="miroir-card-title">Au travail</h3>
               <p className="miroir-card-pos">
-                Elle est irréprochable. Elle gère, elle délivre, elle anticipe. On peut compter sur elle.
+                Elle livre, performe, anticipe. On peut compter sur elle — et elle le sait.
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
-                Mais elle fonctionne sous pression, elle doute beaucoup, elle se suradapte.
-                Et elle espère qu'à force de tout donner… elle finira par se sentir <em>légitime.</em>
+                Mais elle fonctionne sous pression constante. Elle doute d'elle en réunion,
+                n'ose pas prendre certaines places. Elle a peur qu'on découvre qu'elle n'est
+                pas si sûre d'elle. Et malgré tout ce qu'elle accomplit… <em>elle n'arrive pas à être fière.</em>
               </p>
             </div>
 
@@ -133,12 +134,12 @@ function MiroirSection() {
               <div className="miroir-card-icon">🏠</div>
               <h3 className="miroir-card-title">Dans sa vie perso</h3>
               <p className="miroir-card-pos">
-                Elle tient aussi. Elle gère la maison, les enfants, la charge mentale.
+                Elle gère aussi la maison, les enfants, le couple, la charge mentale. Tout.
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
-                Mais elle est fatiguée, irritable parfois.
-                Et elle culpabilise de ne pas être la femme, la mère, la partenaire <em>qu'elle voudrait être.</em>
+                Mais elle rentre épuisée, irritable. Elle réagit trop fort pour des petites choses.
+                Et elle culpabilise — parce qu'elle ne veut pas être <em>cette maman-là, cette partenaire-là.</em>
               </p>
             </div>
 
@@ -147,13 +148,12 @@ function MiroirSection() {
               <div className="miroir-card-icon">🪞</div>
               <h3 className="miroir-card-title">Avec elle-même</h3>
               <p className="miroir-card-pos">
-                Elle essaie de prendre soin d'elle. Elle fait du sport, elle mange « bien »,
-                elle fait sa skin-care, elle lit, elle écoute des podcasts.
+                Elle essaie de prendre soin d'elle. Le sport, l'alimentation, les podcasts, les livres de dev perso.
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
-                Mais malgré tout ça, elle reste dure, exigeante, jamais vraiment satisfaite.
-                Elle a du mal à ralentir, à profiter, ou à <em>se sentir fière.</em>
+                Mais malgré tout ça, elle reste dure avec elle-même. Jamais assez.
+                Elle a du mal à ralentir, à ne rien faire, à profiter — <em>sans culpabiliser.</em>
               </p>
             </div>
           </div>
@@ -162,20 +162,20 @@ function MiroirSection() {
           <div className="miroir-pourtant">
             <p className="miroir-pourtant-label">Et pourtant…</p>
             <div className="miroir-pills">
-              <span className="miroir-pill">Elle a « tout bien fait »</span>
+              <span className="miroir-pill">Elle a tout bien fait</span>
               <span className="miroir-pill">Elle a réussi</span>
               <span className="miroir-pill">Elle a construit une belle vie</span>
             </div>
             <p className="miroir-punchline">
               Mais elle ne ressent pas la fierté, la joie ou l'épanouissement
-              qu'elle imaginait en arrivant là.
+              qu'elle s'était imaginé en arrivant là.
             </p>
           </div>
 
           <p className="miroir-conclusion">
             La bonne élève, c'est une femme brillante…<br />
-            <strong>coincée dans un mode de fonctionnement qui l'épuise
-            et l'empêche de prendre pleinement sa place dans sa vie.</strong>
+            <strong>coincée dans un mode de fonctionnement qui l'épuise, l'isole
+            et l'empêche de profiter de la vie qu'elle a mis tant d'efforts à construire.</strong>
           </p>
 
           {/* Placeholder vidéo */}
