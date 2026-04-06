@@ -732,17 +732,11 @@ export default function Home() {
   return (
     <div className="page">
       <HeroSection />
-      <WaveDivider from="#e8ddd0" to="var(--bg)" />
       <MiroirSection />
-      <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <EssayeSection />
-      <WaveDivider from="var(--surface-2)" to="var(--bg)" />
       <ProgrammeSection />
-      <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <TemoignagesSection />
-      <WaveDivider from="var(--surface-2)" to="var(--bg)" />
       <QuiSuisJeSection />
-      <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <FaqLandingSection />
       <CtaFinalSection />
     </div>

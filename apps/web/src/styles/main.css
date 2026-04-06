@@ -1143,7 +1143,7 @@ label {
 
 /* Landing hero */
 .landing-hero {
-  min-height: 92vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   background: linear-gradient(160deg, #faf7f2 0%, #f0e8d8 50%, #e8ddd0 100%);
@@ -1154,7 +1154,7 @@ label {
   position: relative;
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: 5rem 2.5rem;
+  padding: 3rem 2.5rem;
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   gap: 4rem;
