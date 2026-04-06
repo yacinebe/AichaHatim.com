@@ -545,10 +545,9 @@ function QuiSuisJeSection() {
                   <div className="quisuisje-beat-connector" />
                 </div>
                 <p className="quisuisje-beat-text">
-                  Je connais très bien ce mode « bonne élève ».{" "}
-                  <strong>Je l'ai vécu de l'intérieur.</strong> Pendant plus de 10 ans,
-                  j'ai évolué dans le corporate, en sales et en management. J'aimais mon travail.
-                  Je performais. J'étais celle sur qui on peut compter : organisée, fiable, toujours à 110%.
+                  Moi aussi, j'ai été la bonne élève. Pendant plus de 10 ans dans le corporate —
+                  sales, management. J'aimais mon travail. Je performais.
+                  J'étais celle sur qui on peut compter. <strong>Toujours à 110%.</strong>
                 </p>
               </div>
               <div className="quisuisje-beat">
@@ -557,9 +556,11 @@ function QuiSuisJeSection() {
                   <div className="quisuisje-beat-connector" />
                 </div>
                 <p className="quisuisje-beat-text">
-                  De l'extérieur… ça ressemblait exactement à ce qu'on appelle une « réussite ».{" "}
-                  <strong>Mais à l'intérieur… c'était une autre histoire.</strong> Beaucoup de pression.
-                  Une exigence constante. Cette voix qui dit « ce n'est jamais assez ».
+                  De l'extérieur, c'était une réussite. À l'intérieur, j'étais épuisée,
+                  sous pression constante, jamais vraiment fière. Cette voix qui dit
+                  « ce n'est jamais assez ». Ma soupape de décompression ?
+                  Je mangeais trop le weekend pour me noyer — et je repartais au régime le lundi.
+                  <strong> Je recommençais la semaine comme si de rien n'était.</strong>
                 </p>
               </div>
               <div className="quisuisje-beat">
@@ -567,8 +568,11 @@ function QuiSuisJeSection() {
                   <div className="quisuisje-beat-dot" />
                 </div>
                 <p className="quisuisje-beat-text">
-                  Jusqu'au moment où j'ai décidé de me faire accompagner.<br />
-                  Et là… <strong>tout a changé.</strong>
+                  C'est la maternité qui a tout changé. Quand j'ai vu que je n'avais plus rien
+                  à donner à mon enfant en rentrant le soir — que j'étais irritable, absente,
+                  à bout — j'ai su que je ne pouvais plus continuer comme ça.
+                  J'ai décidé de me faire accompagner. Pas parce que tout allait mal.
+                  Mais parce que <strong>je méritais mieux que de juste tenir.</strong>
                 </p>
               </div>
             </div>
@@ -576,8 +580,8 @@ function QuiSuisJeSection() {
 
           {/* Phrase pivot */}
           <div className="quisuisje-pivot">
-            Le problème n'était pas ma vie —<br />
-            mais la manière dont je la vivais.
+            Le problème n'était pas ma vie.<br />
+            C'était la façon dont je la vivais — et la façon dont je me parlais.
           </div>
 
           {/* Aujourd'hui + légitimité */}
@@ -585,9 +589,9 @@ function QuiSuisJeSection() {
             <div className="quisuisje-today-card">
               <p className="quisuisje-today-label">Aujourd'hui</p>
               <p className="quisuisje-today-text">
-                Je suis toujours ambitieuse. Mais je ne vis plus mon ambition dans la pression.
-                Je la vis avec plus de <strong>sérénité</strong>, plus d'<strong>intention</strong>,
-                plus d'<strong>épanouissement</strong>.
+                Je suis toujours ambitieuse. Mais je vis mon ambition avec légèreté.
+                Je prends ma place sans m'excuser. Je rentre à la maison présente.
+                Et je suis enfin fière de qui je suis — <strong>pas juste de ce que je produis.</strong>
               </p>
             </div>
             <div className="quisuisje-today-card">
