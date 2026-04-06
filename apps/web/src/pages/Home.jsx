@@ -315,26 +315,24 @@ function ProgrammeSection() {
           <div className="programme-header">
             <p className="landing-subtitle" style={{ textAlign: "center" }}>Le programme</p>
             <h2 className="landing-title" style={{ textAlign: "center" }}>Réinvention Intérieure</h2>
-            <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-              Tu comprends que <strong>faire plus</strong> ne va pas t'aider à évoluer,
-              et que <strong>tenir encore</strong> va continuer à te coûter.
-              Ce qui doit changer, c'est ce qui se passe <strong>à l'intérieur de toi.</strong>
-            </p>
           </div>
 
           {/* Définition */}
           <div className="programme-def">
-            <p className="programme-def-small">Pas tout casser. Pas repartir de zéro.</p>
+            <p className="programme-def-small">Tu n'as pas besoin de tout casser. Tu n'as pas besoin de faire plus.</p>
             <p className="programme-def-big">
-              Sortir du mode « bonne élève » qui t'a construite…<br />
-              mais qui aujourd'hui te limite.
+              Ce qui doit changer, c'est ce qui se passe à l'intérieur — ces voix qui te disent
+              que tu n'es pas assez, ces mécanismes automatiques qui te poussent à sur-contrôler,
+              à sur-performer, à t'oublier.
             </p>
-            <p className="programme-def-small">Et apprendre à fonctionner autrement :</p>
-            <div className="programme-pillars">
-              <div className="programme-pillar">🛡 avec plus de <strong>sécurité intérieure</strong></div>
-              <div className="programme-pillar">✦ avec plus de <strong>confiance</strong></div>
-              <div className="programme-pillar">💡 avec plus de <strong>clarté</strong></div>
-            </div>
+            <p className="programme-def-small">
+              C'est un travail en profondeur. Pas théorique.{" "}
+              <strong>Ancré dans ta vraie vie, dès la première session.</strong>
+            </p>
+            <p className="programme-def-small" style={{ fontStyle: "italic" }}>
+              Pour que tu passes d'un mode « je serre les dents et je tiens »
+              à un mode « je me fais confiance et j'avance ».
+            </p>
           </div>
 
           {/* Vision */}
