@@ -355,12 +355,12 @@ label {
 }
 
 .hero-btn {
-  background: var(--primary) !important;
-  box-shadow: 0 4px 20px rgba(28,28,46,0.3) !important;
+  background: var(--accent) !important;
+  box-shadow: 0 4px 20px rgba(123,31,53,0.3) !important;
 }
 .hero-btn:hover {
-  background: var(--primary-dim) !important;
-  box-shadow: 0 6px 28px rgba(28,28,46,0.4) !important;
+  background: var(--accent-dim) !important;
+  box-shadow: 0 6px 28px rgba(123,31,53,0.4) !important;
 }
 
 .hero-reassurance {
@@ -1169,7 +1169,7 @@ label {
 }
 .landing-hero-headline {
   font-family: var(--font-heading);
-  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
   font-weight: 600;
   line-height: 1.2;
   color: var(--primary);
@@ -1182,21 +1182,21 @@ label {
   font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.75;
-  max-width: 52ch;
+  max-width: 58ch;
 }
 .landing-hero-mission {
   font-family: var(--font-heading);
   font-size: 1rem;
-  font-weight: 500;
-  color: var(--primary);
+  font-weight: 600;
+  color: #fff;
   line-height: 1.55;
-  background: #f4ede0;
+  background: var(--accent);
   border-radius: var(--radius-sm);
   padding: 1rem 1.25rem;
 }
 .landing-hero-mission strong {
-  color: var(--primary);
-  font-weight: 600;
+  color: #fff;
+  font-weight: 700;
 }
 
 /* Section CTA button — big warm style */
@@ -1215,13 +1215,13 @@ label {
   cursor: pointer;
   text-decoration: none;
   transition: all 0.25s ease;
-  background: var(--primary);
+  background: var(--accent);
   color: #fff;
-  box-shadow: 0 4px 20px rgba(28,28,46,0.25);
+  box-shadow: 0 4px 20px rgba(123,31,53,0.25);
 }
 .btn-cta:hover {
-  background: var(--primary-dim);
-  box-shadow: 0 6px 28px rgba(28,28,46,0.35);
+  background: var(--accent-dim);
+  box-shadow: 0 6px 28px rgba(123,31,53,0.35);
   transform: translateY(-2px);
 }
 
