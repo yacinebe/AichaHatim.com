@@ -2,20 +2,20 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:          #faf6f0;
+  --bg:          #f5eee8;
   --surface:     #ffffff;
-  --surface-2:   #f0ddd0;
-  --surface-3:   #1b2d4f;
-  --border:      #e8ddd5;
-  --text:        #1b2d4f;
-  --text-muted:  #5a5060;
-  --text-light:  #9a8f98;
-  --primary:     #1b2d4f;
-  --primary-deep:#1b2d4f;
-  --primary-dim: #0e1a2e;
-  --accent:      #c4845a;
-  --accent-dim:  #a06840;
-  --accent-light:#e8c4a8;
+  --surface-2:   #ede4dc;
+  --surface-3:   #7b1f35;
+  --border:      #e0d5cc;
+  --text:        #1a1a1a;
+  --text-muted:  #5a5050;
+  --text-light:  #9a8f88;
+  --primary:     #1a1a1a;
+  --primary-deep:#7b1f35;
+  --primary-dim: #5a1525;
+  --accent:      #7b1f35;
+  --accent-dim:  #5a1525;
+  --accent-light:#c4a0a8;
   --warm:        #d4a373;
   --warm-light:  #e6c9a8;
   --success:     #4a8c6f;
@@ -1146,7 +1146,7 @@ label {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(160deg, #faf6f0 0%, #f5e8dc 50%, #f0ddd0 100%);
+  background: linear-gradient(160deg, #f5eee8 0%, #ede4dc 50%, #e4d8cc 100%);
   position: relative;
   overflow: hidden;
 }
