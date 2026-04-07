@@ -1222,10 +1222,6 @@ label {
   box-shadow: 0 6px 28px rgba(28,28,46,0.35);
   transform: translateY(-2px);
 }
-  background: var(--primary);
-  box-shadow: 0 6px 28px rgba(45,74,62,0.35);
-  transform: translateY(-2px);
-}
 
 /* Landing section — general */
 .landing-section {
