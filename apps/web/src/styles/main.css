@@ -2227,7 +2227,7 @@ label {
 }
 
 .miroir-pourtant-left {
-  background: var(--surface-2);
+  background: var(--accent);
   padding: 1.75rem 2rem;
   display: flex;
   flex-direction: column;
@@ -2239,7 +2239,7 @@ label {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--accent-dim);
+  color: rgba(255,255,255,0.7);
 }
 
 .miroir-pourtant-item {
@@ -2247,20 +2247,20 @@ label {
   align-items: center;
   gap: 0.6rem;
   font-size: 0.92rem;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.9);
 }
 
 .miroir-pourtant-check {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 1.5px solid var(--accent);
+  border: 1.5px solid rgba(255,255,255,0.5);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   font-size: 0.65rem;
-  color: var(--accent);
+  color: #fff;
 }
 
 .miroir-pourtant-right {
