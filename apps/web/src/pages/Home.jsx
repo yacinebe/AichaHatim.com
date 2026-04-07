@@ -315,8 +315,10 @@ function ProgrammeSection() {
 
           {/* Header */}
           <div className="programme-header">
-            <p className="programme-eyebrow">Le programme</p>
-            <h2 className="programme-big-title">Réinvention<br /><em>Intérieure</em></h2>
+            <p className="programme-eyebrow">Bienvenue dans ton programme</p>
+            <div className="programme-title-bandeau">
+              <h2 className="programme-title-text">RÉINVENTION INTÉRIEURE</h2>
+            </div>
           </div>
 
           {/* Définition */}
