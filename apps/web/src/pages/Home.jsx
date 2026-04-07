@@ -288,7 +288,7 @@ function EssayeSection() {
             </p>
           </div>
 
-          <p className="landing-text" style={{ textAlign: "center", margin: "0 auto", fontWeight: 500, color: "var(--primary)" }}>
+          <p className="essaye-closer">
             Si tu sens que tu tournes en rond…<br />
             c'est exactement ce qu'on vient débloquer ensemble.
           </p>
