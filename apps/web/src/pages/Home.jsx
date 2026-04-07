@@ -104,7 +104,7 @@ function HeroSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function MiroirSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--surface)" }}>
+    <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="miroir-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>Qui est la bonne élève ?</h2>
@@ -215,7 +215,7 @@ function MiroirSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function EssayeSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--surface)" }}>
+    <section className="landing-section" style={{ background: "var(--surface-2)" }}>
       <div className="container">
         <div className="essaye-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>
@@ -475,7 +475,7 @@ function TemoignagesSection() {
   const { data: testimonials } = useQuery({ queryKey: ["testimonials"], queryFn: api.getTestimonials });
 
   return (
-    <section className="landing-section" style={{ background: "var(--surface)" }}>
+    <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div style={{ textAlign: "center", marginBottom: "3rem" }}>
           <p className="landing-subtitle">Elles l'ont vécu</p>
@@ -529,7 +529,7 @@ function TemoignagesSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function QuiSuisJeSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--bg)" }}>
+    <section className="landing-section" style={{ background: "var(--surface-2)" }}>
       <div className="container">
         <div className="quisuisje-content">
           <p className="landing-subtitle" style={{ textAlign: "center" }}>Qui suis-je</p>
@@ -651,7 +651,7 @@ function FaqLandingSection() {
   const [openIdx, setOpenIdx] = useState(0);
 
   return (
-    <section className="landing-section" style={{ background: "var(--surface)" }}>
+    <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="faq-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>Tu te demandes peut-être…</h2>
@@ -741,19 +741,19 @@ export default function Home() {
   return (
     <div className="page">
       <HeroSection />
-      <WaveDivider from="#edd5c8" to="var(--surface)" />
+      <WaveDivider from="#edd5c8" to="var(--bg)" />
       <MiroirSection />
-      <WaveDivider from="var(--surface)" to="var(--surface)" />
+      <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <EssayeSection />
-      <WaveDivider from="var(--surface)" to="var(--surface-2)" />
-      <ProgrammeSection />
       <WaveDivider from="var(--surface-2)" to="var(--surface)" />
+      <ProgrammeSection />
+      <WaveDivider from="var(--surface-2)" to="var(--bg)" />
       <TemoignagesSection />
-      <WaveDivider from="var(--surface)" to="var(--bg)" />
+      <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <QuiSuisJeSection />
-      <WaveDivider from="var(--bg)" to="var(--surface)" />
+      <WaveDivider from="var(--surface-2)" to="var(--bg)" />
       <FaqLandingSection />
-      <WaveDivider from="var(--surface)" to="var(--surface-3)" />
+      <WaveDivider from="var(--bg)" to="var(--surface-3)" />
       <CtaFinalSection />
     </div>
   );
