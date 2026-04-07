@@ -2,9 +2,9 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:          #faf7f2;
+  --bg:          #fdfaf6;
   --surface:     #ffffff;
-  --surface-2:   #f0eae2;
+  --surface-2:   #edd5c8;
   --surface-3:   #1c1c2e;
   --border:      #e8e0d8;
   --text:        #1c1c2e;
@@ -1146,7 +1146,7 @@ label {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(160deg, #faf7f2 0%, #f0eae2 50%, #e8ddd5 100%);
+  background: linear-gradient(160deg, #fdfaf6 0%, #f5ece4 50%, #edd5c8 100%);
   position: relative;
   overflow: hidden;
 }
