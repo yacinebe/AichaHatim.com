@@ -2458,7 +2458,7 @@ label {
 
 .essaye-closer {
   font-family: var(--font-heading);
-  font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--primary);
   text-align: center;
