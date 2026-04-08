@@ -337,7 +337,7 @@ function ProgrammeSection() {
             </div>
             <div className="programme-def-divider" />
             <p className="programme-def-quote">
-              Pour que tu passes d'un mode « je serre les dents et je tiens »
+              Pour que tu passes d'un mode « je serre les dents et je tiens »<br />
               à un mode « je me fais confiance et j'avance ».
             </p>
           </div>
@@ -377,7 +377,8 @@ function ProgrammeSection() {
           <div className="programme-methode">
             <h3 className="programme-section-title">Ma méthode — 3 piliers</h3>
             <p className="programme-section-sub">
-              On ne fait pas que comprendre. On change ta manière de fonctionner — durablement.
+              On ne fait pas que comprendre.<br />
+              On change ta manière de fonctionner — durablement.
             </p>
             <div className="programme-methode-cards">
               <div className="programme-mcard">
