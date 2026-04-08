@@ -2402,8 +2402,13 @@ label {
 .cta-final-text strong { color: #fff; }
 .cta-final-reassurance { color: rgba(255,255,255,0.4); }
 .cta-final-btn {
-  background: var(--accent) !important;
-  box-shadow: 0 4px 20px rgba(181,98,42,0.4) !important;
+  background: #fff !important;
+  color: var(--accent) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
+}
+.cta-final-btn:hover {
+  background: var(--bg) !important;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.2) !important;
 }
 
 /* ── Programme grand titre serif ── */

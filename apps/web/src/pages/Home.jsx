@@ -528,7 +528,12 @@ function QuiSuisJeSection() {
       <div className="container">
         <div className="quisuisje-content">
           <p className="landing-subtitle" style={{ textAlign: "center" }}>Qui suis-je</p>
-          <h2 className="landing-title" style={{ textAlign: "center" }}>Et pourquoi je te parle de ça</h2>
+          <h2 className="landing-title" style={{ textAlign: "center" }}>
+            Et pourquoi je te parle de ça<br />
+            <span style={{ fontSize: "0.75em", fontWeight: 400, color: "var(--text-muted)" }}>
+              (et ce que ça change pour toi)
+            </span>
+          </h2>
 
           {/* Photo + timeline */}
           <div className="quisuisje-top">
@@ -649,7 +654,12 @@ function FaqLandingSection() {
     <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="faq-content">
-          <h2 className="landing-title" style={{ textAlign: "center" }}>Tu te demandes peut-être…</h2>
+          <h2 className="landing-title" style={{ textAlign: "center" }}>
+            Tu te demandes peut-être…<br />
+            <span style={{ fontSize: "0.75em", fontWeight: 400, color: "var(--text-muted)" }}>
+              quelques réponses honnêtes
+            </span>
+          </h2>
 
           <div className="faq-two-col">
             {/* Questions list */}
