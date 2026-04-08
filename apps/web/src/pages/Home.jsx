@@ -463,9 +463,6 @@ function ProgrammeSection() {
 
           {/* CTA */}
           <div className="section-cta">
-            <p style={{ textAlign: "center", fontWeight: 500, color: "var(--primary)", marginBottom: "1rem" }}>
-              Si tu veux faire ce travail accompagnée…
-            </p>
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
               Réserver ma session offerte
             </a>
@@ -485,7 +482,6 @@ function TemoignagesSection() {
     <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-          <p className="landing-subtitle">Elles l'ont vécu</p>
           <h2 className="landing-title">Témoignages</h2>
         </div>
 
@@ -518,14 +514,6 @@ function TemoignagesSection() {
           </div>
         )}
 
-        <p className="landing-text" style={{ textAlign: "center", margin: "2.5rem auto 0", fontWeight: 500, color: "var(--primary)" }}>
-          Si tu te reconnais dans ces parcours…
-        </p>
-        <div className="section-cta">
-          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
-            Parlons-en
-          </a>
-        </div>
       </div>
     </section>
   );
