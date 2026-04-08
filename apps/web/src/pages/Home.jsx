@@ -309,15 +309,17 @@ function EssayeSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function ProgrammeSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--surface)" }}>
+    <>
+      {/* Bandeau header bordeaux */}
+      <div className="programme-bandeau">
+        <p className="programme-bandeau-eyebrow">Bienvenue dans ton programme</p>
+        <h2 className="programme-bandeau-title">Réinvention Intérieure</h2>
+      </div>
+
+      {/* Contenu sur fond beige */}
+      <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="programme-content">
-
-          {/* Header */}
-          <div className="programme-header">
-            <p className="programme-eyebrow">Bienvenue dans ton programme</p>
-            <h2 className="programme-title-underline">Réinvention Intérieure</h2>
-          </div>
 
           {/* Définition */}
           <div className="programme-def">
@@ -465,11 +467,9 @@ function ProgrammeSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }
-
-// ═══════════════════════════════════════════════════════════════════════
-// SECTION 8 — TÉMOIGNAGES
 // ═══════════════════════════════════════════════════════════════════════
 function TemoignagesSection() {
   const { data: testimonials } = useQuery({ queryKey: ["testimonials"], queryFn: api.getTestimonials });
@@ -745,9 +745,9 @@ export default function Home() {
       <MiroirSection />
       <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <EssayeSection />
-      <WaveDivider from="var(--surface-2)" to="var(--surface)" />
+      <WaveDivider from="var(--surface-2)" to="var(--accent)" />
       <ProgrammeSection />
-      <WaveDivider from="var(--surface)" to="var(--bg)" />
+      <WaveDivider from="var(--bg)" to="var(--bg)" />
       <TemoignagesSection />
       <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <QuiSuisJeSection />
