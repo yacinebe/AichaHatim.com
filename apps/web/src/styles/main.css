@@ -1943,7 +1943,7 @@ label {
   font-family: var(--font-heading);
   font-size: 2rem;
   font-weight: 700;
-  color: var(--accent-light);
+  color: var(--accent);
   line-height: 1;
 }
 .programme-mcard-title { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 600; color: var(--primary); }
