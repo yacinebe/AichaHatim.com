@@ -527,11 +527,10 @@ function QuiSuisJeSection() {
     <section className="landing-section" style={{ background: "var(--surface-2)" }}>
       <div className="container">
         <div className="quisuisje-content">
-          <p className="landing-subtitle" style={{ textAlign: "center" }}>Qui suis-je</p>
           <h2 className="landing-title" style={{ textAlign: "center" }}>
-            Et pourquoi je te parle de ça<br />
+            Qui suis-je<br />
             <span style={{ fontSize: "0.75em", fontWeight: 400, color: "var(--text-muted)" }}>
-              (et ce que ça change pour toi)
+              Et pourquoi je te parle de ça
             </span>
           </h2>
 
