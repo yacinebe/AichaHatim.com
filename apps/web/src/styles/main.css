@@ -2447,13 +2447,7 @@ label {
   margin-bottom: 0.5rem;
 }
 
-/* ── FAQ titre en accent ── */
-.faq-content > .landing-title {
-  font-family: var(--font-serif);
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 400;
-  color: var(--accent);
-}
+/* faq title uses standard landing-title */
 
 .programme-def-big {
   font-family: var(--font-heading);

@@ -654,10 +654,7 @@ function FaqLandingSection() {
       <div className="container">
         <div className="faq-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>
-            Tu te demandes peut-être…<br />
-            <span style={{ fontSize: "0.75em", fontWeight: 400, color: "var(--text-muted)" }}>
-              quelques réponses honnêtes
-            </span>
+            Tu te demandes peut-être…
           </h2>
 
           <div className="faq-two-col">
