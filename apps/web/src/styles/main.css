@@ -2486,3 +2486,14 @@ label {
   text-transform: uppercase;
   margin: 0;
 }
+
+.programme-title-underline {
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 700;
+  color: var(--primary);
+  text-align: center;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}

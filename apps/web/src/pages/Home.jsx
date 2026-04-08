@@ -309,16 +309,14 @@ function EssayeSection() {
 // ═══════════════════════════════════════════════════════════════════════
 function ProgrammeSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--surface-2)" }}>
+    <section className="landing-section" style={{ background: "var(--surface)" }}>
       <div className="container">
         <div className="programme-content">
 
           {/* Header */}
           <div className="programme-header">
             <p className="programme-eyebrow">Bienvenue dans ton programme</p>
-            <div className="programme-title-bandeau">
-              <h2 className="programme-title-text">RÉINVENTION INTÉRIEURE</h2>
-            </div>
+            <h2 className="programme-title-underline">Réinvention Intérieure</h2>
           </div>
 
           {/* Définition */}
@@ -749,7 +747,7 @@ export default function Home() {
       <EssayeSection />
       <WaveDivider from="var(--surface-2)" to="var(--surface)" />
       <ProgrammeSection />
-      <WaveDivider from="var(--surface-2)" to="var(--bg)" />
+      <WaveDivider from="var(--surface)" to="var(--bg)" />
       <TemoignagesSection />
       <WaveDivider from="var(--bg)" to="var(--surface-2)" />
       <QuiSuisJeSection />
