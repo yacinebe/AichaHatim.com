@@ -328,13 +328,14 @@ function ProgrammeSection() {
             </p>
             <p className="programme-def-big">
               Ce qui doit changer, c'est ce qui se passe à l'intérieur — ces voix qui te disent
-              que tu n'es pas assez, ces mécanismes automatiques qui te poussent à sur-contrôler,
-              à sur-performer, à t'oublier.
+              que tu n'es pas assez, ces mécanismes qui te poussent à sur-contrôler, à t'oublier.
             </p>
-            <p className="programme-def-intro">
-              C'est un travail en profondeur. Pas théorique.{" "}
-              <strong>Ancré dans ta vraie vie, dès la première session.</strong>
-            </p>
+            <div className="programme-def-tags">
+              <div className="programme-def-tag"><div className="programme-def-dot" />Travail en profondeur</div>
+              <div className="programme-def-tag"><div className="programme-def-dot" />Pas théorique</div>
+              <div className="programme-def-tag"><div className="programme-def-dot" />Ancré dès la 1ère session</div>
+            </div>
+            <div className="programme-def-divider" />
             <p className="programme-def-quote">
               Pour que tu passes d'un mode « je serre les dents et je tiens »
               à un mode « je me fais confiance et j'avance ».
