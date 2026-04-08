@@ -374,6 +374,7 @@ function ProgrammeSection() {
           </div>
 
           {/* Méthode */}
+          <div className="programme-methode-wrapper">
           <div className="programme-methode">
             <div className="programme-methode-header">
               <div className="programme-methode-sep" />
@@ -424,6 +425,7 @@ function ProgrammeSection() {
                 </p>
               </div>
             </div>
+          </div>
           </div>
 
           {/* Structure */}
