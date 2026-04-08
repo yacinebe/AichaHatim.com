@@ -375,8 +375,8 @@ function ProgrammeSection() {
 
           {/* Méthode */}
           <div className="programme-methode">
-            <div style={{ textAlign: "center" }}>
-              <p className="programme-eyebrow">Mon approche</p>
+            <div className="programme-methode-header">
+              <div className="programme-methode-sep" />
               <h3 className="landing-title" style={{ marginBottom: "0.5rem" }}>Ma méthode — 3 piliers</h3>
               <p className="programme-section-sub">
                 On ne fait pas que comprendre.<br />
