@@ -1192,10 +1192,11 @@ label {
   font-weight: 600;
   color: var(--primary);
   line-height: 1.55;
-  background: var(--surface-2);
-  border-radius: var(--radius-sm);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   padding: 1rem 1.25rem;
-  border-radius: 0;
 }
 .landing-hero-mission strong {
   color: var(--accent);
