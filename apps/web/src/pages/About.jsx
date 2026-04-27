@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 
 const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "https://calendly.com/aicha-hatim/let-s-chat";
 
-// ── Photo switcher (temporaire — pour tester les photos) ──────────────
 const PHOTOS = [
   "IMG_4586.JPG","IMG_4587.JPG","IMG_4589.JPG","IMG_4591.JPG","IMG_4592.JPG",
   "IMG_4593.JPG","IMG_4594 2.JPG","IMG_4594.JPG","IMG_4595 2.JPG","IMG_4595.JPG",
@@ -35,34 +34,16 @@ function PhotoSwitcher({ startIndex = 0 }) {
   );
 }
 
-// ── Wave divider ──────────────────────────────────────────────────────
-function WaveDivider({ to = "var(--surface-2)" }) {
+function WaveDivider({ from = "transparent", to = "var(--surface-2)" }) {
   return (
-    <div className="wave-divider">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+    <div style={{ lineHeight: 0, background: from }}>
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" style={{ display: "block", width: "100%", height: "60px" }}>
         <path d="M0,0 C360,60 1080,0 1440,60 L1440,60 L0,60 Z" fill={to} />
       </svg>
     </div>
   );
 }
 
-// ── Story block : photo + text (alterne gauche/droite) ─────────────────
-function StoryBlock({ photoIndex, reversed = false, children }) {
-  return (
-    <div className={`story-block ${reversed ? "reversed" : ""}`}>
-      <div className="landing-photo story-photo">
-        <PhotoSwitcher startIndex={photoIndex} />
-      </div>
-      <div className="story-text">
-        {children}
-      </div>
-    </div>
-  );
-}
-
-// ═══════════════════════════════════════════════════════════════════════
-// PAGE À PROPOS
-// ═══════════════════════════════════════════════════════════════════════
 export default function About() {
   const { hash } = useLocation();
   useEffect(() => {
@@ -74,270 +55,247 @@ export default function About() {
 
   return (
     <div className="page">
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* HEADER */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      <section className="landing-section" style={{ background: "linear-gradient(160deg, #faf8f5 0%, #f0e8d8 100%)", paddingTop: "5rem", paddingBottom: "4rem" }}>
+
+      {/* HERO */}
+      <section className="landing-section about-hero" style={{ background: "linear-gradient(160deg, var(--bg) 0%, var(--surface-2) 100%)", paddingTop: "5rem", paddingBottom: "4rem" }}>
         <div className="container">
-          <div className="about-header">
-            <p className="landing-subtitle">À propos</p>
-            <h1 className="about-main-headline">
-              Je t'aide à sortir du rôle de la bonne élève<br />
-              <span className="headline-warm">pour devenir une leader épanouie</span><br />
-              — au travail et dans ta vie.
-            </h1>
-            <div className="about-intro">
-              <p>
-                Je m'appelle <strong>Aïcha Hatim</strong>. Je suis coach professionnelle certifiée (ICF).
+          <div className="about-hero-inner">
+            <div className="about-hero-content">
+              <p className="landing-subtitle">À propos</p>
+              <h1 className="about-headline">
+                Je t'aide à sortir du rôle de la bonne élève
+                <span className="headline-warm"> pour devenir une leader épanouie</span>
+                {" "}— au travail et dans ta vie.
+              </h1>
+              <p className="about-intro-text">
+                Je m'appelle <strong>Aïcha Hatim</strong>. Je suis coach professionnelle certifiée ICF.
               </p>
               <p className="about-intro-punchline">
                 Mais avant ça… <strong>j'ai été exactement cette femme.</strong>
               </p>
             </div>
+            <div className="about-hero-photo">
+              <PhotoSwitcher startIndex={0} />
+            </div>
           </div>
         </div>
       </section>
 
-      <WaveDivider to="var(--bg)" />
+      <WaveDivider from="var(--surface-2)" to="var(--bg)" />
 
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* MON HISTOIRE */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
+      {/* HISTOIRE — ENFANCE */}
       <section id="histoire" className="landing-section" style={{ background: "var(--bg)" }}>
         <div className="container">
-          <div style={{ textAlign: "center", marginBottom: "4rem" }}>
-            <p className="landing-subtitle">Chapitre 1</p>
-            <h2 className="landing-title">Mon histoire</h2>
-          </div>
-
-          <div className="story-blocks">
-
-            {/* Photo enfant */}
-            <StoryBlock photoIndex={0}>
+          <div className="about-story-block">
+            <div className="about-story-text">
               <p className="story-eyebrow">L'enfance</p>
-              <p className="landing-text">
-                Je suis née au Maroc, j'ai grandi à Casablanca.<br />
-                Avec des croyances très claires :
+              <p className="about-story-body">
+                Je suis née au Maroc, j'ai grandi à Casablanca. Avec des croyances très claires dès le départ :
+                qu'il faut travailler dur pour y arriver, que quand on veut on peut —
+                et surtout, qu'être émotive, c'est une faiblesse.
               </p>
-              <ul className="arrow-list">
-                <li>Il faut travailler dur pour y arriver</li>
-                <li>Quand on veut, on peut</li>
-                <li>Être émotive, c'est une faiblesse</li>
-              </ul>
-            </StoryBlock>
+              <p className="about-story-body">
+                Ces croyances m'ont construite. Et pendant longtemps, elles m'ont bien servie.
+              </p>
+            </div>
+            <div className="about-story-photo">
+              <PhotoSwitcher startIndex={0} />
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Photo corporate */}
-            <StoryBlock photoIndex={4} reversed>
+      <WaveDivider from="var(--bg)" to="var(--surface)" />
+
+      {/* CORPORATE */}
+      <section className="landing-section" style={{ background: "var(--surface)" }}>
+        <div className="container">
+          <div className="about-story-block reversed">
+            <div className="about-story-photo">
+              <PhotoSwitcher startIndex={4} />
+            </div>
+            <div className="about-story-text">
               <p className="story-eyebrow">Le corporate</p>
-              <p className="landing-text">
-                J'ai fait prépa, école de commerce.<br />
-                Puis j'ai construit une carrière dans le corporate. Sales. Management. Responsabilités.
-                Des grandes boîtes, des startups.
+              <p className="about-story-body">
+                J'ai fait prépa, école de commerce. Puis j'ai construit une carrière dans le corporate —
+                sales, management, responsabilités. Des grandes boîtes, des startups.
               </p>
-              <p className="landing-text">
-                <strong>J'étais performante. Très performante.</strong>
+              <p className="about-story-body">
+                <strong>J'étais performante. Très performante.</strong> Toujours préparée, toujours fiable, toujours à 110%.
+                J'ai été promue. Reconnue. Récompensée.
               </p>
-              <ul className="arrow-list">
-                <li>Toujours préparée</li>
-                <li>Toujours fiable</li>
-                <li>Toujours à 110%</li>
-              </ul>
-              <p className="landing-text">
-                J'ai été promue. Reconnue. Récompensée.<br />
+              <p className="about-story-body">
                 De l'extérieur… <em>tout était « réussi ».</em>
               </p>
-            </StoryBlock>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Photo vie perso */}
-            <StoryBlock photoIndex={8}>
+      <WaveDivider from="var(--surface)" to="var(--bg)" />
+
+      {/* INTÉRIEUR */}
+      <section className="landing-section" style={{ background: "var(--bg)" }}>
+        <div className="container">
+          <div className="about-story-block">
+            <div className="about-story-text">
               <p className="story-eyebrow">Mais à l'intérieur…</p>
-              <p className="landing-text">
-                C'était autre chose.
+              <p className="about-story-body">
+                C'était autre chose. Beaucoup de pression. Une exigence constante.
+                Une voix qui disait « c'est jamais assez ».
               </p>
-              <ul className="arrow-list">
-                <li>Beaucoup de pression</li>
-                <li>Une exigence constante</li>
-                <li>Une voix qui disait « c'est jamais assez »</li>
-              </ul>
-              <p className="landing-text">
-                Je vivais dans le contrôle. Toujours en train d'anticiper. De gérer. De tenir.<br />
-                Et dès que je relâchais…
+              <p className="about-story-body">
+                Je vivais dans le contrôle. Toujours en train d'anticiper. De gérer. De tenir.
+                Et dès que je relâchais — je mangeais sans faim, je scrollais, je me sentais vide.
               </p>
-              <ul className="arrow-list">
-                <li>Je mangeais sans faim</li>
-                <li>Je scrollais</li>
-                <li>Je me sentais vide</li>
-              </ul>
-              <p className="landing-text">
-                <em>Mais je pensais que c'était normal.</em>
+              <p className="about-story-emphasis">
+                Mais je pensais que c'était normal.
               </p>
-            </StoryBlock>
+            </div>
+            <div className="about-story-photo">
+              <PhotoSwitcher startIndex={8} />
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Photo bébé */}
-            <StoryBlock photoIndex={12} reversed>
-              <p className="story-eyebrow">La maternité — Le tournant</p>
-              <p className="landing-text">
-                Et puis il y a eu la maternité.<br />
-                Et là…
+      <WaveDivider from="var(--bg)" to="var(--surface)" />
+
+      {/* MATERNITÉ */}
+      <section className="landing-section" style={{ background: "var(--surface)" }}>
+        <div className="container">
+          <div className="about-story-block reversed">
+            <div className="about-story-photo">
+              <PhotoSwitcher startIndex={12} />
+            </div>
+            <div className="about-story-text">
+              <p className="story-eyebrow">La maternité — le tournant</p>
+              <p className="about-story-body">
+                Et puis il y a eu la maternité. Et là — plus de contrôle possible, plus de mode d'emploi,
+                plus de perfection possible.
               </p>
-              <ul className="arrow-list">
-                <li>Plus de contrôle possible</li>
-                <li>Plus de mode d'emploi</li>
-                <li>Plus de perfection possible</li>
-              </ul>
-              <p className="landing-text">
+              <p className="about-story-body">
                 <strong>Tout ce qui « marchait » avant… ne marchait plus.</strong>
               </p>
-              <p className="landing-text">
-                J'ai essayé de faire comme avant : plus de discipline et plus de contrôle. Mais ça ne fonctionnait pas.
-              </p>
-              <p className="landing-text">
-                Et malgré une vie que j'avais « réussie » sur le papier…
+              <p className="about-story-body">
+                J'ai essayé de faire comme avant : plus de discipline, plus de contrôle.
+                Mais ça ne fonctionnait pas. Et malgré une vie que j'avais « réussie » sur le papier…
                 <em> je ne me sentais pas bien dans ma vie.</em>
               </p>
-            </StoryBlock>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Photo 2023 */}
-            <StoryBlock photoIndex={16}>
+      <WaveDivider from="var(--surface)" to="var(--bg)" />
+
+      {/* DÉCLIC */}
+      <section className="landing-section" style={{ background: "var(--bg)" }}>
+        <div className="container">
+          <div className="about-story-block">
+            <div className="about-story-text">
               <p className="story-eyebrow">Le déclic</p>
-              <p className="landing-text">
+              <p className="about-story-body">
                 J'ai mis du temps à comprendre que je ne pouvais pas régler ça seule.
                 Les livres, les podcasts, la discipline… ne suffisaient pas.
               </p>
-              <p className="landing-text">
+              <p className="about-story-body">
                 Alors j'ai investi en moi. J'ai fait une thérapie et des coachings.
                 J'ai commencé un vrai travail intérieur.
               </p>
-              <p className="landing-text" style={{ fontWeight: 500, color: "var(--primary)" }}>
-                Et là… quelque chose a changé.
+              <p className="about-story-emphasis">Et là… quelque chose a changé.</p>
+              <p className="about-story-body">
+                J'ai appris à écouter mes émotions, comprendre mes mécanismes,
+                apaiser mon système nerveux, changer mon dialogue intérieur.
+                J'ai redéfini ce qui comptait vraiment pour moi.
               </p>
-              <p className="landing-text">J'ai appris à :</p>
-              <ul className="arrow-list">
-                <li>Écouter mes émotions</li>
-                <li>Comprendre mes mécanismes</li>
-                <li>Apaiser mon système nerveux</li>
-                <li>Changer mon dialogue intérieur</li>
-              </ul>
-              <p className="landing-text">
-                J'ai redéfini ce qui comptait vraiment pour moi.<br />
+              <p className="about-story-body">
                 Et surtout : <strong>j'ai arrêté de fonctionner contre moi.</strong>
               </p>
-            </StoryBlock>
-
-            {/* Photo qui coach */}
-            <StoryBlock photoIndex={20} reversed>
-              <p className="story-eyebrow">L'ouverture</p>
-              <p className="landing-text">
-                En enlevant cette pression… <strong>tout s'est ouvert.</strong>
-              </p>
-              <ul className="arrow-list">
-                <li>J'ai changé de pays</li>
-                <li>J'ai quitté le corporate</li>
-                <li>Je me suis reconvertie dans le coaching</li>
-                <li>J'ai vécu ma deuxième maternité autrement</li>
-              </ul>
-              <p className="landing-text">Et aujourd'hui :</p>
-              <ul className="arrow-list">
-                <li>Mon authenticité est ma boussole</li>
-                <li>Mon dialogue intérieur est un KPI</li>
-              </ul>
-              <p className="landing-text">
-                Je suis toujours ambitieuse. Mais je ne vis plus mon ambition dans la pression.
-              </p>
-              <p className="landing-text">Je la vis avec :</p>
-              <ul className="arrow-list">
-                <li>Plus de sérénité</li>
-                <li>Plus d'intention</li>
-                <li>Plus d'épanouissement</li>
-              </ul>
-            </StoryBlock>
-
+            </div>
+            <div className="about-story-photo">
+              <PhotoSwitcher startIndex={16} />
+            </div>
           </div>
         </div>
       </section>
 
-      <WaveDivider to="var(--surface-2)" />
+      <WaveDivider from="var(--bg)" to="var(--surface)" />
 
-      {/* ═══════════════════════════════════════════════════════════════ */}
+      {/* OUVERTURE */}
+      <section className="landing-section" style={{ background: "var(--surface)" }}>
+        <div className="container">
+          <div className="about-story-block reversed">
+            <div className="about-story-photo">
+              <PhotoSwitcher startIndex={20} />
+            </div>
+            <div className="about-story-text">
+              <p className="story-eyebrow">L'ouverture</p>
+              <p className="about-story-body">
+                En enlevant cette pression… <strong>tout s'est ouvert.</strong>
+                J'ai changé de pays, quitté le corporate, me suis reconvertie dans le coaching,
+                et j'ai vécu ma deuxième maternité autrement.
+              </p>
+              <p className="about-story-body">
+                Je suis toujours ambitieuse. Mais je ne vis plus mon ambition dans la pression.
+                Mon authenticité est ma boussole. Mon dialogue intérieur est un KPI.
+              </p>
+              <p className="about-story-body">
+                Je la vis avec plus de sérénité, plus d'intention, plus d'épanouissement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <WaveDivider from="var(--surface)" to="var(--surface-2)" />
+
       {/* MON COACHING */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
       <section id="coaching" className="landing-section" style={{ background: "var(--surface-2)" }}>
         <div className="container">
-          <div style={{ textAlign: "center", marginBottom: "4rem" }}>
-            <p className="landing-subtitle">Chapitre 2</p>
-            <h2 className="landing-title">Mon coaching</h2>
-          </div>
-
-          <div style={{ display: "grid", gridTemplateColumns: "0.9fr 1.1fr", gap: "4rem", alignItems: "center" }}>
-            <div className="landing-photo">
+          <div className="about-coaching-inner">
+            <div className="about-coaching-photo">
               <PhotoSwitcher startIndex={24} />
             </div>
-
-            <div>
-              <div className="badges" style={{ marginBottom: "1.5rem" }}>
-                <span className="badge">🏅 ICF Certified</span>
-                <span className="badge">🎓 Co-Active Training Institute</span>
+            <div className="about-coaching-content">
+              <p className="story-eyebrow">Mon coaching</p>
+              <div className="about-certifs">
+                <span className="quisuisje-certif">ICF Certified</span>
+                <span className="quisuisje-certif">Co-Active Training Institute</span>
               </div>
-
-              <p className="landing-text">
+              <p className="about-story-body">
                 Je suis coach certifiée <strong>Co-Active</strong> et accréditée <strong>ICF</strong>
-                (International Coaching Federation, la référence mondiale du coaching).
+                {" "}(International Coaching Federation, la référence mondiale du coaching).
               </p>
-
-              <p className="landing-text">
-                Mon approche repose sur une conviction forte :
-              </p>
-
-              <p className="coaching-belief">
-                Tu n'as rien à « corriger ».<br />
-                <strong>Tu es déjà complète.</strong>
-              </p>
-
-              <p className="landing-text">
-                Mon rôle, ce n'est pas de te dire quoi faire. C'est de t'aider à :
-              </p>
-              <ul className="arrow-list">
-                <li>Voir ce que tu ne vois pas</li>
-                <li>Comprendre comment tu fonctionnes</li>
-                <li>Et changer en profondeur</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="coaching-approach">
-            <h3 style={{ textAlign: "center", fontSize: "1.4rem", color: "var(--primary)", marginBottom: "2rem" }}>
-              Mon coaching est à la croisée de deux mondes
-            </h3>
-            <div className="coaching-worlds">
-              <div className="coaching-world">
-                <span className="coaching-world-icon">🌿</span>
-                <h4>Travail intérieur profond</h4>
-                <p>Émotions, saboteurs, parts, croyances</p>
+              <div className="about-belief">
+                <p>Tu n'as rien à « corriger ».<br /><strong>Tu es déjà complète.</strong></p>
               </div>
-              <div className="coaching-world-divider">×</div>
-              <div className="coaching-world">
-                <span className="coaching-world-icon">⚡</span>
-                <h4>Transformations concrètes</h4>
-                <p>Dans ta vraie vie : travail, leadership, relations</p>
+              <p className="about-story-body">
+                Mon rôle, ce n'est pas de te dire quoi faire. C'est de t'aider à voir ce que tu ne vois pas,
+                comprendre comment tu fonctionnes — et changer en profondeur.
+              </p>
+              <div className="about-worlds">
+                <div className="about-world">
+                  <p className="about-world-label">Travail intérieur profond</p>
+                  <p className="about-world-sub">Émotions, saboteurs, parts, croyances</p>
+                </div>
+                <div className="about-world-sep">×</div>
+                <div className="about-world">
+                  <p className="about-world-label">Transformations concrètes</p>
+                  <p className="about-world-sub">Dans ta vraie vie : travail, leadership, relations</p>
+                </div>
               </div>
             </div>
-            <p className="coaching-closer">
-              Parce que réussir, c'est bien<br />
-              et <strong>s'épanouir, c'est essentiel.</strong><br />
-              <em>Et tu n'as pas à choisir entre les deux.</em>
-            </p>
           </div>
         </div>
       </section>
 
-      <WaveDivider to="var(--surface-3)" />
+      <WaveDivider from="var(--surface-2)" to="var(--surface-3)" />
 
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* MA MISSION */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      <section className="landing-section" style={{ background: "var(--surface-3)", color: "#fff", textAlign: "center" }}>
+      {/* MISSION */}
+      <section className="landing-section" style={{ background: "var(--surface-3)", textAlign: "center" }}>
         <div className="container">
-          <p className="landing-subtitle" style={{ color: "var(--accent-light)" }}>Ma mission</p>
+          <p className="landing-subtitle" style={{ color: "var(--gold-light)" }}>Ma mission</p>
           <blockquote className="mission-quote">
             « Aider des femmes ambitieuses à se reconnecter à leur monde intérieur…
             pour créer une vie extérieure <strong>qui leur ressemble vraiment.</strong> »
@@ -345,29 +303,28 @@ export default function About() {
         </div>
       </section>
 
-      <WaveDivider to="var(--bg)" />
+      <WaveDivider from="var(--surface-3)" to="var(--bg)" />
 
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* FIN + CTA */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
+      {/* CTA */}
       <section className="landing-section" style={{ background: "var(--bg)", textAlign: "center" }}>
         <div className="container">
-          <div style={{ maxWidth: "620px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem", alignItems: "center" }}>
+          <div className="about-cta">
             <p className="landing-subtitle">Pour conclure</p>
             <h2 className="landing-title">Si tu te reconnais dans mon histoire…</h2>
-            <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
+            <p className="about-story-body" style={{ textAlign: "center", maxWidth: "52ch", margin: "0 auto" }}>
               Alors tu es probablement <strong>exactement là où j'étais.</strong>
             </p>
-            <p className="landing-text" style={{ textAlign: "center", margin: "0 auto", fontWeight: 500, color: "var(--primary)" }}>
-              Et la bonne nouvelle, c'est que <em>ça peut changer.</em><br />
+            <p className="about-story-body" style={{ textAlign: "center", maxWidth: "52ch", margin: "0 auto" }}>
+              Et la bonne nouvelle, c'est que <em>ça peut changer.</em>{" "}
               Pas en faisant plus, mais en apprenant à fonctionner autrement.
             </p>
-            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ marginTop: "0.5rem" }}>
+            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
               Réserver ma session offerte
             </a>
           </div>
         </div>
       </section>
+
     </div>
   );
 }
