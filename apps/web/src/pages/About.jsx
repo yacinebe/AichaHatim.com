@@ -74,7 +74,7 @@ export default function About() {
               </p>
             </div>
             <div className="about-hero-photo">
-              <PhotoSwitcher startIndex={0} />
+              <img src="/about-hero-photo.jpg" alt="Aicha Hatim" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block", borderRadius: "var(--radius)" }} />
             </div>
           </div>
         </div>
