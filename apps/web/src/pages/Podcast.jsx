@@ -37,8 +37,8 @@ export default function PodcastPage() {
               <span className="story-eyebrow">Le podcast</span>
               <h1 className="podcast-title-v2">Réinventions</h1>
               <p className="podcast-tagline-v2">
-                Des conversations avec des femmes (et parfois des hommes) qui se sont
-                <strong> réinventés professionnellement.</strong> Pas de recettes magiques —
+                Des conversations avec des femmes qui se sont
+                <strong> réinventées professionnellement.</strong> Pas de recettes magiques —
                 des récits vrais, des bascules concrètes, des lendemains.
               </p>
               <div className="platform-links">
@@ -66,14 +66,19 @@ export default function PodcastPage() {
           <div className="podcast-manifesto">
             <span className="story-eyebrow" style={{ textAlign: "center", display: "block" }}>Pourquoi ce podcast</span>
             <p className="podcast-manifesto-lead">
-              Parce qu'on parle beaucoup de <em>réussite</em>. Très peu de
-              <strong> bascules.</strong>
+              Et si on parlait enfin de ce qui se passe <em>à l'intérieur</em> quand on décide de changer de cap ?
             </p>
             <p className="podcast-manifesto-body">
-              J'invite des femmes — et parfois des hommes — qui ont quitté un métier, un cadre,
-              une identité professionnelle. Pas pour faire la leçon. Pour raconter
-              <strong> ce qui s'est passé à l'intérieur</strong> avant que ça change à l'extérieur.
-              Une fois sur deux je suis seule au micro, sur un sujet qui m'a traversée la semaine.
+              Réinventions, c'est un podcast sur ces moments où tout bascule : quand une voix en nous murmure que « ça ne colle plus », quand on hésite, qu'on doute, qu'on avance à tâtons vers quelque chose de plus aligné.
+            </p>
+            <p className="podcast-manifesto-body">
+              Ce podcast <strong>n'est pas sur le résultat</strong>, ni sur le succès professionnel. Mes invitées racontent les burnout, les pertes de sens, les années qui passent avant de franchir le pas, les doutes dont on ne se débarrasse jamais vraiment, les sacrifices sans résultat garanti. Vraiment <strong>le monde intérieur derrière une réinvention</strong> — avec toute sa palette de gris, ses hauts et ses bas.
+            </p>
+            <p className="podcast-manifesto-body">
+              Je ne voulais pas créer un podcast « inspirant » de plus. Ce qui me passionne, c'est l'humain — plonger dans son intimité et dans sa complexité.
+            </p>
+            <p className="podcast-manifesto-body">
+              Si tu te reconnais dans cette femme qui se compare et qui déprime à l'idée d'écouter une énième success story — ce podcast est peut-être exactement ce qu'il te faut. <strong>Pas pour t'inspirer. Pour te sentir moins seule dans ce que tu traverses.</strong>
             </p>
             <p className="podcast-manifesto-sign">— Aicha</p>
           </div>

@@ -2620,7 +2620,7 @@ label {
 .podcast-cover img { width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius); display: block; box-shadow: 0 20px 50px rgba(107,56,72,0.18), 0 4px 12px rgba(42,31,21,0.08); position: relative; z-index: 2; }
 .podcast-cover-accent { position: absolute; width: 70%; height: 70%; border: 2px solid var(--accent); border-radius: var(--radius); bottom: -1rem; right: -1rem; z-index: 1; }
 .podcast-hero-v2-content { display: flex; flex-direction: column; gap: 1.25rem; }
-.podcast-title-v2 { font-family: var(--font-serif), Georgia, serif; font-size: clamp(3rem, 6vw, 4.8rem); font-weight: 600; line-height: 1; color: var(--primary); letter-spacing: -0.01em; }
+.podcast-title-v2 { font-family: var(--font-heading); font-size: clamp(3rem, 6vw, 4.8rem); font-weight: 700; line-height: 1; color: var(--primary); letter-spacing: -0.01em; }
 .podcast-tagline-v2 { font-size: 1.05rem; line-height: 1.7; color: var(--text-muted); max-width: 52ch; }
 .podcast-tagline-v2 strong { color: var(--accent); font-weight: 600; }
 .podcast-frequency-v2 { font-size: 0.9rem; color: var(--text-muted); padding-top: 0.5rem; }
