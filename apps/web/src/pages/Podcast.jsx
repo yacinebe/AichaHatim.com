@@ -93,7 +93,6 @@ export default function PodcastPage() {
       <section className="landing-section" style={{ background: "var(--bg)" }}>
         <div className="container">
           <div className="section-header">
-            <span className="section-eyebrow">Par où commencer</span>
             <h2>Un épisode pour commencer</h2>
             <div className="section-divider" />
           </div>
