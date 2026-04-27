@@ -58,10 +58,10 @@ function HeroSection() {
       <div className="landing-hero-inner">
         <div className="landing-hero-content">
           <h1 className="landing-hero-headline">
-            Tu gères tout.<br />
-            Tu portes tout.<br />
-            Tu continues.<br />
-            <span className="headline-warm">Mais tu ne te souviens plus de la dernière fois où tu t'es sentie légère.</span>
+            Tu performes.<br />
+            Tu gères.<br />
+            Tu tiens.<br />
+            <span className="headline-warm">Mais est-ce que tu te souviens de la dernière fois où tu t'es sentie légère et sereine ?</span>
           </h1>
           <p className="landing-hero-body">
             En réunion tu performes. À la maison tu tiens. Mais à l'intérieur tu es à bout.
