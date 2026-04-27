@@ -124,44 +124,6 @@ export default function PodcastPage() {
         </div>
       </section>
 
-      <section className="landing-section" style={{ background: "var(--surface-2)" }}>
-        <div className="container">
-          <div className="section-header">
-            <span className="section-eyebrow">Tous les épisodes</span>
-            <h2>Le catalogue</h2>
-            <div className="section-divider" />
-          </div>
-          <div className="episodes-list-v2">
-            {episodes.map(ep => (
-              <article className="episode-card-v2" key={ep.num}>
-                <div className="episode-card-num">#{String(ep.num).padStart(2, "0")}</div>
-                <div className="episode-card-body">
-                  <div className="episode-card-meta">
-                    <span>{ep.date}</span>
-                    <span className="dot">·</span>
-                    <span>{ep.duration}</span>
-                    {ep.guest ? (
-                      <><span className="dot">·</span><span className="episode-guest">{ep.guest}</span></>
-                    ) : (
-                      <><span className="dot">·</span><span className="episode-solo">Solo</span></>
-                    )}
-                  </div>
-                  <h3 className="episode-card-title">{ep.title}</h3>
-                  <p className="episode-card-desc">{ep.desc}</p>
-                </div>
-                <div className="episode-card-actions">
-                  <a className="ep-action spotify" href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer" aria-label="Spotify">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0a12 12 0 100 24 12 12 0 000-24zm5.5 17.3a.75.75 0 01-1 .25c-2.8-1.7-6.3-2.1-10.4-1.1a.75.75 0 11-.3-1.5c4.5-1 8.4-.6 11.5 1.4a.75.75 0 01.2 1z"/></svg>
-                  </a>
-                  <a className="ep-action youtube" href={YOUTUBE_URL} target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 00-2.1-2.1c-1.87-.5-9.4-.5-9.4-.5s-7.5-.01-9.4.5A3 3 0 00.53 6.2 31.25 31.25 0 000 12c0 1.94.18 3.87.52 5.78a3 3 0 002.1 2.1c1.87.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 002.08-2.1c.34-1.91.51-3.84.5-5.78a31.25 31.25 0 00-.5-5.8zM9.6 15.6V8.4l6.27 3.6z"/></svg>
-                  </a>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
     </main>
   );
 }
