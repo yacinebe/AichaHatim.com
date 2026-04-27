@@ -2679,3 +2679,10 @@ label {
   .featured-episode { grid-template-columns: 1fr; }
   .episode-card-v2 { grid-template-columns: 1fr; gap: 0.75rem; }
 }
+
+/* ── Podcast manifesto redesign ── */
+.podcast-manifesto-divider { width: 48px; height: 2px; background: var(--gold); border-radius: 2px; margin: 0 auto; }
+.podcast-manifesto-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; text-align: left; }
+.podcast-manifesto-right { display: flex; flex-direction: column; gap: 1.5rem; }
+.podcast-manifesto-highlight { border-left: 2px solid var(--accent); padding-left: 1.25rem; border-radius: 0; font-size: 1rem; line-height: 1.75; color: var(--primary); font-weight: 600; }
+@media (max-width: 700px) { .podcast-manifesto-two-col { grid-template-columns: 1fr; } }

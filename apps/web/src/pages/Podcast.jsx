@@ -68,15 +68,23 @@ export default function PodcastPage() {
             <p className="podcast-manifesto-lead">
               Et si on parlait enfin de ce qui se passe <em>à l'intérieur</em> quand on décide de se réinventer ?
             </p>
-            <p className="podcast-manifesto-body">
-              Ce n'est pas un podcast sur le résultat des reconversions, ni sur le succès professionnel. Mes invitées racontent les burnout, les pertes de sens, les années qui passent avant de franchir le pas, les doutes dont on ne se débarrasse jamais vraiment, les sacrifices sans résultat garanti. Vraiment <strong>le monde intérieur derrière une réinvention</strong> — avec toute sa palette de gris, ses hauts et ses bas.
-            </p>
-            <p className="podcast-manifesto-body">
-              Je ne voulais pas créer un podcast « inspirant » de plus. Ce qui me passionne, c'est l'humain — plonger dans son intimité et dans sa complexité.
-            </p>
-            <p className="podcast-manifesto-body">
-              Si tu te reconnais dans cette femme qui se compare et qui déprime à l'idée d'écouter une énième success story — ce podcast est peut-être exactement ce qu'il te faut. <strong>Pas pour t'inspirer. Pour te sentir moins seule dans ce que tu traverses.</strong>
-            </p>
+            <div className="podcast-manifesto-divider" />
+            <div className="podcast-manifesto-two-col">
+              <p className="podcast-manifesto-body">
+                Ce n'est pas un podcast sur le résultat des reconversions, ni sur le succès professionnel. Mes invitées racontent les burnout, les pertes de sens, les années qui passent avant de franchir le pas, les doutes dont on ne se débarrasse jamais vraiment, les sacrifices sans résultat garanti.
+                <br /><br />
+                Vraiment <strong>le monde intérieur derrière une réinvention</strong> — avec toute sa palette de gris, ses hauts et ses bas.
+              </p>
+              <div className="podcast-manifesto-right">
+                <p className="podcast-manifesto-body">
+                  Je ne voulais pas créer un podcast « inspirant » de plus. Ce qui me passionne, c'est l'humain — plonger dans son intimité et dans sa complexité.
+                </p>
+                <p className="podcast-manifesto-highlight">
+                  Pas pour t'inspirer.<br />
+                  Pour te sentir moins seule dans ce que tu traverses.
+                </p>
+              </div>
+            </div>
             <p className="podcast-manifesto-sign">— Aicha</p>
           </div>
         </div>
