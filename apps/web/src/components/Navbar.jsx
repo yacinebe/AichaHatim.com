@@ -16,19 +16,7 @@ export default function Navbar() {
 
         <ul className="navbar-links">
           <li><NavLink to="/">Réinvention Intérieure</NavLink></li>
-          <li
-            className="nav-dropdown"
-            onMouseEnter={() => setAboutOpen(true)}
-            onMouseLeave={() => setAboutOpen(false)}
-          >
-            <NavLink to="/a-propos">Mon histoire ▾</NavLink>
-            {aboutOpen && (
-              <div className="dropdown-menu">
-                <NavLink to="/a-propos#histoire" onClick={() => setAboutOpen(false)}>Mon histoire</NavLink>
-                <NavLink to="/a-propos#coaching" onClick={() => setAboutOpen(false)}>Mon coaching</NavLink>
-              </div>
-            )}
-          </li>
+          <li><NavLink to="/a-propos">Mon histoire</NavLink></li>
           <li><NavLink to="/podcast">Mon podcast</NavLink></li>
           {client
             ? <li><NavLink to="/espace-client">Espace Perso</NavLink></li>
@@ -49,8 +37,7 @@ export default function Navbar() {
       {open && (
         <div className="mobile-menu">
           <NavLink to="/" onClick={() => setOpen(false)}>Réinvention Intérieure</NavLink>
-          <NavLink to="/a-propos#histoire" onClick={() => setOpen(false)}>Mon histoire</NavLink>
-          <NavLink to="/a-propos#coaching" onClick={() => setOpen(false)}>Mon coaching</NavLink>
+          <NavLink to="/a-propos" onClick={() => setOpen(false)}>Mon histoire</NavLink>
           <NavLink to="/podcast" onClick={() => setOpen(false)}>Mon podcast</NavLink>
           {client
             ? <NavLink to="/espace-client" onClick={() => setOpen(false)}>Espace Perso</NavLink>
