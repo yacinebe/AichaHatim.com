@@ -93,7 +93,7 @@ function HeroSection() {
           </div>
         </div>
         <div className="landing-photo">
-          <PhotoSwitcher startIndex={0} />
+          <img src="/hero-photo.jpg" alt="Aicha Hatim" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", borderRadius: "var(--radius)" }} />
         </div>
       </div>
     </section>
