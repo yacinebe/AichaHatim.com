@@ -188,7 +188,7 @@ export default function About() {
         <div className="container">
           <div className="about-coaching-inner">
             <div className="about-coaching-photo">
-              <PhotoSwitcher startIndex={24} />
+              <img src="/about-photo.jpg" alt="Aicha Hatim" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} />
             </div>
             <div className="about-coaching-content">
               <p className="story-eyebrow">Mon coaching</p>
