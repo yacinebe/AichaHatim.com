@@ -430,7 +430,7 @@ function ProgrammeSection() {
             <div className="programme-stats">
               <div className="programme-stat">
                 <span className="programme-stat-num">8</span>
-                <span className="programme-stat-label">sessions individuelles en visio (1:1)</span>
+                <span className="programme-stat-label">sessions individuelles en visio</span>
               </div>
               <div className="programme-stat">
                 <span className="programme-stat-num">4</span>
@@ -443,15 +443,15 @@ function ProgrammeSection() {
                 <ul className="programme-scard-list">
                   <li>Un espace où tu peux enfin poser l'armure — pas besoin de performer, d'avoir l'air d'aller bien, ou d'avoir les bonnes réponses</li>
                   <li>Des conversations qui vont au fond des choses</li>
-                  <li>Des prises de conscience qui changent quelque chose dès la semaine d'après</li>
+                  <li>Des prises de conscience ancrées dans ta vraie vie</li>
                 </ul>
               </div>
               <div className="programme-scard">
                 <p className="programme-scard-title">Entre les sessions :</p>
                 <ul className="programme-scard-list">
-                  <li>Support WhatsApp pour ne pas rester seule</li>
+                  <li>Support WhatsApp à la demande</li>
                   <li>Ressources audio et vidéo exclusives</li>
-                  <li>Exercices personnalisés pour ancrer ce que l'on travaille</li>
+                  <li>Des actions à réaliser dans ta vraie vie</li>
                 </ul>
               </div>
             </div>
