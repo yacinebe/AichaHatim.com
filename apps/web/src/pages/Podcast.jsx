@@ -1,343 +1,163 @@
-import { useQuery } from "@tanstack/react-query";
-import { api } from "../api/client.js";
+import React from "react";
 
 const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "https://calendly.com/aicha-hatim/let-s-chat";
-const INSTAGRAM_PODCAST = "https://instagram.com/reinventionspodcast";
+const SPOTIFY_URL = "https://open.spotify.com/show/6WaICsmz5rhzQhMpuDIL2m";
+const APPLE_URL = "https://podcasts.apple.com/us/podcast/r%C3%A9inventions/id1848308091";
+const YOUTUBE_URL = "https://www.youtube.com/@R%C3%A9inventions";
 
-// ── Wave divider ──────────────────────────────────────────────────────
-function WaveDivider({ to = "var(--surface-2)" }) {
-  return (
-    <div className="wave-divider">
-      <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
-        <path d="M0,0 C360,60 1080,0 1440,60 L1440,60 L0,60 Z" fill={to} />
-      </svg>
-    </div>
-  );
-}
+export default function PodcastPage() {
+  const featured = {
+    youtubeId: "pLMdssfs7hM",
+    title: "[Titre épisode à compléter]",
+    guest: "[Invité·e]",
+    duration: "—",
+    date: "Récent",
+    desc: "Un des épisodes les plus regardés de Réinventions. À remplacer par la vraie description."
+  };
 
-// ── Platform links ────────────────────────────────────────────────────
-function PlatformLinks({ content, compact = false }) {
-  const platforms = [
-    { key: "spotify_url", icon: "🎵", label: "Spotify", color: "#1db954" },
-    { key: "apple_url", icon: "🎙", label: "Apple Podcasts", color: "#9933cc" },
-    { key: "youtube_url", icon: "▶", label: "YouTube", color: "#ff0000" },
+  const episodes = [
+    { num: 11, date: "22 oct 2024", duration: "47 min", title: "Quitter le corporate sans tout casser", guest: "Inès B., ex-manager produit", desc: "Comment poser un cadre de transition qui te laisse le temps d'écouter ce que tu veux vraiment." },
+    { num: 10, date: "8 oct 2024", duration: "38 min", title: "Solo — La voix qui dit \"tu n'es pas légitime\"", guest: null, desc: "D'où elle vient, à qui elle parle vraiment, et pourquoi la faire taire est rarement la bonne stratégie." },
+    { num: 9, date: "24 sept 2024", duration: "54 min", title: "De directrice marketing à thérapeute", guest: "Camille L., thérapeute", desc: "10 ans de communication, un burn-out, une reconversion en thérapie systémique." },
+    { num: 8, date: "10 sept 2024", duration: "41 min", title: "Avocate, mère, et fondatrice — choisir de ne pas choisir", guest: "Léa V., avocate-entrepreneur", desc: "Trois vies en parallèle, sans se renier." },
+    { num: 7, date: "27 août 2024", duration: "44 min", title: "Solo — \"J'ai tout pour être heureuse\" et pourtant", guest: null, desc: "Ce que cache cette phrase qu'on entend (et qu'on se dit) cent fois." },
+    { num: 6, date: "13 août 2024", duration: "49 min", title: "Quitter Paris à 42 ans pour recommencer", guest: "Anaïs D., libraire", desc: "Pas une fuite. Un choix. Anaïs raconte le déménagement, la librairie, et la femme qu'elle est devenue." },
   ];
 
   return (
-    <div className={`platform-links ${compact ? "compact" : ""}`}>
-      {platforms.map((p) => (
-        <a
-          key={p.key}
-          href={content?.[p.key] ?? "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="platform-btn"
-        >
-          <span className="platform-icon">{p.icon}</span>
-          <span>{p.label}</span>
-        </a>
-      ))}
-    </div>
-  );
-}
-
-// ═══════════════════════════════════════════════════════════════════════
-// PAGE PODCAST
-// ═══════════════════════════════════════════════════════════════════════
-export default function Podcast() {
-  const { data: content } = useQuery({
-    queryKey: ["content", "podcast"],
-    queryFn: () => api.getContent("podcast"),
-  });
-
-  const { data: episodes, isLoading } = useQuery({
-    queryKey: ["episodes"],
-    queryFn: api.getEpisodes,
-  });
-
-  return (
-    <div className="page">
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* HERO — RÉINVENTIONS */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      <section className="podcast-hero">
+    <main>
+      <section className="podcast-hero-v2">
         <div className="container">
-          <div className="podcast-hero-inner">
-            <div className="podcast-hero-content">
-              <p className="landing-subtitle" style={{ color: "var(--accent)" }}>Le podcast</p>
-              <h1 className="podcast-title">RÉINVENTIONS</h1>
-              <p className="podcast-tagline">
-                Le podcast qui explore ce qui se passe dans la tête et dans le cœur
-                <br /><strong>quand on change de vie.</strong>
-              </p>
-              <PlatformLinks content={content} />
-              <p className="podcast-frequency">
-                🎙️ Un nouvel épisode tous les 15 jours
-              </p>
+          <div className="podcast-hero-v2-inner">
+            <div className="podcast-cover">
+              <img src="/reinventions-logo.png" alt="Réinventions, le podcast" />
+              <div className="podcast-cover-accent" />
             </div>
-
-            {/* Phone mockup */}
-            <div className="podcast-phone">
-              <div className="phone-frame">
-                <div className="phone-screen">
-                  <div className="phone-header">
-                    <span>9:41</span>
-                    <div className="phone-notch" />
-                  </div>
-                  <div className="phone-player">
-                    <div className="phone-cover">
-                      <span className="phone-cover-label">RÉINVENTIONS</span>
-                    </div>
-                    <div className="phone-title-box">
-                      <p className="phone-episode-title">Oser se réinventer</p>
-                      <p className="phone-episode-sub">Épisode #1 · Aïcha Hatim</p>
-                    </div>
-                    <div className="phone-progress">
-                      <div className="phone-progress-bar" />
-                    </div>
-                    <div className="phone-controls">
-                      <span>⏮</span>
-                      <div className="phone-play">▶</div>
-                      <span>⏭</span>
-                    </div>
-                  </div>
-                </div>
+            <div className="podcast-hero-v2-content">
+              <span className="story-eyebrow">Le podcast</span>
+              <h1 className="podcast-title-v2">Réinventions</h1>
+              <p className="podcast-tagline-v2">
+                Des conversations avec des femmes (et parfois des hommes) qui se sont
+                <strong> réinventés professionnellement.</strong> Pas de recettes magiques —
+                des récits vrais, des bascules concrètes, des lendemains.
+              </p>
+              <div className="platform-links">
+                <a className="platform-btn-v2 spotify" href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0a12 12 0 100 24 12 12 0 000-24zm5.5 17.3a.75.75 0 01-1 .25c-2.8-1.7-6.3-2.1-10.4-1.1a.75.75 0 11-.3-1.5c4.5-1 8.4-.6 11.5 1.4a.75.75 0 01.2 1zm1.5-3.3a.94.94 0 01-1.3.3c-3.2-2-8-2.5-11.8-1.4a.94.94 0 11-.5-1.8c4.3-1.3 9.6-.7 13.3 1.6a.94.94 0 01.3 1.3zm.1-3.4c-3.8-2.3-10.2-2.5-13.9-1.4a1.13 1.13 0 11-.6-2.2c4.2-1.3 11.2-1 15.6 1.6a1.13 1.13 0 11-1.1 2z"/></svg>
+                  Spotify
+                </a>
+                <a className="platform-btn-v2 apple" href={APPLE_URL} target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0a12 12 0 100 24 12 12 0 000-24zm0 4.6a3 3 0 110 6 3 3 0 010-6zm0 8.4c2 0 3.7 1.4 4 3.4l.3 2.6a1.4 1.4 0 01-1 1.4 13.5 13.5 0 01-6.6 0 1.4 1.4 0 01-1-1.4l.3-2.6c.3-2 2-3.4 4-3.4z"/></svg>
+                  Apple Podcasts
+                </a>
+                <a className="platform-btn-v2 youtube" href={YOUTUBE_URL} target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 00-2.1-2.1c-1.87-.5-9.4-.5-9.4-.5s-7.5-.01-9.4.5A3 3 0 00.53 6.2 31.25 31.25 0 000 12c0 1.94.18 3.87.52 5.78a3 3 0 002.1 2.1c1.87.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 002.08-2.1c.34-1.91.51-3.84.5-5.78a31.25 31.25 0 00-.5-5.8zM9.6 15.6V8.4l6.27 3.6z"/></svg>
+                  YouTube
+                </a>
               </div>
+              <span className="podcast-frequency-v2">Un nouvel épisode <strong>un mardi sur deux</strong></span>
             </div>
           </div>
         </div>
       </section>
 
-      <WaveDivider to="var(--bg)" />
-
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* CONCEPT — Ouverture */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      <section className="landing-section landing-section-narrow" style={{ background: "var(--bg)" }}>
-        <div className="container">
-          <div style={{ maxWidth: "var(--max-w-narrow)", margin: "0 auto", textAlign: "center" }}>
-            <p className="podcast-intro-line">
-              Tu peux avoir une vie qui <em>« coche toutes les cases »</em>…<br />
-              et ressentir qu'il manque quelque chose.
-            </p>
-            <p className="podcast-intro-line">
-              Tu peux être ambitieuse, avancer, réussir…<br />
-              et en même temps te demander :
-            </p>
-            <p className="podcast-big-question">
-              « Est-ce que c'est vraiment ça, ma vie ? »
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <WaveDivider to="var(--surface-2)" />
-
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* MON HISTOIRE (liée au podcast) */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      <section className="landing-section landing-section-narrow" style={{ background: "var(--surface-2)" }}>
-        <div className="container">
-          <div style={{ maxWidth: "var(--max-w-narrow)", margin: "0 auto" }}>
-            <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
-              <p className="landing-subtitle">La genèse</p>
-              <h2 className="landing-title">Comment Réinventions est né</h2>
-            </div>
-
-            <p className="landing-text" style={{ margin: "0 auto" }}>
-              Je m'appelle <strong>Aïcha Hatim</strong>. Je suis coach professionnelle certifiée.
-            </p>
-            <p className="landing-text" style={{ margin: "0.75rem auto" }}>
-              Mais avant ça, j'ai passé plus de 10 ans à construire une carrière dans le corporate,
-              à toujours vouloir bien faire, à toujours donner plus.
-            </p>
-            <p className="landing-text" style={{ margin: "0.75rem auto" }}>
-              <strong>Jusqu'au jour où j'ai senti que ce « plus » ne me nourrissait plus.</strong>
-            </p>
-            <p className="landing-text" style={{ margin: "0.75rem auto" }}>
-              Et avec ça, une question :
-            </p>
-            <p className="podcast-question-highlight">
-              « Et maintenant… je fais quoi ? »
-            </p>
-            <p className="landing-text" style={{ margin: "0.75rem auto" }}>
-              À ce moment-là, j'avais l'impression que personne ne parlait de ça :
-              des doutes, des remises en question, de ce qui se passe à l'intérieur
-              quand tout bouge.
-            </p>
-            <p className="landing-text" style={{ margin: "1.25rem auto", fontWeight: 500, color: "var(--primary)", fontSize: "1.1rem", textAlign: "center" }}>
-              C'est là qu'est né <em>Réinventions</em>.
-            </p>
-            <p className="landing-text" style={{ margin: "0 auto", textAlign: "center", fontStyle: "italic" }}>
-              Le podcast que j'aurais aimé écouter à ce moment-là.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <WaveDivider to="var(--bg)" />
-
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* À PROPOS DU PODCAST */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      <section className="landing-section landing-section-narrow" style={{ background: "var(--bg)" }}>
-        <div className="container">
-          <div style={{ maxWidth: "var(--max-w-narrow)", margin: "0 auto" }}>
-            <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-              <p className="landing-subtitle">Le concept</p>
-              <h2 className="landing-title">De quoi on parle ?</h2>
-            </div>
-
-            <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-              Dans chaque épisode, j'invite des <strong>Marocaines du monde entier</strong>
-              qui ont osé se réinventer.
-            </p>
-
-            <ul className="arrow-list" style={{ maxWidth: "600px", margin: "2rem auto" }}>
-              <li>Quitter une voie toute tracée</li>
-              <li>Remettre en question leur définition du succès</li>
-              <li>Construire une vie plus alignée avec qui elles sont vraiment</li>
-            </ul>
-
-            <p className="landing-text" style={{ textAlign: "center", margin: "0 auto" }}>
-              Mais ici… on ne parle pas juste de ce qu'elles ont fait.
-            </p>
-            <p className="landing-text" style={{ textAlign: "center", margin: "0.75rem auto" }}>
-              On parle de :
-            </p>
-
-            <div className="podcast-topics">
-              <span className="podcast-topic">leurs doutes</span>
-              <span className="podcast-topic">leurs déclics</span>
-              <span className="podcast-topic">leurs peurs</span>
-              <span className="podcast-topic">leurs choix</span>
-              <span className="podcast-topic">tout ce qui se passe à l'intérieur</span>
-            </div>
-
-            <div className="podcast-manifesto">
-              <p><strong>Ce n'est pas un podcast sur le succès.</strong></p>
-              <p>C'est un podcast sur :</p>
-              <ul className="arrow-list">
-                <li>Ce qu'il faut déconstruire pour avancer autrement</li>
-                <li>Ce qu'on traverse quand on sort du pilote automatique</li>
-                <li>Comment on se reconnecte à soi</li>
-              </ul>
-              <p style={{ marginTop: "1rem" }}>
-                Chaque épisode est une conversation <strong>profonde, intime, sans posture</strong>.
-              </p>
-              <p>Une invitation à ralentir, t'écouter et questionner ta propre trajectoire.</p>
-            </div>
-
-            <p className="landing-text" style={{ textAlign: "center", margin: "1.5rem auto 0", fontStyle: "italic", color: "var(--accent-dim)" }}>
-              À travers ce podcast, comme dans mon coaching, je cherche à créer
-              un pont entre <strong>ambition et épanouissement</strong>.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <WaveDivider to="var(--surface-2)" />
-
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* SECTION ÉCOUTE */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
       <section className="landing-section" style={{ background: "var(--surface-2)" }}>
         <div className="container">
-          <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-            <p className="landing-subtitle">Écouter</p>
-            <h2 className="landing-title">🎧 Les épisodes</h2>
-            <p className="landing-text" style={{ margin: "0 auto" }}>
-              Disponible sur toutes les plateformes
+          <div className="podcast-manifesto">
+            <span className="story-eyebrow" style={{ textAlign: "center", display: "block" }}>Pourquoi ce podcast</span>
+            <p className="podcast-manifesto-lead">
+              Parce qu'on parle beaucoup de <em>réussite</em>. Très peu de
+              <strong> bascules.</strong>
             </p>
+            <p className="podcast-manifesto-body">
+              J'invite des femmes — et parfois des hommes — qui ont quitté un métier, un cadre,
+              une identité professionnelle. Pas pour faire la leçon. Pour raconter
+              <strong> ce qui s'est passé à l'intérieur</strong> avant que ça change à l'extérieur.
+              Une fois sur deux je suis seule au micro, sur un sujet qui m'a traversée la semaine.
+            </p>
+            <p className="podcast-manifesto-sign">— Aicha</p>
           </div>
+        </div>
+      </section>
 
-          <PlatformLinks content={content} />
-
-          {/* Episodes list */}
-          <div className="episodes-list" style={{ marginTop: "3rem", maxWidth: "820px", marginLeft: "auto", marginRight: "auto" }}>
-            {isLoading && <div className="loading">Chargement des épisodes…</div>}
-
-            {!isLoading && !episodes?.length && (
-              <div style={{ textAlign: "center", padding: "3rem", background: "var(--surface)", borderRadius: "var(--radius)", border: "1px solid var(--border)" }}>
-                <p style={{ color: "var(--text-light)", fontFamily: "var(--font-heading)" }}>
-                  Les premiers épisodes arrivent bientôt…
-                </p>
+      <section className="landing-section" style={{ background: "var(--bg)" }}>
+        <div className="container">
+          <div className="section-header">
+            <span className="section-eyebrow">À l'écoute en ce moment</span>
+            <h2>Dernier épisode</h2>
+            <div className="section-divider" />
+          </div>
+          <div className="featured-episode">
+            <div className="featured-video">
+              <iframe
+                src={`https://www.youtube.com/embed/${featured.youtubeId}`}
+                title={featured.title}
+                frameBorder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+            <div className="featured-meta">
+              <div className="featured-tags">
+                <span className="badge-pill badge-gold">Nouveau</span>
+                <span className="featured-num">Épisode vedette</span>
               </div>
-            )}
+              <h3 className="featured-title">{featured.title}</h3>
+              <div className="featured-sub">
+                <span>{featured.guest}</span>
+                <span className="dot">·</span>
+                <span>{featured.duration}</span>
+                <span className="dot">·</span>
+                <span>{featured.date}</span>
+              </div>
+              <p className="featured-desc">{featured.desc}</p>
+              <div className="platform-links compact">
+                <a className="platform-btn" href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer">Écouter sur Spotify</a>
+                <a className="platform-btn" href={APPLE_URL} target="_blank" rel="noopener noreferrer">Apple Podcasts</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {episodes?.map((ep) => (
-              <div key={ep.id} className="episode-card">
-                <div className="episode-meta">
-                  {ep.episode_number && (
-                    <span className="badge-pill badge-gold">Épisode {ep.episode_number}</span>
-                  )}
-                  {ep.published_at && (
-                    <span className="episode-date">
-                      {new Date(ep.published_at).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}
-                    </span>
-                  )}
-                </div>
-                <h3 className="episode-title">{ep.title}</h3>
-                {ep.description && <p className="episode-description">{ep.description}</p>}
-                {ep.embed_url && (
-                  <div className="episode-embed">
-                    <iframe
-                      src={ep.embed_url}
-                      height="152"
-                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                      loading="lazy"
-                      title={ep.title}
-                    />
+      <section className="landing-section" style={{ background: "var(--surface-2)" }}>
+        <div className="container">
+          <div className="section-header">
+            <span className="section-eyebrow">Tous les épisodes</span>
+            <h2>Le catalogue</h2>
+            <div className="section-divider" />
+          </div>
+          <div className="episodes-list-v2">
+            {episodes.map(ep => (
+              <article className="episode-card-v2" key={ep.num}>
+                <div className="episode-card-num">#{String(ep.num).padStart(2, "0")}</div>
+                <div className="episode-card-body">
+                  <div className="episode-card-meta">
+                    <span>{ep.date}</span>
+                    <span className="dot">·</span>
+                    <span>{ep.duration}</span>
+                    {ep.guest ? (
+                      <><span className="dot">·</span><span className="episode-guest">{ep.guest}</span></>
+                    ) : (
+                      <><span className="dot">·</span><span className="episode-solo">Solo</span></>
+                    )}
                   </div>
-                )}
-              </div>
+                  <h3 className="episode-card-title">{ep.title}</h3>
+                  <p className="episode-card-desc">{ep.desc}</p>
+                </div>
+                <div className="episode-card-actions">
+                  <a className="ep-action spotify" href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer" aria-label="Spotify">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0a12 12 0 100 24 12 12 0 000-24zm5.5 17.3a.75.75 0 01-1 .25c-2.8-1.7-6.3-2.1-10.4-1.1a.75.75 0 11-.3-1.5c4.5-1 8.4-.6 11.5 1.4a.75.75 0 01.2 1z"/></svg>
+                  </a>
+                  <a className="ep-action youtube" href={YOUTUBE_URL} target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 00-2.1-2.1c-1.87-.5-9.4-.5-9.4-.5s-7.5-.01-9.4.5A3 3 0 00.53 6.2 31.25 31.25 0 000 12c0 1.94.18 3.87.52 5.78a3 3 0 002.1 2.1c1.87.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 002.08-2.1c.34-1.91.51-3.84.5-5.78a31.25 31.25 0 00-.5-5.8zM9.6 15.6V8.4l6.27 3.6z"/></svg>
+                  </a>
+                </div>
+              </article>
             ))}
           </div>
         </div>
       </section>
-
-      <WaveDivider to="var(--surface-3)" />
-
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* CTA DOUX */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      <section className="landing-section" style={{ background: "var(--surface-3)", color: "#fff", textAlign: "center" }}>
-        <div className="container">
-          <div style={{ maxWidth: "620px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.25rem", alignItems: "center" }}>
-            <p className="landing-subtitle" style={{ color: "var(--accent-light)" }}>Aller plus loin</p>
-            <h2 className="landing-title" style={{ color: "#fff" }}>
-              Si ces conversations résonnent en toi…
-            </h2>
-            <p style={{ color: "rgba(255,255,255,0.8)", fontSize: "1.05rem", lineHeight: 1.8, maxWidth: "50ch" }}>
-              Il y a peut-être quelque chose en toi qui est prêt à évoluer.
-            </p>
-            <p style={{ color: "rgba(255,255,255,0.7)", fontSize: "0.95rem", lineHeight: 1.7, maxWidth: "50ch" }}>
-              Et si tu veux aller plus loin que l'écoute :<br />
-              tu peux réserver une session découverte avec moi.
-            </p>
-            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ marginTop: "0.5rem" }}>
-              Réserver ma session offerte
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      {/* FOOTER PODCAST */}
-      {/* ═══════════════════════════════════════════════════════════════ */}
-      <section style={{ background: "var(--primary-dim)", color: "rgba(255,255,255,0.75)", padding: "2.5rem 0", textAlign: "center" }}>
-        <div className="container">
-          <div className="podcast-footer">
-            <span>🎙️ Un nouvel épisode tous les 15 jours</span>
-            <span className="podcast-footer-sep">·</span>
-            <span>📍 Disponible sur toutes les plateformes</span>
-            <span className="podcast-footer-sep">·</span>
-            <a href={INSTAGRAM_PODCAST} target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent-light)" }}>
-              📲 @reinventionspodcast
-            </a>
-          </div>
-        </div>
-      </section>
-    </div>
+    </main>
   );
 }
