@@ -471,45 +471,38 @@ function ProgrammeSection() {
   );
 }
 // ═══════════════════════════════════════════════════════════════════════
-function TemoignagesSection() {
-  const { data: testimonials } = useQuery({ queryKey: ["testimonials"], queryFn: api.getTestimonials });
+const TEMOIGNAGES = [
+  {
+    name: "Laurie",
+    text: "Là où avant je doutais systématiquement de ma légitimité, je commence à reconnaître ma valeur. Je suis moins dure avec moi-même — j'essaie de me parler comme je parlerais à quelqu'un d'autre, avec plus de bienveillance.\n\nConcrètement, je m'exprime plus en réunion, je pose des limites, j'accepte de dire non. Et ma direction apprécie — c'est ce qu'ils attendaient de moi finalement !\n\nJ'ai aussi plusieurs outils désormais à ma disposition, auxquels je peux revenir quand je sens le doute revenir.",
+  },
+  {
+    name: "Kim",
+    text: "J'ai récemment terminé 8 sessions transformationnelles avec Aicha. Dès le début, elle a créé un espace sûr et sans jugement où je me suis sentie pleinement écoutée et accueillie.\n\nSa capacité à tenir cet espace — à percevoir l'importance et le potentiel d'exploration dans mes mots comme dans mon langage corporel — a permis des prises de conscience profondes. Nous avons mis au jour des croyances fondamentales inattendues qui me freinaient, et elle m'a guidée avec justesse pour les transformer.\n\nJe repars avec des schémas et des perspectives qui ont changé, de nouvelles ressources intérieures, et une confiance qui vient d'une vraie liberté émotionnelle. Je la recommande chaleureusement à toute personne en quête de croissance personnelle et d'un changement profond et durable.",
+  },
+  {
+    name: "Meryem",
+    text: "Ce qui m'a le plus marquée, c'est le concept de saboteur. J'ai appris à voir cette voix intérieure qui me freinait non pas comme une ennemie, mais comme une partie de moi qui cherche à me protéger. Et à lui parler, plutôt que de la subir.\n\nAujourd'hui je suis plus ancrée dans qui je suis. Je dis ce que je pense, je pose mes limites, je ne prends plus sur moi des choses qui ne m'appartiennent pas.\n\nLes outils sont simples. En tant que femme hyper occupée, j'avais peur que ça soit une charge de plus. Mais c'est subtil, et l'impact est puissant.",
+  },
+];
 
+function TemoignagesSection() {
   return (
     <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div style={{ textAlign: "center", marginBottom: "3rem" }}>
           <h2 className="landing-title">Témoignages</h2>
         </div>
-
-        {testimonials?.length ? (
-          <div className="testimonials-grid">
-            {testimonials.map((t) => (
-              <div key={t.id} className="testimonial-card">
-                {t.video_url ? (
-                  <div className="testimonial-video">
-                    <iframe src={t.video_url.replace("watch?v=", "embed/")} title={t.author_name} allowFullScreen />
-                  </div>
-                ) : (
-                  <p className="testimonial-quote">{t.content}</p>
-                )}
-                <div className="testimonial-author">
-                  <div className="testimonial-avatar" style={{ background: "var(--surface-2)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.1rem" }}>
-                    {t.author_name?.[0]}
-                  </div>
-                  <div>
-                    <div className="testimonial-name">{t.author_name}</div>
-                    {t.author_role && <div className="testimonial-role">{t.author_role}</div>}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div style={{ textAlign: "center", padding: "3rem", background: "var(--surface-2)", borderRadius: "var(--radius)" }}>
-            <p style={{ color: "var(--text-light)", fontFamily: "var(--font-heading)" }}>Témoignages à venir — vidéos, audio et copies d'écran</p>
-          </div>
-        )}
-
+        <div className="temoignages-grid">
+          {TEMOIGNAGES.map((t) => (
+            <div key={t.name} className="temoignage-card">
+              <div className="temoignage-quote-mark">"</div>
+              <p className="temoignage-text">{t.text}</p>
+              <div className="temoignage-divider" />
+              <p className="temoignage-name">{t.name}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
