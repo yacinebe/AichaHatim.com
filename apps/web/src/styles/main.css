@@ -308,7 +308,7 @@ label {
   min-height: 90vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #faf7f2 0%, #f0e8d8 100%);
+  background: linear-gradient(135deg, #fdfbf6 0%, #f4eee3 100%);
   position: relative;
   overflow: hidden;
 }
@@ -1040,7 +1040,7 @@ label {
   letter-spacing: 0.04em;
 }
 .badge-green { background: rgba(74,140,111,0.12); color: var(--success); }
-.badge-gold { background: rgba(201,169,110,0.15); color: var(--accent-dim); }
+.badge-gold { background: rgba(201,169,107,0.15); color: var(--accent-dim); }
 .badge-gray { background: var(--surface-2); color: var(--text-muted); }
 
 /* Search */
@@ -1328,7 +1328,7 @@ label {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 80% 20%, rgba(201,169,110,0.12), transparent 50%);
+  background: radial-gradient(circle at 80% 20%, rgba(201,169,107,0.20), transparent 50%);
   pointer-events: none;
 }
 
@@ -1482,7 +1482,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 12px 32px rgba(201,169,110,0.35);
+  box-shadow: 0 12px 32px rgba(201,169,107,0.35);
   position: relative;
 }
 .phone-cover::before {
