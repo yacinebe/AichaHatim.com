@@ -66,13 +66,10 @@ export default function PodcastPage() {
           <div className="podcast-manifesto">
             <span className="story-eyebrow" style={{ textAlign: "center", display: "block" }}>Pourquoi ce podcast</span>
             <p className="podcast-manifesto-lead">
-              Et si on parlait enfin de ce qui se passe <em>à l'intérieur</em> quand on décide de changer de cap ?
+              Et si on parlait enfin de ce qui se passe <em>à l'intérieur</em> quand on décide de se réinventer ?
             </p>
             <p className="podcast-manifesto-body">
-              Réinventions, c'est un podcast sur ces moments où tout bascule : quand une voix en nous murmure que « ça ne colle plus », quand on hésite, qu'on doute, qu'on avance à tâtons vers quelque chose de plus aligné.
-            </p>
-            <p className="podcast-manifesto-body">
-              Ce podcast <strong>n'est pas sur le résultat</strong>, ni sur le succès professionnel. Mes invitées racontent les burnout, les pertes de sens, les années qui passent avant de franchir le pas, les doutes dont on ne se débarrasse jamais vraiment, les sacrifices sans résultat garanti. Vraiment <strong>le monde intérieur derrière une réinvention</strong> — avec toute sa palette de gris, ses hauts et ses bas.
+              Ce n'est pas un podcast sur le résultat des reconversions, ni sur le succès professionnel. Mes invitées racontent les burnout, les pertes de sens, les années qui passent avant de franchir le pas, les doutes dont on ne se débarrasse jamais vraiment, les sacrifices sans résultat garanti. Vraiment <strong>le monde intérieur derrière une réinvention</strong> — avec toute sa palette de gris, ses hauts et ses bas.
             </p>
             <p className="podcast-manifesto-body">
               Je ne voulais pas créer un podcast « inspirant » de plus. Ce qui me passionne, c'est l'humain — plonger dans son intimité et dans sa complexité.
