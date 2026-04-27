@@ -2,22 +2,24 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:          #f5eee8;
+  --bg:          #fdfbf6;
   --surface:     #ffffff;
-  --surface-2:   #ede4dc;
-  --surface-3:   #7b1f35;
-  --border:      #e0d5cc;
-  --text:        #1a1a1a;
-  --text-muted:  #5a5050;
-  --text-light:  #9a8f88;
-  --primary:     #1a1a1a;
-  --primary-deep:#7b1f35;
-  --primary-dim: #5a1525;
-  --accent:      #7b1f35;
-  --accent-dim:  #5a1525;
-  --accent-light:#c4a0a8;
-  --warm:        #d4a373;
-  --warm-light:  #e6c9a8;
+  --surface-2:   #f4eee3;
+  --surface-3:   #6b3848;
+  --border:      #ebe2d3;
+  --text:        #2a1f15;
+  --text-muted:  #7c6a5a;
+  --text-light:  #a59685;
+  --primary:     #2a1f15;
+  --primary-deep:#6b3848;
+  --primary-dim: #522835;
+  --accent:      #6b3848;
+  --accent-dim:  #522835;
+  --accent-light:#c9a8b1;
+  --warm:        #c9a96b;
+  --gold:        #c9a96b;
+  --gold-light:  #e6d2a3;
+  --warm-light:  #e6d2a3;
   --success:     #4a8c6f;
   --error:       #c0392b;
   --radius:      12px;
@@ -121,13 +123,13 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.03em;
   background: var(--accent) !important;
   color: #fff !important;
-  box-shadow: 0 2px 12px rgba(123,31,53,0.25);
+  box-shadow: 0 2px 12px rgba(107,56,72,0.25);
   transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
 }
 .nav-cta-btn:hover {
   background: var(--accent-dim) !important;
   color: #fff !important;
-  box-shadow: 0 4px 20px rgba(123,31,53,0.35);
+  box-shadow: 0 4px 20px rgba(107,56,72,0.35);
   transform: translateY(-1px);
 }
 
@@ -229,9 +231,9 @@ a { color: inherit; text-decoration: none; }
 .btn-primary {
   background: var(--primary);
   color: #fff;
-  box-shadow: 0 2px 12px rgba(45,74,62,0.25);
+  box-shadow: 0 2px 12px rgba(42,31,21,0.25);
 }
-.btn-primary:hover { opacity: 0.9; box-shadow: 0 4px 20px rgba(45,74,62,0.3); }
+.btn-primary:hover { opacity: 0.9; box-shadow: 0 4px 20px rgba(42,31,21,0.3); }
 
 .btn-accent {
   background: var(--primary);
@@ -268,7 +270,7 @@ a { color: inherit; text-decoration: none; }
 
 .card-hover { transition: box-shadow 0.2s, transform 0.2s; }
 .card-hover:hover {
-  box-shadow: 0 8px 32px rgba(45,74,62,0.1);
+  box-shadow: 0 8px 32px rgba(42,31,21,0.1);
   transform: translateY(-2px);
 }
 
@@ -356,11 +358,11 @@ label {
 
 .hero-btn {
   background: var(--accent) !important;
-  box-shadow: 0 4px 20px rgba(123,31,53,0.3) !important;
+  box-shadow: 0 4px 20px rgba(107,56,72,0.3) !important;
 }
 .hero-btn:hover {
   background: var(--accent-dim) !important;
-  box-shadow: 0 6px 28px rgba(123,31,53,0.4) !important;
+  box-shadow: 0 6px 28px rgba(107,56,72,0.4) !important;
 }
 
 .hero-reassurance {
@@ -860,7 +862,7 @@ label {
   transition: all 0.15s;
 }
 .sidebar-link:hover { background: var(--surface-2); color: var(--primary); }
-.sidebar-link.active { background: rgba(45,74,62,0.08); color: var(--primary); font-weight: 500; }
+.sidebar-link.active { background: rgba(42,31,21,0.08); color: var(--primary); font-weight: 500; }
 
 .client-main { padding: 2.5rem; }
 .client-page-title { margin-bottom: 2rem; }
@@ -1148,7 +1150,7 @@ label {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(160deg, #f5eee8 0%, #ede4dc 50%, #e4d8cc 100%);
+  background: linear-gradient(160deg, #fdfbf6 0%, #f4eee3 50%, #ebe2d3 100%);
   position: relative;
   overflow: hidden;
 }
@@ -1218,11 +1220,11 @@ label {
   transition: all 0.25s ease;
   background: var(--accent);
   color: #fff;
-  box-shadow: 0 4px 20px rgba(123,31,53,0.25);
+  box-shadow: 0 4px 20px rgba(107,56,72,0.25);
 }
 .btn-cta:hover {
   background: var(--accent-dim);
-  box-shadow: 0 6px 28px rgba(123,31,53,0.35);
+  box-shadow: 0 6px 28px rgba(107,56,72,0.35);
   transform: translateY(-2px);
 }
 
@@ -1316,7 +1318,7 @@ label {
 
 /* ── Page Podcast — Réinventions ── */
 .podcast-hero {
-  background: linear-gradient(160deg, #2d4a3e 0%, #1e3329 100%);
+  background: linear-gradient(160deg, #6b3848 0%, #522835 100%);
   color: #fff;
   padding: 5rem 0 4rem;
   position: relative;
