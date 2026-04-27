@@ -21,7 +21,7 @@ export default function Navbar() {
             onMouseEnter={() => setAboutOpen(true)}
             onMouseLeave={() => setAboutOpen(false)}
           >
-            <NavLink to="/a-propos">À propos ▾</NavLink>
+            <NavLink to="/a-propos">Mon histoire ▾</NavLink>
             {aboutOpen && (
               <div className="dropdown-menu">
                 <NavLink to="/a-propos#histoire" onClick={() => setAboutOpen(false)}>Mon histoire</NavLink>

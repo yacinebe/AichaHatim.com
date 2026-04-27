@@ -61,7 +61,6 @@ export default function About() {
         <div className="container">
           <div className="about-hero-inner">
             <div className="about-hero-content">
-              <p className="landing-subtitle">À propos</p>
               <h1 className="about-headline">
                 Je t'aide à sortir du rôle de la bonne élève
                 <span className="headline-warm"> pour devenir une leader épanouie</span>
@@ -180,7 +179,7 @@ export default function About() {
               <p className="about-story-body">
                 J'ai essayé de faire comme avant : plus de discipline, plus de contrôle.
                 Mais ça ne fonctionnait pas. Et malgré une vie que j'avais « réussie » sur le papier…
-                <em> je ne me sentais pas bien dans ma vie.</em>
+                <em> je ne me sentais pas épanouie.</em>
               </p>
             </div>
           </div>
@@ -238,10 +237,8 @@ export default function About() {
               </p>
               <p className="about-story-body">
                 Je suis toujours ambitieuse. Mais je ne vis plus mon ambition dans la pression.
-                Mon authenticité est ma boussole. Mon dialogue intérieur est un KPI.
-              </p>
-              <p className="about-story-body">
                 Je la vis avec plus de sérénité, plus d'intention, plus d'épanouissement.
+                Mon authenticité est ma boussole et mon dialogue intérieur est aussi un KPI.
               </p>
             </div>
           </div>
@@ -267,12 +264,9 @@ export default function About() {
                 Je suis coach certifiée <strong>Co-Active</strong> et accréditée <strong>ICF</strong>
                 {" "}(International Coaching Federation, la référence mondiale du coaching).
               </p>
-              <div className="about-belief">
-                <p>Tu n'as rien à « corriger ».<br /><strong>Tu es déjà complète.</strong></p>
-              </div>
               <p className="about-story-body">
                 Mon rôle, ce n'est pas de te dire quoi faire. C'est de t'aider à voir ce que tu ne vois pas,
-                comprendre comment tu fonctionnes — et changer en profondeur.
+                comprendre comment tu fonctionnes et t'aider à changer en profondeur.
               </p>
               <div className="about-worlds">
                 <div className="about-world">
