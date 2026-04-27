@@ -443,7 +443,7 @@ function ProgrammeSection() {
                 <ul className="programme-scard-list">
                   <li>Un espace où tu peux enfin poser l'armure — pas besoin de performer, d'avoir l'air d'aller bien, ou d'avoir les bonnes réponses</li>
                   <li>Des conversations qui vont au fond des choses</li>
-                  <li>Des prises de conscience ancrées dans ta vraie vie</li>
+                  <li>Enfin toi au centre — pour clarifier ce qui compte vraiment et ce que tu veux vivre</li>
                 </ul>
               </div>
               <div className="programme-scard">
@@ -544,9 +544,9 @@ function QuiSuisJeSection() {
                   <div className="quisuisje-beat-connector" />
                 </div>
                 <p className="quisuisje-beat-text">
-                  Moi aussi, j'ai été la bonne élève. Pendant plus de 10 ans dans le corporate —
-                  sales, management. J'aimais mon travail. Je performais.
-                  J'étais celle sur qui on peut compter. <strong>Toujours à 110%.</strong>
+                  Moi aussi, j'ai été la bonne élève. Dans tous les domaines de ma vie
+                  et particulièrement dans le monde corporate. Pendant plus de 10 ans,
+                  j'étais celle sur qui on peut compter. <strong>Toujours à 120%.</strong>
                 </p>
               </div>
               <div className="quisuisje-beat">
@@ -558,8 +558,8 @@ function QuiSuisJeSection() {
                   De l'extérieur, c'était une réussite. À l'intérieur, j'étais épuisée,
                   sous pression constante, jamais vraiment fière. Cette voix qui dit
                   « ce n'est jamais assez ». Ma soupape de décompression ?
-                  Je mangeais trop le weekend pour me noyer — et je repartais au régime le lundi.
-                  <strong> Je recommençais la semaine comme si de rien n'était.</strong>
+                  La nourriture émotionnelle les week-ends.
+                  <strong> Le lundi, je recommençais la semaine comme si de rien n'était.</strong>
                 </p>
               </div>
               <div className="quisuisje-beat">
@@ -568,10 +568,10 @@ function QuiSuisJeSection() {
                 </div>
                 <p className="quisuisje-beat-text">
                   C'est la maternité qui a tout changé. Quand j'ai vu que je n'avais plus rien
-                  à donner à mon enfant en rentrant le soir — que j'étais irritable, absente,
-                  à bout — j'ai su que je ne pouvais plus continuer comme ça.
-                  J'ai décidé de me faire accompagner. Pas parce que tout allait mal.
-                  Mais parce que <strong>je méritais mieux que de juste tenir.</strong>
+                  à donner à mon enfant en rentrant le soir et que j'étais irritable pour un rien,
+                  j'ai su que je ne pouvais plus continuer comme ça.
+                  J'ai décidé de me faire accompagner. Au fond, je savais que
+                  <strong> je méritais mieux que de juste tenir.</strong>
                 </p>
               </div>
             </div>
