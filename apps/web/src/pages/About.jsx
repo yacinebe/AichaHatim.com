@@ -82,170 +82,106 @@ export default function About() {
 
       <WaveDivider from="var(--surface-2)" to="var(--bg)" />
 
-      {/* HISTOIRE — ENFANCE */}
+      {/* TIMELINE HISTOIRE */}
       <section id="histoire" className="landing-section" style={{ background: "var(--bg)" }}>
         <div className="container">
-          <div className="about-story-block">
-            <div className="about-story-text">
-              <p className="story-eyebrow">L'enfance</p>
-              <p className="about-story-body">
-                Je suis née au Maroc, j'ai grandi à Casablanca. Avec des croyances très claires dès le départ :
-                qu'il faut travailler dur pour y arriver, que quand on veut on peut —
-                et surtout, qu'être émotive, c'est une faiblesse.
-              </p>
-              <p className="about-story-body">
-                Ces croyances m'ont construite. Et pendant longtemps, elles m'ont bien servie.
-              </p>
+          <div className="about-timeline">
+
+            <div className="tl-item">
+              <div className="tl-dot-col"><div className="tl-dot" /></div>
+              <div className="tl-content">
+                <div className="tl-text">
+                  <p className="story-eyebrow">L'enfance</p>
+                  <p className="about-story-body">
+                    Je suis née au Maroc, j'ai grandi à Casablanca. Avec des croyances très claires :
+                    qu'il faut travailler dur, que les émotions c'est une faiblesse.
+                    Ces croyances m'ont construite. Et pendant longtemps, elles m'ont bien servie.
+                  </p>
+                </div>
+                <div className="tl-photo"><PhotoSwitcher startIndex={0} /></div>
+              </div>
             </div>
-            <div className="about-story-photo">
-              <PhotoSwitcher startIndex={0} />
+
+            <div className="tl-item">
+              <div className="tl-dot-col"><div className="tl-dot" /></div>
+              <div className="tl-content">
+                <div className="tl-text">
+                  <p className="story-eyebrow">Le monde corporate</p>
+                  <p className="about-story-body">
+                    Prépa, école de commerce. Sales, management, responsabilités.
+                    <strong> J'étais performante. Très performante.</strong> Toujours préparée, toujours à 110%.
+                    J'ai été promue. Reconnue. De l'extérieur… <em>tout était « réussi ».</em>
+                  </p>
+                </div>
+                <div className="tl-photo"><PhotoSwitcher startIndex={4} /></div>
+              </div>
             </div>
+
+            <div className="tl-item">
+              <div className="tl-dot-col"><div className="tl-dot" /></div>
+              <div className="tl-content">
+                <div className="tl-text">
+                  <p className="story-eyebrow">Mais à l'intérieur…</p>
+                  <p className="about-story-body">
+                    Beaucoup de pression. Une voix qui disait « c'est jamais assez ».
+                    Je vivais dans le contrôle. Et dès que je relâchais — je mangeais sans faim,
+                    je scrollais, je me sentais vide. <em>Mais je pensais que c'était normal.</em>
+                  </p>
+                </div>
+                <div className="tl-photo"><PhotoSwitcher startIndex={8} /></div>
+              </div>
+            </div>
+
+            <div className="tl-item">
+              <div className="tl-dot-col"><div className="tl-dot" /></div>
+              <div className="tl-content">
+                <div className="tl-text">
+                  <p className="story-eyebrow">La maternité — le tournant</p>
+                  <p className="about-story-body">
+                    Plus de contrôle possible, plus de mode d'emploi.
+                    <strong> Tout ce qui « marchait » avant… ne marchait plus.</strong>
+                    Et malgré une vie « réussie » sur le papier… <em>je ne me sentais pas épanouie.</em>
+                  </p>
+                </div>
+                <div className="tl-photo"><PhotoSwitcher startIndex={12} /></div>
+              </div>
+            </div>
+
+            <div className="tl-item">
+              <div className="tl-dot-col"><div className="tl-dot" /></div>
+              <div className="tl-content">
+                <div className="tl-text">
+                  <p className="story-eyebrow">Le déclic</p>
+                  <p className="about-story-body">
+                    J'ai investi en moi. Thérapie, coachings, vrai travail intérieur.
+                    J'ai appris à écouter mes émotions, comprendre mes mécanismes.
+                    Et surtout : <strong>j'ai arrêté de fonctionner contre moi.</strong>
+                  </p>
+                </div>
+                <div className="tl-photo"><PhotoSwitcher startIndex={16} /></div>
+              </div>
+            </div>
+
+            <div className="tl-item tl-item-last">
+              <div className="tl-dot-col"><div className="tl-dot tl-dot-gold" /></div>
+              <div className="tl-content">
+                <div className="tl-text">
+                  <p className="story-eyebrow" style={{ color: "var(--gold)" }}>Ma réinvention</p>
+                  <p className="about-story-body">
+                    J'ai changé de pays, quitté le corporate, me suis reconvertie dans le coaching.
+                    Je suis toujours ambitieuse. Mais je vis mon ambition avec plus de sérénité,
+                    plus d'intention, plus d'épanouissement. Mon authenticité est ma boussole.
+                  </p>
+                </div>
+                <div className="tl-photo"><PhotoSwitcher startIndex={20} /></div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
 
-      <WaveDivider from="var(--bg)" to="var(--surface)" />
-
-      {/* CORPORATE */}
-      <section className="landing-section" style={{ background: "var(--surface)" }}>
-        <div className="container">
-          <div className="about-story-block reversed">
-            <div className="about-story-photo">
-              <PhotoSwitcher startIndex={4} />
-            </div>
-            <div className="about-story-text">
-              <p className="story-eyebrow">Le monde corporate</p>
-              <p className="about-story-body">
-                J'ai fait prépa, école de commerce. Puis j'ai construit une carrière dans le corporate —
-                sales, management, responsabilités. Des grandes boîtes, des startups.
-              </p>
-              <p className="about-story-body">
-                <strong>J'étais performante. Très performante.</strong> Toujours préparée, toujours fiable, toujours à 110%.
-                J'ai été promue. Reconnue. Récompensée.
-              </p>
-              <p className="about-story-body">
-                De l'extérieur… <em>tout était « réussi ».</em>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <WaveDivider from="var(--surface)" to="var(--bg)" />
-
-      {/* INTÉRIEUR */}
-      <section className="landing-section" style={{ background: "var(--bg)" }}>
-        <div className="container">
-          <div className="about-story-block">
-            <div className="about-story-text">
-              <p className="story-eyebrow">Mais à l'intérieur…</p>
-              <p className="about-story-body">
-                C'était autre chose. Beaucoup de pression. Une exigence constante.
-                Une voix qui disait « c'est jamais assez ».
-              </p>
-              <p className="about-story-body">
-                Je vivais dans le contrôle. Toujours en train d'anticiper. De gérer. De tenir.
-                Et dès que je relâchais — je mangeais sans faim, je scrollais, je me sentais vide.
-              </p>
-              <p className="about-story-emphasis">
-                Mais je pensais que c'était normal.
-              </p>
-            </div>
-            <div className="about-story-photo">
-              <PhotoSwitcher startIndex={8} />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <WaveDivider from="var(--bg)" to="var(--surface)" />
-
-      {/* MATERNITÉ */}
-      <section className="landing-section" style={{ background: "var(--surface)" }}>
-        <div className="container">
-          <div className="about-story-block reversed">
-            <div className="about-story-photo">
-              <PhotoSwitcher startIndex={12} />
-            </div>
-            <div className="about-story-text">
-              <p className="story-eyebrow">La maternité — le tournant</p>
-              <p className="about-story-body">
-                Et puis il y a eu la maternité. Et là — plus de contrôle possible, plus de mode d'emploi,
-                plus de perfection possible.
-              </p>
-              <p className="about-story-body">
-                <strong>Tout ce qui « marchait » avant… ne marchait plus.</strong>
-              </p>
-              <p className="about-story-body">
-                J'ai essayé de faire comme avant : plus de discipline, plus de contrôle.
-                Mais ça ne fonctionnait pas. Et malgré une vie que j'avais « réussie » sur le papier…
-                <em> je ne me sentais pas épanouie.</em>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <WaveDivider from="var(--surface)" to="var(--bg)" />
-
-      {/* DÉCLIC */}
-      <section className="landing-section" style={{ background: "var(--bg)" }}>
-        <div className="container">
-          <div className="about-story-block">
-            <div className="about-story-text">
-              <p className="story-eyebrow">Le déclic</p>
-              <p className="about-story-body">
-                J'ai mis du temps à comprendre que je ne pouvais pas régler ça seule.
-                Les livres, les podcasts, la discipline… ne suffisaient pas.
-              </p>
-              <p className="about-story-body">
-                Alors j'ai investi en moi. J'ai fait une thérapie et des coachings.
-                J'ai commencé un vrai travail intérieur.
-              </p>
-              <p className="about-story-emphasis">Et là… quelque chose a changé.</p>
-              <p className="about-story-body">
-                J'ai appris à écouter mes émotions, comprendre mes mécanismes,
-                apaiser mon système nerveux, changer mon dialogue intérieur.
-                J'ai redéfini ce qui comptait vraiment pour moi.
-              </p>
-              <p className="about-story-body">
-                Et surtout : <strong>j'ai arrêté de fonctionner contre moi.</strong>
-              </p>
-            </div>
-            <div className="about-story-photo">
-              <PhotoSwitcher startIndex={16} />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <WaveDivider from="var(--bg)" to="var(--surface)" />
-
-      {/* OUVERTURE */}
-      <section className="landing-section" style={{ background: "var(--surface)" }}>
-        <div className="container">
-          <div className="about-story-block reversed">
-            <div className="about-story-photo">
-              <PhotoSwitcher startIndex={20} />
-            </div>
-            <div className="about-story-text">
-              <p className="story-eyebrow">Ma réinvention</p>
-              <p className="about-story-body">
-                En enlevant cette pression… <strong>tout s'est ouvert.</strong>
-                J'ai changé de pays, quitté le corporate, me suis reconvertie dans le coaching,
-                et j'ai vécu ma deuxième maternité autrement.
-              </p>
-              <p className="about-story-body">
-                Je suis toujours ambitieuse. Mais je ne vis plus mon ambition dans la pression.
-                Je la vis avec plus de sérénité, plus d'intention, plus d'épanouissement.
-                Mon authenticité est ma boussole et mon dialogue intérieur est aussi un KPI.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <WaveDivider from="var(--surface)" to="var(--surface-2)" />
+      <WaveDivider from="var(--bg)" to="var(--surface-2)" />
 
       {/* MON COACHING */}
       <section id="coaching" className="landing-section" style={{ background: "var(--surface-2)" }}>
