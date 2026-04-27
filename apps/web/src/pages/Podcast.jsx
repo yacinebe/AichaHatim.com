@@ -12,7 +12,7 @@ export default function PodcastPage() {
     guest: "Insaf Bennis, stratège digitale & créatrice de contenu",
     duration: "—",
     date: "Épisode 8",
-    desc: "Insaf a construit une carrière brillante — prépa, école de commerce, Charlotte Tilbury à Dubaï — avant d'appuyer sur pause. Burn-out silencieux, déclic à Bali, naissance du Glow Squad. Elle raconte le monde intérieur derrière une réinvention : la peur du manque, la thérapie, l'écoute du corps, et pourquoi dire non ouvre l'espace au bon projet."
+    desc: "Insaf a construit une carrière brillante — prépa, école de commerce, un poste chez Charlotte Tilbury à Dubaï. De l'extérieur, tout brillait. À l'intérieur, un rythme effréné dirigé par la peur du manque, jusqu'au burn-out silencieux. Elle raconte le déclic de Bali, la pause qu'elle s'est accordée pour découvrir une vie sans urgence — et comment cet espace a donné naissance au Glow Squad, son accompagnement de santé holistique pour les femmes."
   };
 
   const episodes = [
@@ -93,8 +93,8 @@ export default function PodcastPage() {
       <section className="landing-section" style={{ background: "var(--bg)" }}>
         <div className="container">
           <div className="section-header">
-            <span className="section-eyebrow">À l'écoute en ce moment</span>
-            <h2>Dernier épisode</h2>
+            <span className="section-eyebrow">Par où commencer</span>
+            <h2>Un épisode pour commencer</h2>
             <div className="section-divider" />
           </div>
           <div className="featured-episode">
@@ -108,15 +108,9 @@ export default function PodcastPage() {
               />
             </div>
             <div className="featured-meta">
-              <div className="featured-tags">
-                <span className="badge-pill badge-gold">Nouveau</span>
-                <span className="featured-num">Épisode vedette</span>
-              </div>
               <h3 className="featured-title">{featured.title}</h3>
               <div className="featured-sub">
                 <span>{featured.guest}</span>
-                <span className="dot">·</span>
-                <span>{featured.duration}</span>
                 <span className="dot">·</span>
                 <span>{featured.date}</span>
               </div>
