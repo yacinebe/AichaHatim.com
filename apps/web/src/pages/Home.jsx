@@ -524,7 +524,7 @@ function QuiSuisJeSection() {
           {/* Photo + timeline */}
           <div className="quisuisje-top">
             <div className="quisuisje-photo">
-              <img src="/quisuisje-photo.jpg" alt="Aicha Hatim" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              <img src="/about-photo.jpg" alt="Aicha Hatim" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} />
               <div className="quisuisje-photo-accent" />
             </div>
 
