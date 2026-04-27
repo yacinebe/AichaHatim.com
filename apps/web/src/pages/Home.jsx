@@ -336,11 +336,6 @@ function ProgrammeSection() {
               <div className="programme-def-tag"><div className="programme-def-dot" />Pas théorique</div>
               <div className="programme-def-tag"><div className="programme-def-dot" />Ancré dès la 1ère session</div>
             </div>
-            <div className="programme-def-divider" />
-            <p className="programme-def-quote">
-              Pour que tu passes d'un mode « je serre les dents et je tiens »<br />
-              à un mode « je me fais confiance et j'avance ».
-            </p>
           </div>
 
           {/* Vision */}
