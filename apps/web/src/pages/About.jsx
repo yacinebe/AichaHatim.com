@@ -270,11 +270,15 @@ export default function About() {
               </p>
               <div className="about-worlds">
                 <div className="about-world">
+                  <div className="about-world-accent" />
                   <p className="about-world-label">Travail intérieur profond</p>
                   <p className="about-world-sub">Émotions, saboteurs, parts, croyances</p>
                 </div>
-                <div className="about-world-sep">×</div>
+                <div className="about-world-sep">
+                  <div className="about-world-sep-inner">×</div>
+                </div>
                 <div className="about-world">
+                  <div className="about-world-accent gold" />
                   <p className="about-world-label">Transformations concrètes</p>
                   <p className="about-world-sub">Dans ta vraie vie : travail, leadership, relations</p>
                 </div>
