@@ -2738,19 +2738,19 @@ label {
 }
 
 /* ── About timeline ── */
-.about-timeline { position: relative; padding-left: 1.5rem; display: flex; flex-direction: column; }
+.about-timeline { position: relative; padding-left: 1.5rem; display: flex; flex-direction: column; max-width: 720px; margin: 0 auto; }
 .about-timeline::before { content: ""; position: absolute; left: 7px; top: 12px; bottom: 12px; width: 1.5px; background: var(--accent); opacity: 0.2; }
-.tl-item { display: grid; grid-template-columns: auto 1fr; gap: 2rem; padding-bottom: 3rem; }
+.tl-item { display: grid; grid-template-columns: auto 1fr; gap: 1.5rem; padding-bottom: 2rem; }
 .tl-item-last { padding-bottom: 0; }
 .tl-dot-col { display: flex; flex-direction: column; align-items: center; }
-.tl-dot { width: 14px; height: 14px; border-radius: 50%; background: var(--accent); border: 2.5px solid var(--bg); outline: 1.5px solid var(--accent); flex-shrink: 0; margin-top: 4px; position: relative; z-index: 1; }
+.tl-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); outline: 1.5px solid var(--accent); flex-shrink: 0; margin-top: 4px; position: relative; z-index: 1; }
 .tl-dot-gold { background: var(--gold); outline-color: var(--gold); }
-.tl-content { display: grid; grid-template-columns: 1fr 130px; gap: 2rem; align-items: start; }
-.tl-text { display: flex; flex-direction: column; gap: 0.65rem; }
-.tl-photo { position: relative; width: 130px; height: 165px; border-radius: var(--radius); overflow: hidden; flex-shrink: 0; }
+.tl-content { display: grid; grid-template-columns: 1fr 100px; gap: 1.25rem; align-items: start; }
+.tl-text { display: flex; flex-direction: column; gap: 0.5rem; }
+.tl-photo { position: relative; width: 100px; height: 130px; border-radius: var(--radius); overflow: hidden; flex-shrink: 0; }
 .tl-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 @media (max-width: 600px) {
   .tl-content { grid-template-columns: 1fr; }
-  .tl-photo { width: 100%; height: 200px; }
+  .tl-photo { width: 100%; height: 180px; }
 }
