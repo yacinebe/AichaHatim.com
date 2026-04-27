@@ -1806,14 +1806,14 @@ label {
 
 /* Mission quote */
 .mission-quote {
-  font-family: var(--font-heading);
-  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 3.5vw, 2.6rem);
   font-weight: 400;
   font-style: italic;
-  color: rgba(255,255,255,0.88);
-  line-height: 1.75;
-  max-width: 640px;
-  margin: 1.25rem auto 0;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.55;
+  max-width: 780px;
+  margin: 1.5rem auto 0;
   text-align: center;
   padding: 0;
 }
