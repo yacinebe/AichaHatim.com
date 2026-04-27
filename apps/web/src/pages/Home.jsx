@@ -280,7 +280,7 @@ function EssayeSection() {
 
           <div className="essaye-highlight">
             <p>Parce que le problème n'est pas ta vie.</p>
-            <p className="essaye-highlight-big">C'est ta façon de fonctionner de l'intérieur.</p>
+            <p className="essaye-highlight-big">C'est ta façon de fonctionner <span className="gold-em">de l'intérieur.</span></p>
             <p>
               Et ça, tu ne peux pas le voir seule.<br />
               Pas parce que tu n'es pas capable —<br />
