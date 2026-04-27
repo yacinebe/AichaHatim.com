@@ -287,13 +287,16 @@ export default function About() {
       <WaveDivider from="var(--surface-2)" to="var(--surface-3)" />
 
       {/* MISSION */}
-      <section className="landing-section" style={{ background: "var(--surface-3)", textAlign: "center" }}>
+      <section className="landing-section" style={{ background: "var(--surface-3)", textAlign: "center", padding: "5rem 0" }}>
         <div className="container">
-          <p className="landing-subtitle" style={{ color: "var(--gold-light)" }}>Ma mission</p>
-          <blockquote className="mission-quote">
-            « Aider des femmes ambitieuses à se reconnecter à leur monde intérieur…
-            pour créer une vie extérieure <strong>qui leur ressemble vraiment.</strong> »
-          </blockquote>
+          <div style={{ maxWidth: "680px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem", alignItems: "center" }}>
+            <p className="landing-subtitle" style={{ color: "var(--gold-light)", letterSpacing: "0.2em" }}>Ma mission</p>
+            <div style={{ width: "40px", height: "1px", background: "var(--gold)", margin: "0 auto" }} />
+            <blockquote className="mission-quote">
+              « Aider des femmes ambitieuses à se reconnecter à leur monde intérieur…
+              pour créer une vie extérieure <strong>qui leur ressemble vraiment.</strong> »
+            </blockquote>
+          </div>
         </div>
       </section>
 

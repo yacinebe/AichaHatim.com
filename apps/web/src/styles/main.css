@@ -1806,19 +1806,21 @@ label {
 
 /* Mission quote */
 .mission-quote {
-  font-family: var(--font-heading);
-  font-size: clamp(1.3rem, 2.8vw, 1.85rem);
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
   font-weight: 400;
   font-style: italic;
-  color: #fff;
-  line-height: 1.5;
-  max-width: 780px;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.6;
+  max-width: 720px;
   margin: 1.5rem auto 0;
-  padding: 0 2rem;
+  text-align: center;
+  padding: 0;
 }
 .mission-quote strong {
-  color: var(--accent-light);
+  color: var(--gold-light);
   font-weight: 500;
+  font-style: normal;
 }
 
 /* ── Programme (unifié) ── */
