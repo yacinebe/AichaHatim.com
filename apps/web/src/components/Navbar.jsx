@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-inner">
-        <Link to="/" className="navbar-logo" style={{ color: "red" }}>Aicha Hatim</Link>
+        <Link to="/" className="navbar-logo">Aicha Hatim</Link>
 
         <ul className="navbar-links">
           <li><NavLink to="/">Réinvention Intérieure</NavLink></li>
