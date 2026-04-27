@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { api } from "../api/client.js";
 
-const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "#";
+const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "https://calendly.com/aicha-hatim/let-s-chat";
 const INSTAGRAM_PODCAST = "https://instagram.com/reinventionspodcast";
 
 // ── Wave divider ──────────────────────────────────────────────────────

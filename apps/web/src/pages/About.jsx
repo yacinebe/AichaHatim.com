@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "#";
+const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "https://calendly.com/aicha-hatim/let-s-chat";
 
 // ── Photo switcher (temporaire — pour tester les photos) ──────────────
 const PHOTOS = [

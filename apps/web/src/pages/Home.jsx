@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { api } from "../api/client.js";
 
-const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "#";
+const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "https://calendly.com/aicha-hatim/let-s-chat";
 
 // ── Photo switcher (temporaire — pour tester les photos) ──────────────
 const PHOTOS = [

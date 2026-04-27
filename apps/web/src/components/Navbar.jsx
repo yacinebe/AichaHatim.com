@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext.jsx";
 
-const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "#";
+const CALENDLY_URL = import.meta.env.VITE_CALENDLY_URL ?? "https://calendly.com/aicha-hatim/let-s-chat";
 
 export default function Navbar() {
   const { client } = useAuth();
