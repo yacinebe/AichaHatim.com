@@ -114,7 +114,7 @@ export default function About() {
               <PhotoSwitcher startIndex={4} />
             </div>
             <div className="about-story-text">
-              <p className="story-eyebrow">Le corporate</p>
+              <p className="story-eyebrow">Le monde corporate</p>
               <p className="about-story-body">
                 J'ai fait prépa, école de commerce. Puis j'ai construit une carrière dans le corporate —
                 sales, management, responsabilités. Des grandes boîtes, des startups.
@@ -229,7 +229,7 @@ export default function About() {
               <PhotoSwitcher startIndex={20} />
             </div>
             <div className="about-story-text">
-              <p className="story-eyebrow">L'ouverture</p>
+              <p className="story-eyebrow">Ma réinvention</p>
               <p className="about-story-body">
                 En enlevant cette pression… <strong>tout s'est ouvert.</strong>
                 J'ai changé de pays, quitté le corporate, me suis reconvertie dans le coaching,
