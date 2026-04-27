@@ -38,8 +38,8 @@ export default function PodcastPage() {
               <h1 className="podcast-title-v2">Réinventions</h1>
               <p className="podcast-tagline-v2">
                 Des conversations avec des femmes qui se sont
-                <strong> réinventées professionnellement.</strong> Pas de recettes magiques —
-                des récits vrais, des bascules concrètes, des lendemains.
+                <strong> réinventées professionnellement.</strong> Pas les success stories.
+                Ce qui s'est vraiment passé à l'intérieur.
               </p>
               <div className="platform-links">
                 <a className="platform-btn-v2 spotify" href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer">
