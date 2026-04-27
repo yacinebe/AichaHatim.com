@@ -116,8 +116,8 @@ export default function PodcastPage() {
               </div>
               <p className="featured-desc">{featured.desc}</p>
               <div className="platform-links compact">
-                <a className="platform-btn" href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer">Écouter sur Spotify</a>
-                <a className="platform-btn" href={APPLE_URL} target="_blank" rel="noopener noreferrer">Apple Podcasts</a>
+                <a className="platform-btn" href="https://open.spotify.com/episode/0W59OQfImfNCdFIPNjJwqE?si=a2a920a44f3f4ec9" target="_blank" rel="noopener noreferrer">Écouter sur Spotify</a>
+                <a className="platform-btn" href="https://podcasts.apple.com/us/podcast/insaf-bennis-et-si-le-travail-servait-enfin-le-bien-%C3%AAtre/id1848308091?i=1000749006118" target="_blank" rel="noopener noreferrer">Apple Podcasts</a>
               </div>
             </div>
           </div>
