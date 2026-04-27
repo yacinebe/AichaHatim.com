@@ -9,10 +9,10 @@ export default function PodcastPage() {
   const featured = {
     youtubeId: "pLMdssfs7hM",
     title: "Le travail au service du bien-être — avec Insaf Bennis",
-    guest: "Insaf Bennis, stratège digitale & créatrice de contenu",
+    guest: "Insaf Bennis, coach de santé holistique & créatrice de contenu",
     duration: "—",
-    date: "Épisode 8",
-    desc: "Insaf a construit une carrière brillante — prépa, école de commerce, un poste chez Charlotte Tilbury à Dubaï. De l'extérieur, tout brillait. À l'intérieur, un rythme effréné dirigé par la peur du manque, jusqu'au burn-out silencieux. Elle raconte le déclic de Bali, la pause qu'elle s'est accordée pour découvrir une vie sans urgence — et comment cet espace a donné naissance au Glow Squad, son accompagnement de santé holistique pour les femmes."
+    date: "",
+    desc: "Insaf a construit une carrière brillante — prépa, école de commerce, un poste chez Charlotte Tilbury à Dubaï, avant de se lancer dans l'infoprenariat. De l'extérieur, tout brillait. À l'intérieur, un rythme effréné dirigé par la peur du manque, jusqu'au burn-out silencieux. Elle raconte le déclic de son voyage à Bali, la pause qu'elle s'est accordée pour découvrir une vie sans urgence — et comment cet espace a donné naissance au Glow Squad, son accompagnement de santé holistique pour les femmes."
   };
 
   const episodes = [
