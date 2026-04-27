@@ -311,7 +311,7 @@ export default function About() {
         <div className="container">
           <div className="about-cta">
             <p className="landing-subtitle">Pour conclure</p>
-            <h2 className="landing-title">Si tu te reconnais dans mon histoire…</h2>
+            <h2 className="landing-title" style={{ whiteSpace: "nowrap" }}>Si tu te reconnais dans mon histoire…</h2>
             <p className="about-story-body" style={{ textAlign: "center", maxWidth: "52ch", margin: "0 auto" }}>
               Alors tu es probablement <strong>exactement là où j'étais.</strong>
             </p>
