@@ -8,11 +8,11 @@ const YOUTUBE_URL = "https://www.youtube.com/@R%C3%A9inventions";
 export default function PodcastPage() {
   const featured = {
     youtubeId: "pLMdssfs7hM",
-    title: "[Titre épisode à compléter]",
-    guest: "[Invité·e]",
+    title: "Le travail au service du bien-être — avec Insaf Bennis",
+    guest: "Insaf Bennis, stratège digitale & créatrice de contenu",
     duration: "—",
-    date: "Récent",
-    desc: "Un des épisodes les plus regardés de Réinventions. À remplacer par la vraie description."
+    date: "Épisode 8",
+    desc: "Insaf a construit une carrière brillante — prépa, école de commerce, Charlotte Tilbury à Dubaï — avant d'appuyer sur pause. Burn-out silencieux, déclic à Bali, naissance du Glow Squad. Elle raconte le monde intérieur derrière une réinvention : la peur du manque, la thérapie, l'écoute du corps, et pourquoi dire non ouvre l'espace au bon projet."
   };
 
   const episodes = [
