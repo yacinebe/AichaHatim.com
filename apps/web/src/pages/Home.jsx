@@ -701,7 +701,7 @@ function CtaFinalSection() {
       <div className="container">
         <div className="cta-final-content">
 
-          <h2 className="cta-final-title">Tu mérites mieux que de juste tenir.</h2>
+          <h2 className="cta-final-title">Tu mérites de te sentir légère, sereine, en confiance.</h2>
 
           <div className="cta-final-body">
             <div className="cta-final-text">
