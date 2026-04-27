@@ -58,14 +58,15 @@ function HeroSection() {
       <div className="landing-hero-inner">
         <div className="landing-hero-content">
           <h1 className="landing-hero-headline">
-            Tu performes.<br />
-            Tu gères.<br />
-            Tu tiens.<br />
-            <span className="headline-warm">Mais à l'intérieur, tu es épuisée.</span>
+            Tu gères tout.<br />
+            Tu portes tout.<br />
+            Tu continues.<br />
+            <span className="headline-warm">Mais tu ne te souviens plus de la dernière fois où tu t'es sentie légère.</span>
           </h1>
           <p className="landing-hero-body">
-            Tu réussis à l'extérieur. Mais à l'intérieur, tu es à bout.
-            Fatiguée, irritable, jamais assez. Et tu sens que si tu continues comme ça, quelque chose va lâcher.
+            En réunion tu performes. À la maison tu tiens. Mais à l'intérieur tu es à bout.
+            Fatiguée de tout contrôler, irritable sans le vouloir, jamais vraiment fière.
+            Et quelque part tu sais — si tu continues comme ça, quelque chose va lâcher.
           </p>
           <p className="landing-hero-mission">
             Je t'aide à passer de la bonne élève qui s'épuise… à la femme qui s'épanouit.
