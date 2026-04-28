@@ -170,9 +170,10 @@ export default function About() {
                 <div className="tl-text">
                   <p className="story-eyebrow" style={{ color: "var(--gold)" }}>Ma réinvention</p>
                   <p className="about-story-body">
-                    J'ai changé de pays, quitté le corporate, me suis reconvertie dans le coaching.
+                    J'ai changé de pays, quitté le corporate et me suis reconvertie dans le coaching.
                     Je suis toujours ambitieuse. Mais je vis mon ambition avec plus de sérénité,
-                    plus d'intention, plus d'épanouissement. Mon authenticité est ma boussole.
+                    plus d'intention, plus d'épanouissement. Mon dialogue intérieur est aussi un indicateur
+                    que je suis et mon authenticité est ma boussole.
                   </p>
                 </div>
                 <div className="tl-photo"><PhotoSwitcher startIndex={20} /></div>
