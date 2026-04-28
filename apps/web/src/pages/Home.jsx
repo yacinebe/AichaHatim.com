@@ -67,7 +67,7 @@ function HeroSection() {
             Et quelque part tu sais — si tu continues comme ça, quelque chose va lâcher.
           </p>
           <p className="landing-hero-mission">
-            Je t'aide à passer de la bonne élève qui s'épuise… à la femme qui s'épanouit.
+            Je t'aide à passer de l'over-achiever qui s'épuise… à la femme qui s'épanouit.
           </p>
           <div className="hero-actions">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta hero-btn">
