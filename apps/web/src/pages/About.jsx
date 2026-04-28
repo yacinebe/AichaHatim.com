@@ -235,8 +235,7 @@ export default function About() {
             <p className="landing-subtitle" style={{ color: "var(--gold-light)", letterSpacing: "0.2em" }}>Ma mission</p>
             <div style={{ width: "40px", height: "1px", background: "var(--gold)", margin: "0 auto" }} />
             <blockquote className="mission-quote">
-              « Aider des femmes ambitieuses à se reconnecter à leur monde intérieur…
-              pour créer une vie extérieure <strong>qui leur ressemble vraiment.</strong> »
+              « Aider les over-achievers à déposer la pression — pour vivre leur ambition avec légèreté, joie et confiance. »
             </blockquote>
           </div>
         </div>
