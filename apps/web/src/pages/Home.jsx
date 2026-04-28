@@ -281,9 +281,9 @@ function EssayeSection() {
             <p>Parce que le problème n'est pas ta vie.</p>
             <p className="essaye-highlight-big">C'est ta façon de fonctionner <span className="gold-em">de l'intérieur.</span></p>
             <p>
-              Et ça, tu ne peux pas le voir seule.<br />
-              Pas parce que tu n'es pas capable —<br />
-              mais parce que <strong>c'est avec ce même mode que tu essaies de t'en sortir.</strong>
+              Et ça, tu ne peux pas le faire seule. Pas parce que tu n'es pas capable,
+              mais parce que c'est avec ce même mode que tu essaies de t'en sortir.<br />
+              <strong>(pousser plus, faire plus, te mettre encore plus de pression)</strong>
             </p>
           </div>
 
