@@ -327,7 +327,7 @@ function ProgrammeSection() {
             </p>
             <p className="programme-def-big">
               Ce qui doit changer, c'est ce qui se passe à l'intérieur — ces voix qui te disent
-              que tu n'es pas assez, ces mécanismes qui te poussent à sur-contrôler, à t'oublier.
+              que tu n'es pas assez, ton estime de toi-même et ton dialogue intérieur.
             </p>
             <div className="programme-def-tags">
               <div className="programme-def-tag"><div className="programme-def-dot" />Travail en profondeur</div>
