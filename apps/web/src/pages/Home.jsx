@@ -470,7 +470,7 @@ const TEMOIGNAGES = [
   },
   {
     name: "Kim",
-    text: "J'ai récemment terminé 8 sessions transformationnelles avec Aicha. Dès le début, elle a créé un espace sûr et sans jugement où je me suis sentie pleinement écoutée et accueillie.\n\nSa capacité à tenir cet espace — à percevoir l'importance et le potentiel d'exploration dans mes mots comme dans mon langage corporel — a permis des prises de conscience profondes. Nous avons mis au jour des croyances fondamentales inattendues qui me freinaient, et elle m'a guidée avec justesse pour les transformer.\n\nJe repars avec des schémas et des perspectives qui ont changé, de nouvelles ressources intérieures, et une confiance qui vient d'une vraie liberté émotionnelle. Je la recommande chaleureusement à toute personne en quête de croissance personnelle et d'un changement profond et durable.",
+    text: "Dès le début, Aicha a créé un espace sûr et sans jugement où je me suis sentie pleinement écoutée. Sa capacité à percevoir ce qui se passe dans mes mots comme dans mon langage corporel a permis des prises de conscience profondes.\n\nJe repars avec des schémas qui ont changé, de nouvelles ressources intérieures, et une confiance qui vient d'une vraie liberté émotionnelle. Je la recommande chaleureusement.",
   },
   {
     name: "Meryem",
