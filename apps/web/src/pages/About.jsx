@@ -204,8 +204,7 @@ export default function About() {
                 {" "}(International Coaching Federation, la référence mondiale du coaching).
               </p>
               <p className="about-story-body">
-                Mon rôle, ce n'est pas de te dire quoi faire. C'est de t'aider à voir ce que tu ne vois pas,
-                comprendre comment tu fonctionnes et t'aider à changer en profondeur.
+                Mon rôle, ce n'est pas de te donner des réponses. C'est de te poser les bonnes questions — celles qui te permettent de voir ce que tu ne vois pas, et d'avancer vers qui tu veux vraiment être.
               </p>
               <div className="about-worlds">
                 <div className="about-world">
