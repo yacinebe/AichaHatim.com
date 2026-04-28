@@ -144,7 +144,7 @@ function MiroirSection() {
               <div className="miroir-card-icon">🪞</div>
               <h3 className="miroir-card-title">Avec elle-même</h3>
               <p className="miroir-card-pos">
-                Elle essaie de prendre soin d'elle. Le sport, l'alimentation, les podcasts, les livres de dev perso.
+                Elle essaie de prendre soin d'elle. Sport, alimentation, podcasts, livres de dev perso.
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
