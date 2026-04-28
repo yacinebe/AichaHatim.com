@@ -181,7 +181,7 @@ function MiroirSection() {
           </div>
 
           <p className="miroir-conclusion">
-            La bonne élève, c'est une femme brillante…<br />
+            L'over-achiever, c'est une femme brillante…<br />
             <strong>coincée dans un mode qui l'épuise et l'empêche de profiter de la vie qu'elle a mis tant d'efforts à construire.</strong>
           </p>
 
