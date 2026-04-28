@@ -1934,6 +1934,7 @@ label {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  align-items: stretch;
 }
 .programme-mcard {
   background: var(--surface);
