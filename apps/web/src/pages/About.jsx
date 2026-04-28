@@ -140,8 +140,8 @@ export default function About() {
                 <div className="tl-text">
                   <p className="story-eyebrow">La maternité — le tournant</p>
                   <p className="about-story-body">
-                    Plus de contrôle possible, plus de mode d'emploi.
-                    <strong> Tout ce qui « marchait » avant… ne marchait plus.</strong>
+                    Plus de contrôle possible, pas de mode d'emploi.
+                    Tout ce qui « marchait » avant… ne marchait plus.
                     Et malgré une vie « réussie » sur le papier… <em>je ne me sentais pas épanouie.</em>
                   </p>
                 </div>
