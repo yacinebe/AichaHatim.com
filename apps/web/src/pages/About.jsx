@@ -93,9 +93,10 @@ export default function About() {
                 <div className="tl-text">
                   <p className="story-eyebrow">L'enfance</p>
                   <p className="about-story-body">
-                    Je suis née au Maroc, j'ai grandi à Casablanca. Avec des croyances très claires :
-                    qu'il faut travailler dur, que les émotions c'est une faiblesse.
-                    Ces croyances m'ont construite. Et pendant longtemps, elles m'ont bien servie.
+                    Je suis née au Maroc, j'ai grandi à Casablanca. Avec une conviction profonde :
+                    le travail, l'effort, la rigueur — c'est ce qui te mène quelque part.
+                    Les émotions, il vaut mieux les mettre sous le tapis.
+                    Ces croyances m'ont portée loin. Jusqu'au moment où elles ont commencé à me coûter.
                   </p>
                 </div>
                 <div className="tl-photo"><PhotoSwitcher startIndex={0} /></div>
