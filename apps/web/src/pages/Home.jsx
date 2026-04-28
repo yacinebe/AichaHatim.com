@@ -405,7 +405,7 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Réinvention</div>
                 <div className="programme-mcard-sub">Agir autrement dans ta vraie vie</div>
                 <p className="programme-mcard-body">
-                  On traduit tout ça en actes concrets. Prendre ta place. Poser des limites. Décider depuis un endroit de confiance — pas de pression. Et retrouver de la joie dans ce que tu vis déjà.
+                  On traduit tout ça en actes concrets. Prendre ta place sans chercher à prouver. Poser des limites sans culpabiliser. Décider depuis un endroit de confiance, pas de pression. Et retrouver de la joie dans ce que tu vis déjà !
                 </p>
                 <p className="programme-mcard-result">
                   <strong>Tu fonctionnes autrement. Dans ta vie, pas dans les exercices.</strong>
