@@ -432,9 +432,9 @@ function ProgrammeSection() {
               <div className="programme-scard">
                 <p className="programme-scard-title">Chaque session, c'est :</p>
                 <ul className="programme-scard-list">
-                  <li>Un espace où tu peux enfin poser l'armure — pas besoin de performer, d'avoir l'air d'aller bien, ou d'avoir les bonnes réponses</li>
-                  <li>Des conversations qui vont au fond des choses</li>
-                  <li>Enfin toi au centre — pour clarifier ce qui compte vraiment et ce que tu veux vivre</li>
+                  <li>Un espace bienveillant et strictement confidentiel où tu peux enfin poser l'armure — sans avoir à performer ou à avoir les bonnes réponses</li>
+                  <li>Des questions qui agissent comme un miroir et t'aident à aller en profondeur</li>
+                  <li>Un moment où tu es au centre — pour clarifier ce qui compte vraiment et ce que tu veux vivre</li>
                 </ul>
               </div>
               <div className="programme-scard">
