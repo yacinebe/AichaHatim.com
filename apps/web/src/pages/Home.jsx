@@ -134,8 +134,8 @@ function MiroirSection() {
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
-                Mais elle rentre épuisée, irritable. Elle réagit trop fort pour des petites choses.
-                Et elle culpabilise — parce qu'elle ne veut pas être <em>cette maman-là.</em>
+                Mais aux côtés de ceux qu'elle aime, elle est épuisée, irritable. Elle réagit trop fort pour des petites choses.
+                Et elle culpabilise — parce qu'elle ne veut pas être <em>cette personne là.</em>
               </p>
             </div>
 
