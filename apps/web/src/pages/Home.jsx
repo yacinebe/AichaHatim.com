@@ -440,9 +440,10 @@ function ProgrammeSection() {
               <div className="programme-scard">
                 <p className="programme-scard-title">Entre les sessions :</p>
                 <ul className="programme-scard-list">
-                  <li>Support WhatsApp à la demande</li>
-                  <li>Ressources audio et vidéo exclusives</li>
-                  <li>Des actions à réaliser dans ta vraie vie</li>
+                  <li>Support WhatsApp à la demande — pour ne pas rester seule quand quelque chose remonte</li>
+                  <li>Des ressources audio et vidéo pour approfondir ce qu'on travaille ensemble</li>
+                  <li>Des actions concrètes à réaliser dans ta vraie vie — pas des exercices, des vrais changements</li>
+                  <li>De l'« accountability » bienveillante — pour tenir tes engagements envers toi-même et avancer malgré les résistances</li>
                 </ul>
               </div>
             </div>
