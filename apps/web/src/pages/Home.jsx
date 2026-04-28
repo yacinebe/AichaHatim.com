@@ -571,9 +571,9 @@ function QuiSuisJeSection() {
             <div className="quisuisje-today-card">
               <p className="quisuisje-today-label">Aujourd'hui</p>
               <p className="quisuisje-today-text">
-                Je suis toujours ambitieuse. Mais je vis mon ambition avec légèreté.
-                Je prends ma place sans m'excuser. Je rentre à la maison présente.
-                Et je suis enfin fière de qui je suis — <strong>pas juste de ce que je produis.</strong>
+                Aujourd'hui je suis toujours ambitieuse. Mais mon ambition ne vient plus de la peur, elle vient de ma confiance.
+                Je ne confonds plus performance et valeur. Je suis fière de qui je suis, pas juste de ce que je produis.
+                Et je profite enfin de la vie que j'ai mis tant d'efforts à construire !
               </p>
             </div>
             <div className="quisuisje-today-card">
