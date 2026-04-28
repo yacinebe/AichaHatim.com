@@ -480,12 +480,10 @@ const TEMOIGNAGES = [
 
 function TemoignagesSection() {
   return (
-    <section className="landing-section" style={{ background: "var(--bg)" }}>
+    <section className="landing-section" style={{ background: "var(--bg)", paddingTop: "1.5rem" }}>
       <div className="container">
         <div style={{ textAlign: "center", marginBottom: "3rem" }}>
           <h2 className="landing-title">Témoignages</h2>
-        </div>
-        <div className="temoignages-grid">
           {TEMOIGNAGES.map((t) => (
             <div key={t.name} className="temoignage-card">
               <div className="temoignage-quote-mark">"</div>
