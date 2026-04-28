@@ -109,10 +109,11 @@ export default function About() {
                 <div className="tl-text">
                   <p className="story-eyebrow">Le monde corporate</p>
                   <p className="about-story-body">
-                    Prépa, école de commerce. Sales, management, responsabilités.
-                    <strong> J'étais performante. Très performante.</strong> Toujours préparée, toujours à 110%.
-                    J'ai été promue. Reconnue. De l'extérieur… <em>tout était « réussi ».</em>
+                    J'ai fait prépa, école de commerce. Et puis j'ai intégré la boite de mes rêves.
+                    J'étais celle sur qui on peut compter — toujours préparée, toujours à 120%,
+                    jamais la première à partir. J'ai été promue. Plusieurs fois. Reconnue. Récompensée.
                   </p>
+                  <p className="about-story-body"><em>De l'extérieur… tout était « réussi ».</em></p>
                 </div>
                 <div className="tl-photo"><PhotoSwitcher startIndex={4} /></div>
               </div>
