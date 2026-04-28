@@ -484,6 +484,8 @@ function TemoignagesSection() {
       <div className="container">
         <div style={{ textAlign: "center", marginBottom: "3rem" }}>
           <h2 className="landing-title">Témoignages</h2>
+        </div>
+        <div className="temoignages-grid">
           {TEMOIGNAGES.map((t) => (
             <div key={t.name} className="temoignage-card">
               <div className="temoignage-quote-mark">"</div>
