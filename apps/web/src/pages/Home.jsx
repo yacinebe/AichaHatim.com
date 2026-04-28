@@ -393,9 +393,8 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Reconnexion</div>
                 <div className="programme-mcard-sub">Revenir à toi</div>
                 <p className="programme-mcard-body">
-                  On reconnecte avec ce qui compte vraiment pour toi : tes valeurs, tes émotions, ton corps.
-                  Tu apprends à écouter ta sagesse intérieure plutôt que de la noyer sous la pression.
-                  On travaille aussi avec des pratiques somatiques pour relâcher les tensions que tu portes physiquement.
+                  On explore ce qui te fait vraiment vibrer dans ce chapitre de ta vie — pas ce qu'on attend de toi, mais ce que toi tu choisis. Tes valeurs. Tes intentions profondes.
+                  Et tu réapprends à écouter ce que tes émotions et ton corps essaient de te dire, plutôt que de les ignorer pour tenir le rythme.
                 </p>
                 <p className="programme-mcard-result">
                   Tu passes de <strong>« je subis »</strong> à <strong>« je ressens et je choisis »</strong>.
