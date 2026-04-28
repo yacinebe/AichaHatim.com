@@ -1944,7 +1944,7 @@ label {
   flex-direction: column;
   gap: 0.6rem;
 }
-.programme-mcard-num {
+.programme-mcard-body { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; flex: 1; }.programme-mcard-num {
   font-family: var(--font-heading);
   font-size: 2rem;
   font-weight: 700;
@@ -1953,7 +1953,7 @@ label {
 }
 .programme-mcard-title { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 600; color: var(--primary); }
 .programme-mcard-sub { font-size: 0.82rem; font-weight: 500; color: var(--accent-dim); }
-.programme-mcard-body { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
+
 .programme-mcard-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.3rem; }
 .programme-mcard-list li {
   font-size: 0.88rem;
