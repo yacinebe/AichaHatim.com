@@ -392,11 +392,10 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Reconnexion</div>
                 <div className="programme-mcard-sub">Revenir à toi</div>
                 <p className="programme-mcard-body">
-                  On explore ce qui te fait vraiment vibrer dans ce chapitre de ta vie — pas ce qu'on attend de toi, mais ce que toi tu choisis. Tes valeurs. Tes intentions profondes.
-                  Et tu réapprends à écouter ce que tes émotions et ton corps essaient de te dire, plutôt que de les ignorer pour tenir le rythme.
+                  On clarifie ce qui compte vraiment pour toi dans ce chapitre de ta vie — tes valeurs, ce que tu veux, ce que tu refuses. Et on regarde honnêtement si tu vis en accord avec ça. Tes valeurs deviennent ton étoile du nord — celle à laquelle tu reviens toujours.
                 </p>
                 <p className="programme-mcard-result">
-                  Tu passes de <strong>« je subis »</strong> à <strong>« je ressens et je choisis »</strong>.
+                  <strong>Tu sais qui tu es. Et tu sais ce que tu veux.</strong>
                 </p>
               </div>
               <div className="programme-mcard">
@@ -404,10 +403,10 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Réinvention</div>
                 <div className="programme-mcard-sub">Agir autrement dans ta vraie vie</div>
                 <p className="programme-mcard-body">
-                  On traduit tout ça en actes concrets. Prendre ta place sans chercher à prouver. Poser des limites sans culpabiliser. Décider depuis un endroit de confiance, pas de pression. Et retrouver de la joie dans ce que tu vis déjà !
+                  On ancre tout ça dans ton quotidien pro. Tu prends la parole. Tu postules. Tu proposes l'idée. Tu décides depuis un endroit de confiance — pas de peur. Et tu commences à vivre ton ambition avec légèreté.
                 </p>
                 <p className="programme-mcard-result">
-                  <strong>Tu fonctionnes autrement. Dans ta vie, pas dans les exercices.</strong>
+                  <strong>Tu fonctionnes autrement. Dans ta vraie vie — pas juste dans les exercices.</strong>
                 </p>
               </div>
             </div>
