@@ -68,7 +68,7 @@ function HeroSection() {
             C'est un manque de confiance en toi.
           </p>
           <p className="landing-hero-mission">
-            Je t'aide à passer de l'over-achiever qui s'épuise… à la femme qui s'épanouit.
+            Je t'aide à passer de l'over-achiever qui doute… à la femme confiante qui s'épanouit, enfin.
           </p>
           <div className="hero-actions">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta hero-btn">
