@@ -287,8 +287,8 @@ function EssayeSection() {
           </div>
 
           <p className="essaye-closer">
-            Si tu sens que tu tournes en rond…<br />
-            c'est exactement ce qu'on vient débloquer ensemble.
+            Si tu sens qu'il y a une version de toi plus légère, plus confiante — elle est là.
+            On vient juste enlever ce qui la retient.
           </p>
 
           <div className="section-cta">
