@@ -221,8 +221,8 @@ function EssayeSection() {
       <div className="container">
         <div className="essaye-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>
-            Ce que tu as déjà essayé<br />
-            <span style={{ fontSize: "1.2rem", fontWeight: 400, color: "var(--text-muted)" }}>et pourquoi ça n'a pas suffi</span>
+            Ce que tu fais quand ça ne va plus<br />
+            <span style={{ fontSize: "1.2rem", fontWeight: 400, color: "var(--text-muted)" }}>(et pourquoi le doute revient toujours)</span>
             <span style={{ fontSize: "0.75em", fontWeight: 400, color: "var(--text-muted)" }}>
               (et pourquoi ça n'a pas suffi)
             </span>
