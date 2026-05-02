@@ -67,7 +67,7 @@ export default function About() {
                 {" "}— au travail et dans ta vie.
               </h1>
               <p className="about-intro-text">
-                Je m'appelle <strong>Aïcha Hatim</strong>. Je suis coach professionnelle certifiée ICF.
+                Je m'appelle <strong>Aïcha Hatim</strong>. Je suis coach professionnelle accréditée ICF.
               </p>
               <p className="about-intro-punchline">
                 Mais avant ça… <strong>j'ai été exactement cette femme.</strong>
