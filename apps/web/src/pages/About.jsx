@@ -145,7 +145,7 @@ export default function About() {
                     Et malgré une vie « réussie » sur le papier… <em>je ne me sentais pas épanouie.</em>
                   </p>
                 </div>
-                <div className="tl-photo"><PhotoSwitcher startIndex={12} /></div>
+                <div className="tl-photo"><img src="/maternite-photo.jpg" alt="Aicha maternité" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
               </div>
             </div>
 
