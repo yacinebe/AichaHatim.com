@@ -222,6 +222,7 @@ function EssayeSection() {
         <div className="essaye-content">
           <h2 className="landing-title" style={{ textAlign: "center" }}>
             Ce que tu as déjà essayé<br />
+            <span style={{ fontSize: "1.2rem", fontWeight: 400, color: "var(--text-muted)" }}>et pourquoi ça n'a pas suffi</span>
             <span style={{ fontSize: "0.75em", fontWeight: 400, color: "var(--text-muted)" }}>
               (et pourquoi ça n'a pas suffi)
             </span>
@@ -230,7 +231,7 @@ function EssayeSection() {
           <div className="essaye-two-col">
             {/* Col 1 */}
             <div className="essaye-col">
-              <h3 className="essaye-col-title">Tu serres les dents et tu continues</h3>
+              <h3 className="essaye-col-title">Tu en fais toujours « plus »</h3>
               <p className="essaye-col-body">
                 Quand ça ne va plus… tu pousses encore plus fort.
               </p>
