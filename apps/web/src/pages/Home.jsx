@@ -58,7 +58,8 @@ function HeroSection() {
       <div className="landing-hero-inner">
         <div className="landing-hero-content">
           <h1 className="landing-hero-headline">
-            Tu performes. Tu tiens. Mais à quel prix ?
+            Tu performes. Tu tiens.<br />
+            <span style={{ color: "var(--accent)" }}>Mais à quel prix ?</span>
           </h1>
           <p className="landing-hero-body">
             En réunion tu performes. À la maison tu tiens. Mais à l'intérieur tu es à bout.
