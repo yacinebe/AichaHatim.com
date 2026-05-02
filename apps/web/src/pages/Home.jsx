@@ -232,19 +232,16 @@ function EssayeSection() {
             {/* Col 1 */}
             <div className="essaye-col">
               <h3 className="essaye-col-title">Tu en fais toujours « plus »</h3>
-              <p className="essaye-col-body">
-                Quand ça ne va plus… tu pousses encore plus fort.
-              </p>
               <div className="essaye-thoughts">
-                <div className="essaye-thought">« Je dois mieux m'organiser »</div>
-                <div className="essaye-thought">« Je dois me reprendre »</div>
-                <div className="essaye-thought">« Je dois être plus disciplinée »</div>
+                <div className="essaye-thought">« Je dois me préparer davantage. »</div>
+                <div className="essaye-thought">« Je dois monter en compétences. »</div>
+                <div className="essaye-thought">« La prochaine fois, je serai prête. »</div>
               </div>
               <p className="essaye-col-body">
-                Tu lis, tu écoutes des podcasts, des livres de dev perso ou de leadership.
-                Tu comprends plein de choses. Tu sais même exactement ce qui ne va pas.
+                Tu te formes, tu lis, tu écoutes. Tu comprends ce qui se passe.
+                Tu sais même exactement d'où vient le doute.
               </p>
-              <p className="essaye-col-punchline">Mais tu continues à fonctionner exactement pareil.</p>
+              <p className="essaye-col-punchline">Mais la voix — elle est toujours là.</p>
             </div>
 
             {/* Col 2 */}
