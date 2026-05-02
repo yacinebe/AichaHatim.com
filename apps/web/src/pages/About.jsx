@@ -62,9 +62,8 @@ export default function About() {
           <div className="about-hero-inner">
             <div className="about-hero-content">
               <h1 className="about-headline">
-                Je t'aide à sortir du rôle de la bonne élève
-                <span className="headline-warm"> pour devenir une leader épanouie</span>
-                {" "}— au travail et dans ta vie.
+                Je t'aide à passer de la femme qui doute…
+                <span className="headline-warm"> à la leader confiante et épanouie que tu es déjà.</span>
               </h1>
               <p className="about-intro-text">
                 Je m'appelle <strong>Aïcha Hatim</strong>. Je suis coach professionnelle accréditée ICF.
