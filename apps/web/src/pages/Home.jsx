@@ -279,12 +279,10 @@ function EssayeSection() {
           </div>
 
           <div className="essaye-highlight">
-            <p>Parce que le problème n'est pas ta vie.</p>
-            <p className="essaye-highlight-big">C'est ta façon de fonctionner <span className="gold-em">de l'intérieur.</span></p>
+            <p>Parce que que tu te prépares davantage ou que tu changes tout — le doute, lui, ne bouge pas.</p>
+            <p className="essaye-highlight-big">Il ne vient pas de ton manque de compétences. Il ne vient pas de ton contexte.</p>
             <p>
-              Et ça, tu ne peux pas le faire seule. Pas parce que tu n'es pas capable,
-              mais parce que c'est avec ce même mode que tu essaies de t'en sortir.<br />
-              <strong>(pousser plus, faire plus, te mettre encore plus de pression)</strong>
+              Il vient de la façon dont tu te regardes. Et ça, <strong>ça se travaille de l'intérieur.</strong>
             </p>
           </div>
 
