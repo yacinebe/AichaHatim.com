@@ -341,19 +341,19 @@ function ProgrammeSection() {
             <div className="programme-vision-grid">
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu avances dans tes journées avec <strong>légèreté</strong> — pas avec dureté et sur-contrôle.</span>
+                <span>Tu prends la parole en réunion — sans te justifier, sans hésiter.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu te sens <strong>légitime</strong> dans la salle. Tu prends la parole sans te justifier.</span>
+                <span>Tu postules au poste. Tu proposes l'idée. Tu lèves la main.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu rentres à la maison <strong>présente</strong> — pas épuisée et irritable.</span>
+                <span>Tu reçois un compliment et tu le laisses rentrer — <strong>vraiment.</strong></span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu travailles avec <strong>ambition</strong> — sans te perdre et sans t'épuiser.</span>
+                <span>Tu avances avec <strong>ambition</strong> — sans te saboter en chemin.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
@@ -361,7 +361,7 @@ function ProgrammeSection() {
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu te projettes dans l'avenir avec <strong>optimisme</strong> — et même avec excitation.</span>
+                <span>Tu te projettes dans l'avenir avec <strong>confiance</strong> — et même avec excitation.</span>
               </div>
             </div>
           </div>
