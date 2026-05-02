@@ -2697,7 +2697,7 @@ label {
 .about-headline { font-family: var(--font-heading); font-size: clamp(1.6rem, 3vw, 2.4rem); font-weight: 700; line-height: 1.2; color: var(--primary); }
 .about-intro-text { font-size: 1rem; color: var(--text-muted); line-height: 1.7; }
 .about-intro-punchline { font-size: 1rem; font-weight: 500; color: var(--primary); }
-.about-hero-photo { position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 3/4; }
+.about-hero-photo { position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 3/4; max-width: 320px; justify-self: center; }
 .about-hero-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 .about-story-block { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
