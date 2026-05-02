@@ -115,7 +115,7 @@ export default function About() {
                   </p>
                   <p className="about-story-body"><em>De l'extérieur… tout était « réussi ».</em></p>
                 </div>
-                <div className="tl-photo"><PhotoSwitcher startIndex={4} /></div>
+                <div className="tl-photo"><img src="/corporate-photo.jpg" alt="Aicha corporate" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
               </div>
             </div>
 
