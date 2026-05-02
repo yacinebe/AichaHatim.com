@@ -116,41 +116,42 @@ function MiroirSection() {
               <div className="miroir-card-icon">💼</div>
               <h3 className="miroir-card-title">Au travail</h3>
               <p className="miroir-card-pos">
-                Elle livre, performe, anticipe. On peut compter sur elle.
+                Elle livre, elle performe. On peut compter sur elle.
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
-                Mais elle doute en réunion, n'ose pas prendre certaines places.
-                Elle a peur qu'on découvre qu'elle n'est pas si sûre d'elle.
-                Et malgré tout… elle n'arrive pas à <em>être fière.</em>
+                Mais elle ne prend pas la parole en réunion quand elle le voudrait.
+                Elle laisse passer le projet, le poste, l'idée. Elle attend d'être prête.
+                Et cette voix qui dit <em>« pas encore, pas assez, qu'est-ce qu'ils vont penser »</em> — elle la connaît par cœur.
               </p>
             </div>
 
-            {/* Vie perso */}
+            {/* Dans sa tête */}
             <div className="miroir-card">
-              <div className="miroir-card-icon">🏠</div>
-              <h3 className="miroir-card-title">Dans sa vie perso</h3>
+              <div className="miroir-card-icon">🧠</div>
+              <h3 className="miroir-card-title">Dans sa tête</h3>
               <p className="miroir-card-pos">
-                Elle gère aussi la maison, les enfants, le couple, la charge mentale. Tout.
+                Elle analyse, elle anticipe, elle prépare. Toujours.
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
-                Mais aux côtés de ceux qu'elle aime, elle est épuisée, irritable. Elle réagit trop fort pour des petites choses.
-                Et elle culpabilise — parce qu'elle ne veut pas être <em>cette personne là.</em>
+                Mais elle dépense autant d'énergie à douter qu'à avancer.
+                Elle rejoue les réunions après coup. Elle minimise ses succès.
+                Et les compliments glissent — <em>la voix intérieure est plus forte.</em>
               </p>
             </div>
 
-            {/* Avec elle-même */}
+            {/* Dans sa vie */}
             <div className="miroir-card">
               <div className="miroir-card-icon">🪞</div>
-              <h3 className="miroir-card-title">Avec elle-même</h3>
+              <h3 className="miroir-card-title">Dans sa vie</h3>
               <p className="miroir-card-pos">
-                Elle essaie de prendre soin d'elle. Sport, alimentation, podcasts, livres de dev perso.
+                Elle a construit quelque chose de bien. Vraiment.
               </p>
               <div className="miroir-card-sep" />
               <p className="miroir-card-neg">
-                Mais malgré tout ça, elle reste <em>dure avec elle-même.</em> Jamais assez.
-                Elle a du mal à ralentir, à ne rien faire, à profiter sans culpabiliser.
+                Mais elle court encore. Elle n'arrive pas à savourer.
+                Elle se demande parfois — <em>c'est quoi le but si je profite pas de ce que j'ai construit ?</em>
               </p>
             </div>
           </div>
