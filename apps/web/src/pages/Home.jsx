@@ -229,6 +229,9 @@ function EssayeSection() {
             {/* Col 1 */}
             <div className="essaye-col">
               <h3 className="essaye-col-title">Tu en fais toujours « plus »</h3>
+              <p className="essaye-col-body">
+                Quand tu ne te sens pas à la hauteur, ton réflexe c'est de chercher la solution à l'extérieur.
+              </p>
               <div className="essaye-thoughts">
                 <div className="essaye-thought">« Je dois me préparer davantage. »</div>
                 <div className="essaye-thought">« Je dois monter en compétences. »</div>
