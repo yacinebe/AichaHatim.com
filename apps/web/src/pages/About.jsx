@@ -99,7 +99,7 @@ export default function About() {
                     Ces croyances m'ont portée loin. Jusqu'au moment où elles ont commencé à me coûter.
                   </p>
                 </div>
-                <div className="tl-photo"><PhotoSwitcher startIndex={0} /></div>
+                <div className="tl-photo"><img src="/enfance-photo.jpg" alt="Aicha enfant" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
               </div>
             </div>
 
