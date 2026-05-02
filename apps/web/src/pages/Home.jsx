@@ -538,11 +538,10 @@ function QuiSuisJeSection() {
                   <div className="quisuisje-beat-connector" />
                 </div>
                 <p className="quisuisje-beat-text">
-                  De l'extérieur, c'était une réussite. À l'intérieur, j'étais épuisée,
-                  sous pression constante, jamais vraiment fière. Cette voix qui dit
-                  « ce n'est jamais assez ». Ma soupape de décompression ?
-                  La nourriture émotionnelle les week-ends.
-                  <strong> Le lundi, je recommençais la semaine comme si de rien n'était.</strong>
+                  De l'extérieur, c'était une réussite. À l'intérieur, j'étais épuisée et jamais vraiment fière.
+                  Je performais, j'obtenais des résultats. Mais je ne prenais pas la parole quand je le voulais.
+                  Je laissais passer des opportunités. Et cette voix qui disait
+                  <strong> « ce n'est jamais assez, tu n'es pas à ta place »</strong> — elle tournait en boucle.
                 </p>
               </div>
               <div className="quisuisje-beat">
@@ -562,8 +561,8 @@ function QuiSuisJeSection() {
 
           {/* Phrase pivot */}
           <div className="quisuisje-pivot">
-            Le problème n'était pas ma vie.<br />
-            C'était la façon dont je la vivais — et la façon dont je me parlais.
+            Le problème n'était pas mes compétences.<br />
+            C'était la façon dont je me regardais — et dont je me parlais.
           </div>
 
           {/* Aujourd'hui + légitimité */}
