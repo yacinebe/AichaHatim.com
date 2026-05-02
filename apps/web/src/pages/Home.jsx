@@ -187,7 +187,7 @@ function MiroirSection() {
 
           {/* Vidéo face cam */}
           <div className="miroir-video">
-            <div style={{ maxWidth: "400px", margin: "0 auto", position: "relative", aspectRatio: "9/16", borderRadius: "var(--radius)", overflow: "hidden", boxShadow: "0 12px 40px rgba(42,31,21,0.15)" }}>
+            <div style={{ maxWidth: "680px", margin: "0 auto", position: "relative", aspectRatio: "4/3", borderRadius: "var(--radius)", overflow: "hidden", boxShadow: "0 12px 40px rgba(42,31,21,0.15)" }}>
               <iframe
                 src="https://www.youtube.com/embed/hWcG1hBfiNQ"
                 title="Aicha Hatim — coaching"
