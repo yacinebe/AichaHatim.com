@@ -160,7 +160,7 @@ export default function About() {
                     Et surtout : <strong>j'ai arrêté de fonctionner contre moi.</strong>
                   </p>
                 </div>
-                <div className="tl-photo"><PhotoSwitcher startIndex={16} /></div>
+                <div className="tl-photo"><img src="/declic-photo.jpg" alt="Aicha déclic" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
               </div>
             </div>
 
