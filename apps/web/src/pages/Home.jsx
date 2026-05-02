@@ -62,9 +62,10 @@ function HeroSection() {
             <span style={{ color: "var(--accent)" }}>Imagine ce que tu ferais si tu avais vraiment confiance en toi.</span>
           </h1>
           <p className="landing-hero-body">
-            En réunion tu performes. À la maison tu tiens. Mais à l'intérieur tu es à bout.
-            Fatiguée de tout contrôler, irritable sans le vouloir, jamais vraiment fière.
-            Et quelque part tu sais — si tu continues comme ça, quelque chose va lâcher.
+            Tu travailles dur, tu livres, tu obtiens des résultats. Mais tu joues petit.
+            Tu ne prends pas la parole. Tu n'oses pas le poste. Tu attends d'être « prête ».
+            Et au fond tu sais — ce n'est pas un manque de compétence.
+            C'est un manque de confiance en toi.
           </p>
           <p className="landing-hero-mission">
             Je t'aide à passer de l'over-achiever qui s'épuise… à la femme qui s'épanouit.
