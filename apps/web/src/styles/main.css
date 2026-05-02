@@ -2692,7 +2692,7 @@ label {
 @media (max-width: 700px) { .podcast-manifesto-two-col { grid-template-columns: 1fr; } }
 
 /* ── About page redesign ── */
-.about-hero-inner { display: grid; grid-template-columns: 1fr 0.8fr; gap: 4rem; align-items: center; }
+.about-hero-inner { display: grid; grid-template-columns: 1fr 0.8fr; gap: 2rem; align-items: center; }
 .about-hero-content { display: flex; flex-direction: column; gap: 1.25rem; }
 .about-headline { font-family: var(--font-heading); font-size: clamp(1.6rem, 3vw, 2.4rem); font-weight: 700; line-height: 1.2; color: var(--primary); }
 .about-intro-text { font-size: 1rem; color: var(--text-muted); line-height: 1.7; }
