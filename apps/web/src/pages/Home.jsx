@@ -162,22 +162,22 @@ function MiroirSection() {
               <p className="miroir-pourtant-label">Et pourtant…</p>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Elle a tout bien fait</span>
+                <span>Elle est compétente — ses résultats le prouvent</span>
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Elle a réussi</span>
+                <span>Elle est reconnue par ses pairs et sa hiérarchie</span>
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Elle a construit une belle vie</span>
+                <span>Elle a tout ce qu'il faut pour aller plus loin</span>
               </div>
             </div>
             <div className="miroir-pourtant-right">
               <p className="miroir-pourtant-but">Mais…</p>
               <p className="miroir-punchline">
-                Elle ne ressent pas la fierté, la joie ou l'épanouissement
-                qu'elle s'était imaginé en arrivant là.
+                Elle ne se voit pas comme les autres la voient. Et cette distance entre qui elle est vraiment
+                et ce qu'elle s'autorise à être — c'est là que tout se joue.
               </p>
             </div>
           </div>
