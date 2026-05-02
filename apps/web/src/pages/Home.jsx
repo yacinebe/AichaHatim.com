@@ -63,7 +63,7 @@ function HeroSection() {
           </h1>
           <p className="landing-hero-body">
             Tu travailles dur, tu livres, tu obtiens des résultats. Mais tu joues petit.
-            Tu ne prends pas la parole. Tu n'oses pas le poste. Tu attends d'être « prête ».
+            Tu ne prends pas la parole. Tu ne postules pas au poste qui t'attire. Tu attends d'être « prête ».
             Et au fond tu sais — ce n'est pas un manque de compétence.
             C'est un manque de confiance en toi.
           </p>
