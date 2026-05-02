@@ -601,7 +601,7 @@ function QuiSuisJeSection() {
 const FAQ_DATA = [
   {
     q: "« Je devrais pouvoir m'en sortir seule. »",
-    a: "Tu es capable — c'est pas la question. Le problème, c'est que tu essaies de te sortir de tes schémas… avec ces mêmes schémas. Ce que tu sais faire, c'est pousser plus fort, faire plus d'efforts, t'en demander encore plus. Mais c'est exactement ce mode qui t'épuise. Le serpent se mord la queue.\n\nCe n'est pas un manque de capacité. C'est un mode de fonctionnement qu'on vient désamorcer ensemble.",
+    a: "Tu es capable — c'est pas la question. Le problème, c'est que tu essaies de changer ton regard sur toi-même… avec ce même regard. Tu te dis que si tu fais encore plus, si tu prouves encore plus — la confiance va finir par venir. Mais elle ne vient pas comme ça.\n\nCe n'est pas un manque de compétences. C'est un dialogue intérieur qu'on vient transformer ensemble.",
   },
   {
     q: "« Je n'ai vraiment pas le temps en ce moment. »",
