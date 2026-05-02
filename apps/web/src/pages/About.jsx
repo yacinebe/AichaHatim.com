@@ -176,7 +176,7 @@ export default function About() {
                     que je suis et mon authenticité est ma boussole.
                   </p>
                 </div>
-                <div className="tl-photo"><PhotoSwitcher startIndex={20} /></div>
+                <div className="tl-photo"><img src="/reinvention-photo.jpg" alt="Aicha réinvention" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
               </div>
             </div>
 
