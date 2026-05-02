@@ -185,16 +185,17 @@ function MiroirSection() {
             <strong>coincée dans un mode qui l'épuise et l'empêche de profiter de la vie qu'elle a mis tant d'efforts à construire.</strong>
           </p>
 
-          {/* Placeholder vidéo */}
+          {/* Vidéo face cam */}
           <div className="miroir-video">
-            <div className="vsl-wrapper" style={{ maxWidth: "680px", margin: "0 auto" }}>
-              <div style={{
-                position: "absolute", inset: 0, display: "flex", alignItems: "center",
-                justifyContent: "center", background: "var(--surface-2)", color: "var(--text-light)",
-                fontFamily: "var(--font-heading)", fontSize: "1rem",
-              }}>
-                ▶ Vidéo à venir
-              </div>
+            <div className="vsl-wrapper" style={{ maxWidth: "680px", margin: "0 auto", position: "relative", aspectRatio: "16/9", borderRadius: "var(--radius)", overflow: "hidden", boxShadow: "0 12px 40px rgba(42,31,21,0.15)" }}>
+              <iframe
+                src="https://www.youtube.com/embed/hWcG1hBfiNQ"
+                title="Aicha Hatim — coaching"
+                frameBorder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
+                allowFullScreen
+                style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }}
+              />
             </div>
           </div>
 
