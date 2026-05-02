@@ -130,7 +130,7 @@ export default function About() {
                     je scrollais, je me sentais vide. <em>Mais je pensais que c'était normal.</em>
                   </p>
                 </div>
-                <div className="tl-photo"><PhotoSwitcher startIndex={8} /></div>
+                <div className="tl-photo"><img src="/interieur-photo.jpg" alt="Aicha award" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", display: "block" }} /></div>
               </div>
             </div>
 
