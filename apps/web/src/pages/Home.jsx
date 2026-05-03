@@ -287,8 +287,8 @@ function EssayeSection() {
           </div>
 
           <p className="essaye-closer">
-            Si tu sens qu'il y a une version de toi plus légère, plus confiante — elle est là.
-            On vient juste enlever ce qui la retient.
+            Tu sais qu'il y a en toi une version plus légère, plus confiante.
+            C'est exactement ce qu'on vient faire émerger.
           </p>
 
           <div className="section-cta">
