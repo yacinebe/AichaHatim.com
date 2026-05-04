@@ -467,11 +467,11 @@ const TEMOIGNAGES = [
     text: "Là où avant je doutais systématiquement de ma légitimité, je commence à reconnaître ma valeur. Je suis moins dure avec moi-même — j'essaie de me parler comme je parlerais à quelqu'un d'autre, avec plus de bienveillance.\n\nConcrètement, je m'exprime plus en réunion, je pose des limites, j'accepte de dire non. Et ma direction apprécie — c'est ce qu'ils attendaient de moi finalement !\n\nJ'ai aussi plusieurs outils désormais à ma disposition, auxquels je peux revenir quand je sens le doute revenir.",
   },
   {
-    name: "Kim",
+    name: "Kim — Project Director, Tech",
     text: "Dès le début, Aicha a créé un espace sûr et sans jugement où je me suis sentie pleinement écoutée. Sa capacité à percevoir ce qui se passe dans mes mots comme dans mon langage corporel a permis des prises de conscience profondes.\n\nJe repars avec des schémas qui ont changé, de nouvelles ressources intérieures, et une confiance qui vient d'une vraie liberté émotionnelle. Je la recommande chaleureusement.",
   },
   {
-    name: "Meryem",
+    name: "Meryem — Senior Manager, Deloitte",
     text: "Ce qui m'a le plus marquée, c'est le concept de saboteur. J'ai appris à voir cette voix intérieure qui me freinait non pas comme une ennemie, mais comme une partie de moi qui cherche à me protéger. Et à lui parler, plutôt que de la subir.\n\nAujourd'hui je suis plus ancrée dans qui je suis. Je dis ce que je pense, je pose mes limites, je ne prends plus sur moi des choses qui ne m'appartiennent pas.\n\nLes outils sont simples. En tant que femme hyper occupée, j'avais peur que ça soit une charge de plus. Mais c'est subtil, et l'impact est puissant.",
   },
 ];
