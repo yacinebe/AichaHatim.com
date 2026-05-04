@@ -463,7 +463,7 @@ function ProgrammeSection() {
 // ═══════════════════════════════════════════════════════════════════════
 const TEMOIGNAGES = [
   {
-    name: "Laurie",
+    name: "Laurie — Sales Team Lead, Food Tech",
     text: "Là où avant je doutais systématiquement de ma légitimité, je commence à reconnaître ma valeur. Je suis moins dure avec moi-même — j'essaie de me parler comme je parlerais à quelqu'un d'autre, avec plus de bienveillance.\n\nConcrètement, je m'exprime plus en réunion, je pose des limites, j'accepte de dire non. Et ma direction apprécie — c'est ce qu'ils attendaient de moi finalement !\n\nJ'ai aussi plusieurs outils désormais à ma disposition, auxquels je peux revenir quand je sens le doute revenir.",
   },
   {
