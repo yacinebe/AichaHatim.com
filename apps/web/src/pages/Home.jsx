@@ -421,10 +421,9 @@ function ProgrammeSection() {
               <div className="programme-scard">
                 <p className="programme-scard-title">Entre les sessions :</p>
                 <ul className="programme-scard-list">
-                  <li>Support WhatsApp à la demande</li>
-                  <li>Des ressources audio et vidéo pour approfondir entre les sessions</li>
-                  <li>Des actions concrètes à réaliser dans ta vraie vie — pas des exercices, des vrais changements</li>
-                  <li>De l'« accountability » bienveillante — pour tenir tes engagements envers toi-même et avancer malgré les résistances</li>
+                  <li>Support WhatsApp à la demande — pour ne pas rester bloquée entre deux sessions</li>
+                  <li>Des ressources ciblées sur ce qu'on travaille ensemble</li>
+                  <li>De l'« accountability » bienveillante — pour que les changements s'ancrent dans ta vraie vie, pas juste pendant les sessions</li>
                 </ul>
               </div>
             </div>
