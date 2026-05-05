@@ -524,6 +524,7 @@ function QuiSuisJeSection() {
                   Moi aussi, j'ai été la super exécutante. Accountable à 1000%, toujours à 120%, celle sur qui on peut compter.
                   Mais jamais celle qui initie un projet ou qui interagit avec le leadership.
                   Et on a fini par me reprocher mon manque de <strong>« visibilité ».</strong>
+                  <br />
                   Je savais que c'était vrai. Et je ne savais pas comment changer ça.
                 </p>
               </div>
