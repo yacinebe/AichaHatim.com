@@ -268,14 +268,9 @@ function EssayeSection() {
           </div>
 
           <div className="essaye-highlight">
-            <p>Que tu te prépares encore plus ou que tu changes tout — le doute, lui, reste. Il ne vient pas de tes compétences. Il ne vient pas de ta boîte.</p>
-            <p className="essaye-highlight-big">Pendant ce temps — les promos vont à d'autres. Les années passent. Et avec elles, les salaires que tu aurais pu négocier, les postes que tu aurais pu avoir. Une promo manquée à 35 ans, c'est facilement <strong>250 000 à 375 000€ de manque à gagner</strong> sur ta carrière.</p>
-            <p>
-              Et au-delà des chiffres — il y a cette absence de fierté. Cette honte silencieuse de savoir que tu n'es pas là où tu t'imaginais être. Qui s'installe doucement, année après année.
-            </p>
-            <p>
-              Ce n'est pas un tip de leadership ou une formation de plus qui va changer ça. <strong>C'est un travail de fond — sur tes croyances, tes mécanismes, la façon dont tu te vois. Et ça, ça change tout le reste.</strong>
-            </p>
+            <p>Que tu fasses plus ou que tu changes tout — le doute reste. Il ne vient pas de tes compétences. Il ne vient pas de ta boîte.</p>
+            <p className="essaye-highlight-big">Pendant ce temps, les promos vont à d'autres. Une promo manquée à 35 ans, c'est facilement <strong>250 000 à 375 000€</strong> sur ta carrière. Et cette honte silencieuse de ne pas être là où tu t'imaginais être — qui s'installe doucement, année après année.</p>
+            <p>Ce n'est pas une formation de plus qui va changer ça. <strong>C'est un travail de fond — sur tes croyances, tes mécanismes, la façon dont tu te vois.</strong></p>
           </div>
 
           <p className="essaye-closer">
