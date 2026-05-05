@@ -189,8 +189,8 @@ function MiroirSection() {
           </div>
 
           <p className="miroir-conclusion">
-            Ce n'est pas un manque de talent ni de compétences.<br />
-            <strong>C'est un plafond de verre intérieur. Et personne ne va venir le casser à ta place.</strong>
+            Ce n'est pas un manque de talent ni de compétences. C'est un plafond de verre intérieur.<br />
+            <strong>Et personne ne va venir le casser à ta place.</strong>
           </p>
 
           <div className="section-cta">
