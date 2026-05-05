@@ -128,15 +128,15 @@ function MiroirSection() {
               <div className="miroir-card-icon">🧠</div>
               <h3 className="miroir-card-title">LinkedIn vs la réalité</h3>
               <p className="miroir-card-neg">
-                Ton profil est impeccable. Ton poste, tes résultats, ta trajectoire — tout est là.
+                Ton profil est impeccable : ton poste, tes résultats, ta trajectoire.
+                <br /><br />
+                <strong>Ta réalité à toi ?</strong>
                 <br /><br />
                 Avant chaque réunion importante — la panique. Tu prépares trois fois plus que les autres pour ne pas être prise en défaut.
                 <br /><br />
                 Pendant — tu calcules. Est-ce que c'est le bon moment pour parler ? Est-ce que mon idée est assez bonne ? Et souvent, tu te tais.
                 <br /><br />
                 Après — le replay. Tu rejoues chaque mot, chaque silence, chaque regard. <em>« J'aurais dû dire ça différemment. J'aurais dû prendre la parole. »</em>
-                <br /><br />
-                Dehors, tout a l'air parfait. Dedans, tu tiens à bout de bras.
               </p>
             </div>
 
