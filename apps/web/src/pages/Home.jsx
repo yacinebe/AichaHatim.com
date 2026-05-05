@@ -173,14 +173,15 @@ function MiroirSection() {
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Sur le papier, ta carrière avance</span>
+                <span>Ton manager te fait confiance pour livrer — toujours</span>
               </div>
             </div>
             <div className="miroir-pourtant-right">
               <p className="miroir-pourtant-but">Mais…</p>
               <p className="miroir-punchline">
-                Elle ne se voit pas comme les autres la voient. Et cette distance entre qui elle est vraiment
-                et ce qu'elle s'autorise à être — c'est là que tout se joue.
+                La promo est allée à Thomas. Encore. Le projet stratégique a été confié à quelqu'un d'autre.
+                Tu n'as pas postulé au poste qui t'attirait — tu n'étais « pas encore prête ».
+                Et pendant ce temps, les années passent. Dans 5 ans tu seras toujours là — compétente, indispensable, invisible.
               </p>
             </div>
           </div>
