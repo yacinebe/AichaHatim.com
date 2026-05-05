@@ -413,9 +413,9 @@ function ProgrammeSection() {
               <div className="programme-scard">
                 <p className="programme-scard-title">Chaque session, c'est :</p>
                 <ul className="programme-scard-list">
-                  <li>Un espace bienveillant et strictement confidentiel où tu peux enfin poser l'armure — sans avoir à performer ou à avoir les bonnes réponses</li>
-                  <li>Des questions qui agissent comme un miroir et t'aident à aller en profondeur</li>
-                  <li>Un moment où tu es au centre — pour clarifier ce qui compte vraiment et ce que tu veux vivre</li>
+                  <li>Un diagnostic précis de ce qui te retient — pas des généralités, des mécanismes concrets qui s'appliquent à ta situation</li>
+                  <li>Des questions qui vont là où tu n'oses pas aller seule — et qui débloquent ce qui stagne depuis des mois</li>
+                  <li>Un plan d'action ancré dans ta vraie vie — pas des exercices théoriques, des vrais changements à la prochaine réunion, la prochaine opportunité</li>
                 </ul>
               </div>
               <div className="programme-scard">
