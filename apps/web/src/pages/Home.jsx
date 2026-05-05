@@ -509,9 +509,11 @@ function QuiSuisJeSection() {
                   <div className="quisuisje-beat-connector" />
                 </div>
                 <p className="quisuisje-beat-text">
-                  Moi aussi, j'ai été la bonne élève. Dans tous les domaines de ma vie
-                  et particulièrement dans le monde corporate. Pendant plus de 10 ans,
-                  j'étais celle sur qui on peut compter. <strong>Toujours à 120%.</strong>
+                  Moi aussi, j'ai été la super exécutante. Accountable à 1000%, toujours à 120%, celle sur qui on peut compter.
+                  Mais jamais celle qui initie un projet ou qui interagit avec le leadership.
+                  Et on a fini par me reprocher mon manque de <strong>« visibilité ».</strong>
+                  <br /><br />
+                  Je savais que c'était vrai. Et je ne savais pas comment changer ça.
                 </p>
               </div>
               <div className="quisuisje-beat">
@@ -520,10 +522,9 @@ function QuiSuisJeSection() {
                   <div className="quisuisje-beat-connector" />
                 </div>
                 <p className="quisuisje-beat-text">
-                  De l'extérieur, c'était une réussite. À l'intérieur, j'étais épuisée et jamais vraiment fière.
-                  Je performais, j'obtenais des résultats. Mais je ne prenais pas la parole quand je le voulais.
-                  Je laissais passer des opportunités. Et cette voix qui disait
-                  <strong> « ce n'est jamais assez, tu n'es pas à ta place »</strong> — elle tournait en boucle.
+                  Je me suis reconvertie en suivant mon appel du cœur. Un nouveau départ, une nouvelle vie.
+                  <br /><br />
+                  Sauf que j'avais emporté la même voix avec moi. Le même doute. La même difficulté à prendre ma place.
                 </p>
               </div>
               <div className="quisuisje-beat">
@@ -531,11 +532,9 @@ function QuiSuisJeSection() {
                   <div className="quisuisje-beat-dot" />
                 </div>
                 <p className="quisuisje-beat-text">
-                  C'est la maternité qui a tout changé. Quand j'ai vu que je n'avais plus rien
-                  à donner à mon enfant en rentrant le soir et que j'étais irritable pour un rien,
-                  j'ai su que je ne pouvais plus continuer comme ça.
-                  J'ai décidé de me faire accompagner. Au fond, je savais que
-                  <strong> je méritais mieux que de juste tenir.</strong>
+                  C'est quand j'ai commencé à travailler profondément sur moi — mes croyances, mon estime, ma façon de me voir — que tout a changé.
+                  <br /><br />
+                  Aujourd'hui je produis des vidéos sans peur du regard des autres. Je lance des projets auxquels je pense depuis des années. <strong>J'ai pris ma place — vraiment.</strong>
                 </p>
               </div>
             </div>
