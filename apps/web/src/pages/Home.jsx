@@ -123,16 +123,15 @@ function MiroirSection() {
               </p>
             </div>
 
-            {/* Dans sa tête */}
             <div className="miroir-card">
               <div className="miroir-card-icon">🧠</div>
               <h3 className="miroir-card-title">LinkedIn vs la réalité</h3>
               <p className="miroir-card-neg">
-                De l'extérieur, ton profil est impeccable : ton poste, tes résultats, ta trajectoire.
+                Ton profil est impeccable. Mais dedans ?
                 <br /><br />
-                Pourtant, <strong>avant</strong> chaque réunion importante : c'est la panique. Tu prépares trois fois plus que les autres pour ne pas être prise en défaut.
+                <strong>Avant</strong> : la panique. Tu prépares trois fois plus que les autres pour ne pas être prise en défaut.
                 <br />
-                <strong>Pendant</strong> : tu calcules. Est-ce que c'est le bon moment pour parler ? Est-ce que mon idée est assez bonne ? Tu passes trop de temps dans ta tête quand tu voudrais apporter de la valeur.
+                <strong>Pendant</strong> : tu calcules. Est-ce le bon moment ? Mon idée est-elle assez bonne ? Tu finis par te taire.
                 <br />
                 <strong>Après</strong> : le replay. Tu rejoues chaque mot, chaque silence, chaque regard. <em>« J'aurais dû dire ça différemment. J'aurais dû prendre la parole. »</em>
               </p>
