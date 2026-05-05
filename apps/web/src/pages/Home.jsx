@@ -334,7 +334,7 @@ function ProgrammeSection() {
             <div className="programme-vision-grid">
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu prends la parole en réunion — sans calculer si c'est le bon moment.</span>
+                <span>Tu prends la parole en réunion, sans calculer si c'est le bon moment.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
@@ -342,7 +342,7 @@ function ProgrammeSection() {
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>La promo, cette fois, c'est toi.</span>
+                <span>La promotion, cette fois, c'est toi.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
@@ -350,11 +350,11 @@ function ProgrammeSection() {
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu avances avec <strong>ambition</strong> — sans te saboter en chemin.</span>
+                <span>Tu avances avec <strong>ambition</strong>, sans te saboter en chemin.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu te projettes dans l'avenir avec <strong>confiance</strong> — et même avec excitation.</span>
+                <span>Tu te projettes dans l'avenir avec <strong>confiance</strong>, et même avec excitation.</span>
               </div>
             </div>
           </div>
