@@ -2142,6 +2142,8 @@ label {
 
 @media (max-width: 900px) {
   .essaye-two-col { grid-template-columns: 1fr; }
+  .essaye-highlight { grid-template-columns: 1fr; }
+  .essaye-highlight-right { border-left: none; padding-left: 0; border-top: 0.5px solid var(--border); padding-top: 1rem; }
 }
 
 /* ── Section Miroir ── */
