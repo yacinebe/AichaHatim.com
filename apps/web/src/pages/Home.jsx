@@ -58,17 +58,16 @@ function HeroSection() {
       <div className="landing-hero-inner">
         <div className="landing-hero-content">
           <h1 className="landing-hero-headline">
-            Tu performes déjà.<br />
-            <span style={{ color: "var(--accent)" }}>Imagine ce que tu ferais si tu avais vraiment confiance en toi.</span>
+            Compétente aux yeux de tous.<br />
+            <span style={{ color: "var(--accent)" }}>Illégitime aux tiens.</span>
           </h1>
           <p className="landing-hero-body">
-            Tu travailles dur, tu livres, tu obtiens des résultats. Mais tu joues petit.
-            Tu ne prends pas la parole. Tu ne postules pas au poste qui t'attire. Tu attends d'être « prête ».
-            Et au fond tu sais — ce n'est pas un manque de compétence.
-            C'est un manque de confiance en toi.
+            Tu livres, tu performes, tu obtiens des résultats. Mais la promo va à quelqu'un d'autre.
+            Tu te tais en réunion quand tu aurais dû parler. Tu attends d'être prête — depuis 3 ans.
+            Ce n'est pas un manque de compétences. C'est un plafond de verre intérieur. Et ça se travaille.
           </p>
           <p className="landing-hero-mission">
-            Je t'aide à passer de l'over-achiever qui doute… à la femme confiante qui s'épanouit, enfin.
+            Je t'aide à prendre ta place — vraiment. Au travail, en réunion, dans la pièce.
           </p>
           <div className="hero-actions">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta hero-btn">
