@@ -398,7 +398,7 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Réinvention</div>
                 <div className="programme-mcard-sub">Agir autrement dans ta vraie vie</div>
                 <p className="programme-mcard-body">
-                  On ancre tout ça dans ta vraie vie pro. La réunion où tu prends la parole — sans calculer. Le poste pour lequel tu postules — sans attendre d'être prête. La négociation que tu mènes — sans t'excuser. Tu fonctionnes autrement. Pas dans les exercices — dans les vraies situations qui comptent.
+                  On ancre tout ça dans ta vraie vie pro. La réunion où tu prends la parole, sans calculer. Le poste pour lequel tu postules, sans attendre d'être prête. La négociation que tu mènes, sans t'excuser. Tu fonctionnes autrement. Pas dans les exercices — dans les vraies situations qui comptent.
                 </p>
                 <p className="programme-mcard-result">
                   <strong>Tu incarnes la leader que tu es déjà. Et tu commences à vivre ton ambition avec légèreté.</strong>
@@ -425,17 +425,17 @@ function ProgrammeSection() {
               <div className="programme-scard">
                 <p className="programme-scard-title">Chaque session, c'est :</p>
                 <ul className="programme-scard-list">
-                  <li>Un diagnostic précis de ce qui te retient — pas des généralités, des mécanismes concrets qui s'appliquent à ta situation</li>
-                  <li>Des questions qui vont là où tu n'oses pas aller seule — et qui débloquent ce qui stagne depuis des mois</li>
+                  <li>Un diagnostic précis de ce qui te retient, pas des généralités, des mécanismes concrets qui s'appliquent à ta situation</li>
+                  <li>Des questions qui vont là où tu n'oses pas aller seule, et qui débloquent ce qui stagne depuis des mois</li>
                   <li>Un plan d'action ancré dans ta vraie vie — pas des exercices théoriques, des vrais changements à la prochaine réunion, la prochaine opportunité</li>
                 </ul>
               </div>
               <div className="programme-scard">
                 <p className="programme-scard-title">Entre les sessions :</p>
                 <ul className="programme-scard-list">
-                  <li>Support WhatsApp à la demande — pour ne pas rester bloquée entre deux sessions</li>
+                  <li>Support WhatsApp à la demande, pour ne pas rester bloquée entre deux sessions</li>
                   <li>Des ressources ciblées sur ce qu'on travaille ensemble</li>
-                  <li>De l'« accountability » bienveillante — pour que les changements s'ancrent dans ta vraie vie, pas juste pendant les sessions</li>
+                  <li>De l'« accountability » bienveillante, pour que les changements s'ancrent dans ta vraie vie, pas juste pendant les sessions</li>
                 </ul>
               </div>
             </div>
