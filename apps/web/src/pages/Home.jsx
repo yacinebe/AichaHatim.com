@@ -274,8 +274,8 @@ function EssayeSection() {
               <p className="essaye-highlight-sublabel">10 à 15K€/an × 25 ans</p>
             </div>
             <div className="essaye-highlight-right">
-              <p>Pendant ce temps, les promotions vont à d'autres. Et cette honte silencieuse de ne pas être là où tu t'imaginais être — qui s'installe doucement, année après année.</p>
-              <p>Ce n'est pas une formation de plus qui va changer ça. <strong>C'est un travail de fond — sur tes croyances, tes mécanismes, la façon dont tu te vois.</strong></p>
+              <p>Pendant ce temps, les promotions vont à d'autres. Et cette honte silencieuse de ne pas être là où tu t'imaginais être, qui s'installe doucement, année après année.</p>
+              <p>Ce n'est pas une formation de plus qui va changer ça. <strong>C'est un travail de fond sur tes croyances, tes mécanismes, la façon dont tu te vois — et une mise en action dans ta vraie vie.</strong></p>
             </div>
           </div>
 
