@@ -219,19 +219,16 @@ function EssayeSection() {
             {/* Col 1 */}
             <div className="essaye-col">
               <h3 className="essaye-col-title">Tu en fais toujours « plus »</h3>
-              <p className="essaye-col-body">
-                Quand tu ne te sens pas à la hauteur, ton réflexe c'est de chercher la solution à l'extérieur.
-              </p>
               <div className="essaye-thoughts">
-                <div className="essaye-thought">« Je dois me préparer davantage. »</div>
-                <div className="essaye-thought">« Je dois monter en compétences. »</div>
-                <div className="essaye-thought">« La prochaine fois, je serai prête. »</div>
+                <div className="essaye-thought">Feedback "manque de leadership" → tu t'inscris à une formation.</div>
+                <div className="essaye-thought">Réunion ratée → tu prépares deux fois plus la prochaine.</div>
+                <div className="essaye-thought">Promo manquée → tu te fixes de nouveaux objectifs de performance.</div>
               </div>
               <p className="essaye-col-body">
-                Tu te formes, tu lis, tu écoutes. Tu comprends ce qui se passe.
-                Tu sais même exactement d'où vient le doute.
+                Mais la confiance ne se construit pas en livrant plus, en étant plus disponible, en obtenant de meilleurs résultats.
+                Tu peux performer au-delà de toutes les attentes — la voix qui doute, elle, ne s'arrête pas pour autant.
               </p>
-              <p className="essaye-col-punchline">Mais la voix — elle est toujours là.</p>
+              <p className="essaye-col-punchline">Parce que le problème n'est pas là.</p>
             </div>
 
             {/* Col 2 */}
@@ -269,10 +266,13 @@ function EssayeSection() {
           </div>
 
           <div className="essaye-highlight">
-            <p>Parce que que tu te prépares davantage ou que tu changes tout — le doute, lui, ne bouge pas.</p>
-            <p className="essaye-highlight-big">Il ne vient pas de ton manque de compétences. Il ne vient pas de ton contexte.</p>
+            <p>Que tu te prépares encore plus ou que tu changes tout — le doute, lui, reste. Il ne vient pas de tes compétences. Il ne vient pas de ta boîte.</p>
+            <p className="essaye-highlight-big">Pendant ce temps — les promos vont à d'autres. Les années passent. Et avec elles, les salaires que tu aurais pu négocier, les postes que tu aurais pu avoir. Une promo manquée à 35 ans, c'est facilement <strong>250 000 à 375 000€ de manque à gagner</strong> sur ta carrière.</p>
             <p>
-              Il vient de la façon dont tu te regardes. Et ça, <strong>ça se travaille de l'intérieur.</strong>
+              Et au-delà des chiffres — il y a cette absence de fierté. Cette honte silencieuse de savoir que tu n'es pas là où tu t'imaginais être. Qui s'installe doucement, année après année.
+            </p>
+            <p>
+              Ce n'est pas un tip de leadership ou une formation de plus qui va changer ça. <strong>C'est un travail de fond — sur tes croyances, tes mécanismes, la façon dont tu te vois. Et ça, ça change tout le reste.</strong>
             </p>
           </div>
 
