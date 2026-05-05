@@ -324,23 +324,23 @@ function ProgrammeSection() {
             <div className="programme-vision-grid">
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu prends la parole en réunion — sans te justifier, sans hésiter.</span>
+                <span>Tu prends la parole en réunion — sans calculer si c'est le bon moment.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu postules au poste. Tu proposes l'idée. Tu lèves la main.</span>
+                <span>Tu postules au poste. Sans attendre d'être prête.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
-                <span>Tu reçois un compliment et tu le laisses rentrer — <strong>vraiment.</strong></span>
+                <span>La promo, cette fois, c'est toi.</span>
+              </div>
+              <div className="programme-vision-item">
+                <div className="programme-vision-dot" />
+                <span>Tu négocies ton salaire sans t'excuser.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
                 <span>Tu avances avec <strong>ambition</strong> — sans te saboter en chemin.</span>
-              </div>
-              <div className="programme-vision-item">
-                <div className="programme-vision-dot" />
-                <span>Tu es ta propre <strong>meilleure alliée</strong> — pas ta pire ennemie.</span>
               </div>
               <div className="programme-vision-item">
                 <div className="programme-vision-dot" />
