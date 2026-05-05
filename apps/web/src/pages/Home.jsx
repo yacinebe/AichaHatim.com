@@ -130,12 +130,10 @@ function MiroirSection() {
               <p className="miroir-card-neg">
                 De l'extérieur, ton profil est impeccable : ton poste, tes résultats, ta trajectoire.
                 <br /><br />
-                De l'intérieur ?
-                <br /><br />
-                <strong>Avant</strong> chaque réunion importante : c'est la panique. Tu prépares trois fois plus que les autres pour ne pas être prise en défaut.
-                <br /><br />
+                Pourtant, <strong>avant</strong> chaque réunion importante : c'est la panique. Tu prépares trois fois plus que les autres pour ne pas être prise en défaut.
+                <br />
                 <strong>Pendant</strong> : tu calcules. Est-ce que c'est le bon moment pour parler ? Est-ce que mon idée est assez bonne ? Tu passes trop de temps dans ta tête quand tu voudrais apporter de la valeur.
-                <br /><br />
+                <br />
                 <strong>Après</strong> : le replay. Tu rejoues chaque mot, chaque silence, chaque regard. <em>« J'aurais dû dire ça différemment. J'aurais dû prendre la parole. »</em>
               </p>
             </div>
