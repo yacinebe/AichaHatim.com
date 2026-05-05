@@ -143,11 +143,11 @@ function MiroirSection() {
             {/* Dans sa vie */}
             <div className="miroir-card">
               <div className="miroir-card-icon">🪞</div>
-              <h3 className="miroir-card-title">Dans 5 ans — même poste, même doute</h3>
+              <h3 className="miroir-card-title">Dans 5 ans, même poste, même doute</h3>
               <p className="miroir-card-neg">
-                Tu pourrais continuer comme ça encore 5 ans. De l'extérieur, tout aurait l'air normal.
+                Rien de dramatique pour les autres dans ton niveau de poste.
                 <br /><br />
-                Mais à l'intérieur — tu saurais. Ce n'est pas là où tu t'imaginais être quand tu es sortie d'école.
+                Mais toi, tu sauras : ce n'est pas là où tu t'imaginais être quand tu es sortie d'école.
                 Ce poste que tu n'as pas osé. Ce projet que tu n'as pas lancé. Cette version de toi que tu n'as jamais vraiment laissé émerger.
                 <br /><br />
                 Et chaque année qui passe sans changer ça — c'est un peu plus de confiance qui s'érode.
