@@ -375,10 +375,10 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Reconnexion</div>
                 <div className="programme-mcard-sub">Revenir à toi</div>
                 <p className="programme-mcard-body">
-                  On clarifie ce qui compte vraiment pour toi dans ce chapitre de ta vie — tes valeurs, ce que tu veux, ce que tu refuses. Et on regarde honnêtement si tu vis en accord avec ça. Tes valeurs deviennent ton étoile du nord — celle à laquelle tu reviens toujours.
+                  On clarifie ce qui compte vraiment pour toi dans ce chapitre de ta vie — pas ce qu'on attend de toi, ce que toi tu choisis. Tes valeurs deviennent ta boussole. Tu sais depuis quel endroit tu veux décider : la confiance, pas la peur du regard des autres.
                 </p>
                 <p className="programme-mcard-result">
-                  <strong>Tu sais qui tu es. Et tu sais ce que tu veux.</strong>
+                  <strong>Tu sais ce que tu veux — et tu avances.</strong>
                 </p>
               </div>
               <div className="programme-mcard">
@@ -386,10 +386,10 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Réinvention</div>
                 <div className="programme-mcard-sub">Agir autrement dans ta vraie vie</div>
                 <p className="programme-mcard-body">
-                  On ancre tout ça dans ton quotidien pro. Tu prends la parole. Tu postules. Tu proposes l'idée. Tu décides depuis un endroit de confiance — pas de peur. Et tu commences à vivre ton ambition avec légèreté.
+                  On ancre tout ça dans ta vraie vie pro. La réunion où tu prends la parole — sans calculer. Le poste pour lequel tu postules — sans attendre d'être prête. La négociation que tu mènes — sans t'excuser. Tu fonctionnes autrement. Pas dans les exercices — dans les vraies situations qui comptent.
                 </p>
                 <p className="programme-mcard-result">
-                  <strong>Tu fonctionnes autrement. Dans ta vraie vie — pas juste dans les exercices.</strong>
+                  <strong>Tu incarnes la leader que tu es déjà. Et tu commences à vivre ton ambition avec légèreté.</strong>
                 </p>
               </div>
             </div>
