@@ -280,7 +280,8 @@ function EssayeSection() {
           </div>
 
           <p className="essaye-closer">
-            Tu dépenses ton énergie à prouver ta valeur. Il est temps de la mettre ailleurs — à incarner la leader que tu veux être.
+            Tu dépenses ton énergie à prouver ta valeur.<br />
+            Il est temps de la mettre ailleurs : à incarner la leader que tu veux être.
           </p>
 
           <div className="section-cta">
