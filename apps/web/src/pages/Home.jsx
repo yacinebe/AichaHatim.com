@@ -385,10 +385,12 @@ function ProgrammeSection() {
                 <div className="programme-mcard-title">Reconnexion</div>
                 <div className="programme-mcard-sub">Revenir à toi</div>
                 <p className="programme-mcard-body">
-                  On clarifie ce qui compte vraiment pour toi dans ce chapitre de ta vie — pas ce qu'on attend de toi, ce que toi tu choisis. Tes valeurs deviennent ta boussole. Tu sais depuis quel endroit tu veux décider : la confiance, pas la peur du regard des autres.
+                  On explore qui tu es vraiment dans ce chapitre de ta vie — tes valeurs, ta vision, tes forces, tes talents. Ce que tu veux construire et pourquoi. Pas ce qu'on attend de toi. Ce que toi tu choisis, depuis tes désirs profonds.
+                  <br /><br />
+                  Parce qu'on ne peut pas incarner un leadership authentique sans savoir qui on est. Et quand c'est clair, la mise en action devient évidente. Tu ne décides plus depuis la peur ou le regard des autres — tu décides depuis toi.
                 </p>
                 <p className="programme-mcard-result">
-                  <strong>Tu sais ce que tu veux — et tu avances.</strong>
+                  <strong>Tes valeurs deviennent ta boussole. Tu sais qui tu es, où tu vas — et pourquoi.</strong>
                 </p>
               </div>
               <div className="programme-mcard">
