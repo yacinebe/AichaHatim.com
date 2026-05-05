@@ -534,16 +534,10 @@ function QuiSuisJeSection() {
                 <p className="quisuisje-beat-text">
                   C'est quand j'ai commencé à travailler profondément sur moi — mes croyances, mon estime, ma façon de me voir — que tout a changé.
                   <br /><br />
-                  Aujourd'hui je produis des vidéos sans peur du regard des autres. Je lance des projets auxquels je pense depuis des années. <strong>J'ai pris ma place — vraiment.</strong>
+                  Je produis des vidéos sans peur du regard des autres. Je lance des projets auxquels je pense depuis des années. <strong>J'ai pris ma place — vraiment.</strong>
                 </p>
               </div>
             </div>
-          </div>
-
-          {/* Phrase pivot */}
-          <div className="quisuisje-pivot">
-            Le problème n'était pas mes compétences.<br />
-            C'était la façon dont je me regardais — et dont je me parlais.
           </div>
 
           {/* Aujourd'hui + légitimité */}
@@ -551,17 +545,13 @@ function QuiSuisJeSection() {
             <div className="quisuisje-today-card">
               <p className="quisuisje-today-label">Aujourd'hui</p>
               <p className="quisuisje-today-text">
-                Aujourd'hui je suis toujours ambitieuse. Mais mon ambition ne vient plus de la peur, elle vient de ma confiance.
-                Je prends ma place. Je ne confonds plus performance et valeur.
-                Le regard des autres ne me retient plus — je construis ce qui m'anime, je me montre, j'avance.
-                Et je suis fière de qui je suis — pas juste de ce que je produis.
+                Aujourd'hui je prends ma place — au travail, sur les réseaux, dans mes projets. Et ma mission est d'accompagner des femmes à faire la même chose.
               </p>
             </div>
             <div className="quisuisje-today-card">
               <p className="quisuisje-today-label">Ma légitimité</p>
               <p className="quisuisje-today-text">
-                Au-delà des certifications — je connais ce terrain, je parle ton langage
-                et je sais ce que ça demande, pour de vrai.
+                Au-delà des certifications de coaching — je connais ce terrain, je parle ton langage et je sais ce que ça demande, pour de vrai.
               </p>
               <div className="quisuisje-certifs">
                 <span className="quisuisje-certif">ICF Certified</span>
