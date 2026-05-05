@@ -127,7 +127,7 @@ function MiroirSection() {
               <div className="miroir-card-icon">🧠</div>
               <h3 className="miroir-card-title">LinkedIn vs la réalité</h3>
               <p className="miroir-card-neg">
-                Ton profil est impeccable. Mais dedans ?
+                Ton profil est impeccable. Mais à l'intérieur de ta tête ?
                 <br /><br />
                 <strong>Avant</strong> : la panique. Tu prépares trois fois plus que les autres pour ne pas être prise en défaut.
                 <br />
