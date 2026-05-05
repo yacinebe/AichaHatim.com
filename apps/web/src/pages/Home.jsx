@@ -390,7 +390,7 @@ function ProgrammeSection() {
                   Parce qu'on ne peut pas incarner un leadership authentique sans savoir qui on est. Et quand c'est clair, la mise en action devient évidente. Tu ne décides plus depuis la peur ou le regard des autres, tu décides depuis toi.
                 </p>
                 <p className="programme-mcard-result">
-                  <strong>Tes valeurs deviennent ta boussole. Tu sais qui tu es, où tu vas — et pourquoi.</strong>
+                  <strong>Tu sais qui tu es, où tu vas — et pourquoi.</strong>
                 </p>
               </div>
               <div className="programme-mcard">
