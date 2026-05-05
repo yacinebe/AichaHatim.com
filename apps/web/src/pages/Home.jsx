@@ -162,7 +162,7 @@ function MiroirSection() {
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>C'est toi qui maîtrises les dossiers — sans toi, l'équipe est perdue</span>
+                <span>C'est toi qui maîtrises les dossiers : sans toi, l'équipe est perdue</span>
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
@@ -170,23 +170,24 @@ function MiroirSection() {
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Ton manager te fait confiance pour livrer — toujours</span>
+                <span>Ton manager te fait confiance pour livrer, toujours</span>
               </div>
             </div>
             <div className="miroir-pourtant-right">
               <p className="miroir-pourtant-but">Mais…</p>
               <p className="miroir-punchline">
                 La promo est allée à Thomas. Encore.<br />
-                Le projet stratégique — quelqu'un d'autre.<br />
-                Le poste qui t'attirait — "pas encore prête".<br />
+                Le projet stratégique ? Quelqu'un d'autre aussi.<br />
+                Le poste qui t'attirait ? "Pas encore prête".<br />
                 Les années passent.<br /><br />
-                <strong>Dans 5 ans : compétente, indispensable, invisible.</strong>
+                <strong>Dans 5 ans, tu seras compétente, indispensable mais invisible.</strong>
               </p>
             </div>
           </div>
 
           <p className="miroir-conclusion">
-            Ce n'est pas un manque de talent ni de compétences. C'est un plafond de verre intérieur.<br />
+            Ce n'est pas un manque de talent ni de compétences.<br />
+            C'est un plafond de verre intérieur.<br />
             <strong>Et personne ne va venir le casser à ta place.</strong>
           </p>
 
