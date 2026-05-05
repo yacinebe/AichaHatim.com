@@ -222,7 +222,7 @@ function EssayeSection() {
             <div className="essaye-col">
               <h3 className="essaye-col-title">Tu en fais toujours « plus »</h3>
               <div className="essaye-thoughts">
-                <div className="essaye-thought">Feedback "manque de leadership" → tu t'inscris à une formation.</div>
+                <div className="essaye-thought">« Manque de leadership » → tu t'inscris à une formation.</div>
                 <div className="essaye-thought">Réunion ratée → tu prépares deux fois plus la prochaine.</div>
                 <div className="essaye-thought">Promo manquée → tu te fixes de nouveaux objectifs de performance.</div>
               </div>
