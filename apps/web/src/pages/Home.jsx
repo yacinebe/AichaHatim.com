@@ -106,51 +106,45 @@ function MiroirSection() {
     <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="miroir-content">
-          <h2 className="landing-title" style={{ textAlign: "center" }}>Qui est l'over-achiever ?</h2>
+          <h2 className="landing-title" style={{ textAlign: "center" }}>Performante, mais bloquée ?</h2>
 
           {/* 3 cards */}
           <div className="miroir-cards">
             {/* Au travail */}
             <div className="miroir-card">
               <div className="miroir-card-icon">💼</div>
-              <h3 className="miroir-card-title">Au travail</h3>
-              <p className="miroir-card-pos">
-                Elle livre, elle performe. On peut compter sur elle.
-              </p>
-              <div className="miroir-card-sep" />
+              <h3 className="miroir-card-title">La promo qui aurait dû être à toi</h3>
               <p className="miroir-card-neg">
-                Mais elle ne prend pas la parole en réunion quand elle le voudrait.
-                Elle laisse passer le projet, le poste, l'idée. Elle attend d'être prête.
-                Et cette voix qui dit <em>« pas encore, pas assez, qu'est-ce qu'ils vont penser »</em> — elle la connaît par cœur.
+                Tu as postulé. Tu avais le profil, l'expérience, les résultats. Et le feedback est tombé : <em>« Tu manques de visibilité. Tu dois travailler ta présence. Ton leadership n'est pas encore là. »</em>
+                <br /><br />
+                Ce soir-là, tu as hoché la tête et remercié pour le feedback. Et dans la voiture en rentrant, tu as pleuré.
+                <br /><br />
+                Parce que tu sais que c'est vrai. Et tu ne sais pas comment changer ça.
               </p>
             </div>
 
             {/* Dans sa tête */}
             <div className="miroir-card">
               <div className="miroir-card-icon">🧠</div>
-              <h3 className="miroir-card-title">Dans sa tête</h3>
-              <p className="miroir-card-pos">
-                Elle analyse, elle anticipe, elle prépare. Toujours.
-              </p>
-              <div className="miroir-card-sep" />
+              <h3 className="miroir-card-title">LinkedIn vs la réalité</h3>
               <p className="miroir-card-neg">
-                Mais elle dépense autant d'énergie à douter qu'à avancer.
-                Elle rejoue les réunions après coup. Elle minimise ses succès.
-                Et les compliments glissent — <em>la voix intérieure est plus forte.</em>
+                Bon poste, bons résultats, belle trajectoire. Mais avant chaque réunion importante — la panique.
+                Après chaque prise de parole — le replay.
+                Et cette question qui revient : <em>« Quand est-ce qu'ils vont réaliser ? »</em>
               </p>
             </div>
 
             {/* Dans sa vie */}
             <div className="miroir-card">
               <div className="miroir-card-icon">🪞</div>
-              <h3 className="miroir-card-title">Dans sa vie</h3>
-              <p className="miroir-card-pos">
-                Elle a construit quelque chose de bien. Vraiment.
-              </p>
-              <div className="miroir-card-sep" />
+              <h3 className="miroir-card-title">Dans 5 ans — même poste, même doute</h3>
               <p className="miroir-card-neg">
-                Mais elle court encore. Elle n'arrive pas à savourer.
-                Elle se demande parfois — <em>c'est quoi le but si je profite pas de ce que j'ai construit ?</em>
+                Tu pourrais continuer comme ça encore 5 ans. De l'extérieur, tout aurait l'air normal.
+                <br /><br />
+                Mais à l'intérieur — tu saurais. Ce n'est pas là où tu t'imaginais être quand tu es sortie d'école.
+                Ce poste que tu n'as pas osé. Ce projet que tu n'as pas lancé. Cette version de toi que tu n'as jamais vraiment laissé émerger.
+                <br /><br />
+                Et chaque année qui passe sans changer ça — c'est un peu plus de confiance qui s'érode.
               </p>
             </div>
           </div>
@@ -161,15 +155,19 @@ function MiroirSection() {
               <p className="miroir-pourtant-label">Et pourtant…</p>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Elle est compétente — ses résultats le prouvent</span>
+                <span>Tu as le diplôme, l'expérience, les résultats</span>
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Elle est reconnue par ses pairs et sa hiérarchie</span>
+                <span>C'est toi qui maîtrises les dossiers — sans toi, l'équipe est perdue</span>
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Elle a tout ce qu'il faut pour aller plus loin</span>
+                <span>Tout le monde sait que si quelque chose doit être bien fait, c'est toi qu'on appelle</span>
+              </div>
+              <div className="miroir-pourtant-item">
+                <div className="miroir-pourtant-check">✓</div>
+                <span>Sur le papier, ta carrière avance</span>
               </div>
             </div>
             <div className="miroir-pourtant-right">
@@ -182,23 +180,9 @@ function MiroirSection() {
           </div>
 
           <p className="miroir-conclusion">
-            L'over-achiever, c'est une femme brillante…<br />
-            <strong>qui n'arrive pas encore à le croire.</strong>
+            Ce n'est pas un manque de talent ni de compétences.<br />
+            <strong>C'est un plafond de verre intérieur. Et personne ne va venir le casser à ta place.</strong>
           </p>
-
-          {/* Vidéo face cam */}
-          <div className="miroir-video">
-            <div style={{ maxWidth: "680px", margin: "0 auto", position: "relative", aspectRatio: "4/3", borderRadius: "var(--radius)", overflow: "hidden", boxShadow: "0 12px 40px rgba(42,31,21,0.15)" }}>
-              <iframe
-                src="https://www.youtube.com/embed/hWcG1hBfiNQ"
-                title="Aicha Hatim — coaching"
-                frameBorder="0"
-                allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
-                allowFullScreen
-                style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }}
-              />
-            </div>
-          </div>
 
           <div className="section-cta">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
