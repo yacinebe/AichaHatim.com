@@ -222,7 +222,7 @@ function EssayeSection() {
               <div className="essaye-thoughts">
                 <div className="essaye-thought">« Manque de leadership » → tu t'inscris à une formation.</div>
                 <div className="essaye-thought">Réunion ratée → tu prépares deux fois plus la prochaine.</div>
-                <div className="essaye-thought">Promo manquée → tu te fixes de nouveaux objectifs de performance.</div>
+                <div className="essaye-thought">Promotion manquée → tu te fixes de nouveaux objectifs de performance.</div>
               </div>
               <p className="essaye-col-body">
                 Mais la confiance ne se construit pas en livrant plus, en étant plus disponible, en obtenant de meilleurs résultats.
@@ -266,7 +266,7 @@ function EssayeSection() {
           </div>
 
           <div className="essaye-highlight">
-            <p>Pendant ce temps, les promos vont à d'autres. Une promo manquée à 35 ans, c'est 10 à 15K€/an de salaire en moins — sur 25 ans de carrière, ça fait facilement <strong>250K à 375K€</strong>. Et cette honte silencieuse de ne pas être là où tu t'imaginais être — qui s'installe doucement, année après année.</p>
+            <p>Pendant ce temps, les promos vont à d'autres. Une promotion manquée à 35 ans, c'est 10 à 15K€/an de salaire en moins — sur 25 ans de carrière, ça fait facilement <strong>250K à 375K€</strong>. Et cette honte silencieuse de ne pas être là où tu t'imaginais être — qui s'installe doucement, année après année.</p>
             <p>Ce n'est pas une formation de plus qui va changer ça. <strong>C'est un travail de fond — sur tes croyances, tes mécanismes, la façon dont tu te vois.</strong></p>
           </div>
 
