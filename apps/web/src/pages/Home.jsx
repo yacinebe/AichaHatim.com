@@ -179,9 +179,11 @@ function MiroirSection() {
             <div className="miroir-pourtant-right">
               <p className="miroir-pourtant-but">Mais…</p>
               <p className="miroir-punchline">
-                La promo est allée à Thomas. Encore. Le projet stratégique a été confié à quelqu'un d'autre.
-                Tu n'as pas postulé au poste qui t'attirait — tu n'étais « pas encore prête ».
-                Et pendant ce temps, les années passent. Dans 5 ans tu seras toujours là — compétente, indispensable, invisible.
+                La promo est allée à Thomas. Encore.<br />
+                Le projet stratégique — quelqu'un d'autre.<br />
+                Le poste qui t'attirait — "pas encore prête".<br />
+                Les années passent.<br /><br />
+                <strong>Dans 5 ans : compétente, indispensable, invisible.</strong>
               </p>
             </div>
           </div>
