@@ -67,7 +67,7 @@ function HeroSection() {
             Ce n'est pas un manque de compétences. C'est un plafond de verre intérieur. Et ça se travaille.
           </p>
           <p className="landing-hero-mission">
-            Je t'aide à prendre ta place — vraiment. Au travail, en réunion, dans la pièce.
+            Je t'aide à prendre ta place — vraiment. Au travail, en réunion, dans la vie.
           </p>
           <div className="hero-actions">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta hero-btn">
