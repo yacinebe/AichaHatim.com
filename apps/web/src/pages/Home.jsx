@@ -62,7 +62,7 @@ function HeroSection() {
             <span style={{ color: "var(--accent)" }}>Illégitime aux tiens.</span>
           </h1>
           <p className="landing-hero-body">
-            Tu livres, tu performes, tu obtiens des résultats. Mais la promo va à quelqu'un d'autre.
+            Tu livres, tu performes, tu obtiens des résultats. Mais la promotion va à quelqu'un d'autre.
             Tu te tais en réunion quand tu aurais dû parler. Tu attends d'être prête — depuis 3 ans.
             Ce n'est pas un manque de compétences. C'est un plafond de verre intérieur. Et ça se travaille.
           </p>
@@ -176,7 +176,7 @@ function MiroirSection() {
             <div className="miroir-pourtant-right">
               <p className="miroir-pourtant-but">Mais…</p>
               <p className="miroir-punchline">
-                La promo est allée à Thomas. Encore.<br />
+                La promotion est allée à Thomas. Encore.<br />
                 Le projet stratégique ? Quelqu'un d'autre aussi.<br />
                 Le poste qui t'attirait ? "Pas encore prête".<br />
                 Les années passent.<br /><br />
@@ -266,8 +266,17 @@ function EssayeSection() {
           </div>
 
           <div className="essaye-highlight">
-            <p>Pendant ce temps, les promos vont à d'autres. Une promotion manquée à 35 ans, c'est 10 à 15K€/an de salaire en moins — sur 25 ans de carrière, ça fait facilement <strong>250K à 375K€</strong>. Et cette honte silencieuse de ne pas être là où tu t'imaginais être — qui s'installe doucement, année après année.</p>
-            <p>Ce n'est pas une formation de plus qui va changer ça. <strong>C'est un travail de fond — sur tes croyances, tes mécanismes, la façon dont tu te vois.</strong></p>
+            <div className="essaye-highlight-stat">
+              <div className="essaye-highlight-num">250K – 375K€</div>
+              <p style={{ fontSize: "0.88rem", color: "var(--text-muted)", lineHeight: 1.6, margin: 0 }}>
+                de manque à gagner sur une carrière pour une promotion non obtenue à 35 ans
+              </p>
+              <p className="essaye-highlight-sublabel">10 à 15K€/an × 25 ans</p>
+            </div>
+            <div className="essaye-highlight-right">
+              <p>Pendant ce temps, les promotions vont à d'autres. Et cette honte silencieuse de ne pas être là où tu t'imaginais être — qui s'installe doucement, année après année.</p>
+              <p>Ce n'est pas une formation de plus qui va changer ça. <strong>C'est un travail de fond — sur tes croyances, tes mécanismes, la façon dont tu te vois.</strong></p>
+            </div>
           </div>
 
           <p className="essaye-closer">

@@ -2118,28 +2118,27 @@ label {
 
 .essaye-highlight {
   background: var(--surface);
-  border-left: 4px solid var(--accent);
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius);
   padding: 2rem 2.5rem;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
 }
+.essaye-highlight-stat { display: flex; flex-direction: column; gap: 0.5rem; }
+.essaye-highlight-num { font-size: 2rem; font-weight: 700; color: var(--primary); line-height: 1.2; }
+.essaye-highlight-sublabel { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.5rem; opacity: 0.7; }
+.essaye-highlight-right { display: flex; flex-direction: column; gap: 1rem; border-left: 0.5px solid var(--border); padding-left: 2rem; }
 .essaye-highlight p {
   font-family: var(--font-heading);
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--text-muted);
-  line-height: 1.7;
-  margin: 0 auto 0.75rem;
+  line-height: 1.75;
+  margin: 0;
 }
-.essaye-highlight p:last-child { margin-bottom: 0; }
+.essaye-highlight p:last-child { margin-bottom: 0; border-top: 0.5px solid var(--border); padding-top: 0.75rem; color: var(--primary); font-weight: 600; }
 .essaye-highlight strong { color: var(--primary); font-weight: 600; }
-
-.essaye-highlight-big {
-  font-size: 1.15rem !important;
-  font-weight: 700 !important;
-  color: var(--primary) !important;
-  margin: 1rem auto !important;
-  max-width: 72ch;
-}
 
 @media (max-width: 900px) {
   .essaye-two-col { grid-template-columns: 1fr; }
