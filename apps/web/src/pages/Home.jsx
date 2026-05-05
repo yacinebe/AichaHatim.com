@@ -669,11 +669,8 @@ function CtaFinalSection() {
           <div className="cta-final-body">
             <div className="cta-final-text">
               <p>
-                Si tu te reconnais dans ce que tu viens de lire — si tu sens que quelque chose doit changer — cette session est pour toi.
-              </p>
-              <p>
-                <strong>30 minutes</strong>, offertes, sans engagement. On se rencontre,
-                tu poses tes questions, on voit ensemble si c'est le bon fit.
+                Si tu lis ça et que quelque chose résonne, c'est le moment.
+                30 minutes offertes pour explorer ta situation.
               </p>
               <p style={{ opacity: 0.6, fontSize: "0.88rem" }}>
                 Pas de pitch. Pas de pression. Une vraie conversation.
