@@ -533,8 +533,6 @@ function QuiSuisJeSection() {
                 </div>
                 <p className="quisuisje-beat-text">
                   C'est quand j'ai commencé à travailler profondément sur moi — mes croyances, mon estime, ma façon de me voir — que tout a changé.
-                  <br /><br />
-                  Je produis des vidéos sans peur du regard des autres. Je lance des projets auxquels je pense depuis des années. <strong>J'ai pris ma place — vraiment.</strong>
                 </p>
               </div>
             </div>
