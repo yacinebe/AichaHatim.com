@@ -271,8 +271,7 @@ function EssayeSection() {
           </div>
 
           <p className="essaye-closer">
-            Tu sais qu'il y a en toi une version plus légère, plus confiante.
-            C'est exactement ce qu'on vient faire émerger.
+            Tu dépenses ton énergie à prouver ta valeur. Il est temps de la mettre ailleurs — à incarner la leader que tu veux être.
           </p>
 
           <div className="section-cta">
