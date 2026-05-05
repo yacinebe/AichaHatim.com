@@ -524,7 +524,6 @@ function QuiSuisJeSection() {
                   Moi aussi, j'ai été la super exécutante. Accountable à 1000%, toujours à 120%, celle sur qui on peut compter.
                   Mais jamais celle qui initie un projet ou qui interagit avec le leadership.
                   Et on a fini par me reprocher mon manque de <strong>« visibilité ».</strong>
-                  <br /><br />
                   Je savais que c'était vrai. Et je ne savais pas comment changer ça.
                 </p>
               </div>
@@ -534,9 +533,8 @@ function QuiSuisJeSection() {
                   <div className="quisuisje-beat-connector" />
                 </div>
                 <p className="quisuisje-beat-text">
-                  Je me suis reconvertie en suivant mon appel du cœur. Un nouveau départ, une nouvelle vie.
-                  <br /><br />
-                  Sauf que j'avais emporté la même voix avec moi. Le même doute. La même difficulté à prendre ma place.
+                  Je me suis reconvertie en suivant mon appel du cœur — ma mission de vie, pas une fuite.
+                  Mais j'avais emporté la même voix avec moi. Le même doute. La même difficulté à prendre ma place.
                 </p>
               </div>
               <div className="quisuisje-beat">
