@@ -92,10 +92,9 @@ export default function About() {
                 <div className="tl-text">
                   <p className="story-eyebrow">L'enfance</p>
                   <p className="about-story-body">
-                    Je suis née au Maroc, j'ai grandi à Casablanca. Avec une conviction profonde :
-                    le travail, l'effort, la rigueur — c'est ce qui te mène quelque part.
-                    Les émotions, il vaut mieux les mettre sous le tapis.
-                    Ces croyances m'ont portée loin. Jusqu'au moment où elles ont commencé à me coûter.
+                    Dès le début, j'ai appris les règles du jeu : travaille dur, sois humble, ne fais pas de vague.
+                    La bonne élève qui mérite sa place par ses efforts — pas par qui elle est.
+                    Ces croyances m'ont portée loin. Et elles m'ont coûté cher.
                   </p>
                 </div>
                 <div className="tl-photo"><img src="/enfance-photo.jpg" alt="Aicha enfant" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
