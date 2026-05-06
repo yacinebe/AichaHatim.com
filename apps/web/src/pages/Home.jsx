@@ -589,7 +589,7 @@ const FAQ_DATA = [
   },
   {
     q: "« J'ai peur que ça ne marche pas pour moi. »",
-    a: "Cette peur, je la comprends. Tu as déjà essayé des choses — des livres, des podcasts, peut-être une thérapie — et tu as l'impression de tourner en rond.\n\nCe qui est différent ici, c'est qu'on travaille directement sur tes mécanismes, dans tes vraies situations. Pas de la théorie générale. Un travail fait pour toi, avec toi.",
+    a: "Cette peur, je la comprends. Tu as déjà essayé des choses et tu as l'impression de tourner en rond.\n\nCe qui est différent ici : on travaille directement sur tes mécanismes, dans tes vraies situations. Pas de la théorie générale, un travail concret, fait pour toi.\n\nEt pour que tu puisses te lancer sans risque : si après 2 sessions tu sens que ce n'est pas le bon fit, je te rembourse le reste des sessions. Sans discussion.",
   },
   {
     q: "« C'est quoi la différence avec une thérapie ? »",
