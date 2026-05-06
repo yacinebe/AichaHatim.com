@@ -108,11 +108,10 @@ export default function About() {
                 <div className="tl-text">
                   <p className="story-eyebrow">Le monde corporate</p>
                   <p className="about-story-body">
-                    J'ai fait prépa, école de commerce. Et puis j'ai intégré la boite de mes rêves.
-                    J'étais celle sur qui on peut compter — toujours préparée, toujours à 120%,
-                    jamais la première à partir. J'ai été promue. Plusieurs fois. Reconnue. Récompensée.
+                    Prépa, école de commerce, la boîte de mes rêves. J'ai performé, livré, été promue.
+                    Accountable à 1000%, toujours à 120%. Mais jamais celle qui initie, qui prend la parole, qui interagit avec le leadership.
                   </p>
-                  <p className="about-story-body"><em>De l'extérieur… tout était « réussi ».</em></p>
+                  <p className="about-story-body"><em>De l'extérieur, tout était réussi. De l'intérieur, quelque chose manquait.</em></p>
                 </div>
                 <div className="tl-photo"><img src="/corporate-photo.jpg" alt="Aicha corporate" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
               </div>
