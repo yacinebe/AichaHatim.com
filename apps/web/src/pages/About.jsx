@@ -125,27 +125,14 @@ export default function About() {
               <div className="tl-dot-col"><div className="tl-dot" /></div>
               <div className="tl-content">
                 <div className="tl-text">
-                  <p className="story-eyebrow">Mais à l'intérieur…</p>
-                  <p className="about-story-body">
-                    Beaucoup de pression. Une voix qui disait « c'est jamais assez ».
-                    Je vivais dans le contrôle. Et dès que je relâchais — je mangeais sans faim,
-                    je scrollais, je me sentais vide. <em>Mais je pensais que c'était normal.</em>
-                  </p>
-                </div>
-                <div className="tl-photo"><img src="/interieur-photo.jpg" alt="Aicha award" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", display: "block" }} /></div>
-              </div>
-            </div>
-
-            <div className="tl-item">
-              <div className="tl-dot-col"><div className="tl-dot" /></div>
-              <div className="tl-content">
-                <div className="tl-text">
                   <p className="story-eyebrow">La maternité — le tournant</p>
                   <p className="about-story-body">
-                    Plus de contrôle possible, pas de mode d'emploi.
-                    Tout ce qui « marchait » avant… ne marchait plus.
-                    Et malgré une vie « réussie » sur le papier… <em>je ne me sentais pas épanouie.</em>
+                    La maternité a tout chamboulé. Et une vraie question a émergé : est-ce vraiment ce chemin de vie que je veux ?
                   </p>
+                  <p className="about-story-body">
+                    Je me suis fait coacher pour trouver mes réponses. Et là, j'ai réalisé quelque chose que je savais depuis des années sans me l'avouer : j'avais toujours envie d'accompagner, de coacher, d'aider les autres à se transformer. Mais j'avais peur. Du regard des autres. De l'exposition. De l'échec.
+                  </p>
+                  <p className="about-story-body"><em>J'ai avancé vers cette reconversion. Et tout a changé.</em></p>
                 </div>
                 <div className="tl-photo"><img src="/maternite-photo.jpg" alt="Aicha maternité" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
               </div>
