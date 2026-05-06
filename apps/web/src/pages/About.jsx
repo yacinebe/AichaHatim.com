@@ -207,7 +207,7 @@ export default function About() {
             <p className="landing-subtitle" style={{ color: "var(--gold-light)", letterSpacing: "0.2em" }}>Ma mission</p>
             <div style={{ width: "40px", height: "1px", background: "var(--gold)", margin: "0 auto" }} />
             <blockquote className="mission-quote">
-              « Aider les over-achievers à déposer la pression — pour vivre leur ambition avec légèreté, joie et confiance. »
+              « Aider les over-achievers à vivre leur ambition depuis un endroit de confiance — pas de peur. »
             </blockquote>
           </div>
         </div>
