@@ -592,10 +592,6 @@ const FAQ_DATA = [
     a: "Cette peur, je la comprends. Tu as déjà essayé des choses et tu as l'impression de tourner en rond.\n\nCe qui est différent ici : on travaille directement sur tes mécanismes, dans tes vraies situations. Pas de la théorie générale, un travail concret, fait pour toi.\n\nEt pour que tu puisses te lancer sans risque : si après 2 sessions tu sens que ce n'est pas le bon fit, je te rembourse le reste des sessions. Sans discussion.",
   },
   {
-    q: "« C'est quoi la différence avec une thérapie ? »",
-    a: "Les deux sont complémentaires. La thérapie explore souvent le passé — pourquoi tu es comme ça. Le coaching est orienté présent et futur — comment tu fonctionnes aujourd'hui, et comment tu veux fonctionner demain.\n\nDans mon approche, on va aussi en profondeur. Mais l'objectif est toujours concret : que quelque chose change dans ta vraie vie.",
-  },
-  {
     q: "« Est-ce que c'est le bon moment ? »",
     a: "Si tu te poses la question, c'est souvent que oui. Tu sens qu'il y a un décalage. Tu sens que tu ne peux pas continuer comme ça indéfiniment.\n\nAttendre « le bon moment » c'est souvent attendre que ça aille encore plus mal.\n\nLe bon moment, c'est quand tu décides que tu mérites mieux que de juste tenir.",
   },
