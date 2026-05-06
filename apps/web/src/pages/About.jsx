@@ -138,32 +138,17 @@ export default function About() {
               </div>
             </div>
 
-            <div className="tl-item">
-              <div className="tl-dot-col"><div className="tl-dot" /></div>
-              <div className="tl-content">
-                <div className="tl-text">
-                  <p className="story-eyebrow">Le déclic</p>
-                  <p className="about-story-body">
-                    J'ai investi en moi. Thérapie, coachings, vrai travail intérieur.
-                    J'ai appris à écouter mes émotions, comprendre mes mécanismes.
-                    Et surtout : <strong>j'ai arrêté de fonctionner contre moi.</strong>
-                  </p>
-                </div>
-                <div className="tl-photo"><img src="/declic-photo.jpg" alt="Aicha déclic" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
-              </div>
-            </div>
-
             <div className="tl-item tl-item-last">
               <div className="tl-dot-col"><div className="tl-dot tl-dot-gold" /></div>
               <div className="tl-content">
                 <div className="tl-text">
-                  <p className="story-eyebrow" style={{ color: "var(--gold)" }}>Ma réinvention</p>
+                  <p className="story-eyebrow" style={{ color: "var(--gold)" }}>Aujourd'hui</p>
                   <p className="about-story-body">
-                    J'ai changé de pays, quitté le corporate et me suis reconvertie dans le coaching.
-                    Je suis toujours ambitieuse. Mais je vis mon ambition avec plus de sérénité,
-                    plus d'intention, plus d'épanouissement. Mon dialogue intérieur est aussi un indicateur
-                    que je suis et mon authenticité est ma boussole.
+                    J'ai travaillé profondément sur mes croyances, mon estime, ma façon de me voir. Et tout a changé.
+                    Je construis mes rêves — ce business de coaching, mon podcast, ma présence sur les réseaux —
+                    avec légèreté et confiance. En étant maman de 2 enfants.
                   </p>
+                  <p className="about-story-body"><em>Je suis toujours ambitieuse. Mais je vis mon ambition depuis un endroit de confiance — pas de peur.</em></p>
                 </div>
                 <div className="tl-photo"><img src="/reinvention-photo.jpg" alt="Aicha réinvention" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
               </div>
