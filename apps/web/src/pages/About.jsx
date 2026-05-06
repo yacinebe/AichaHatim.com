@@ -132,7 +132,6 @@ export default function About() {
                   <p className="about-story-body">
                     Je me suis fait coacher pour trouver mes réponses. Et là, j'ai réalisé quelque chose que je savais depuis des années sans me l'avouer : j'avais toujours envie d'accompagner, de coacher, d'aider les autres à se transformer. Mais j'avais peur. Du regard des autres. De l'exposition. De l'échec.
                   </p>
-                  <p className="about-story-body"><em>J'ai avancé vers cette reconversion. Et tout a changé.</em></p>
                 </div>
                 <div className="tl-photo"><img src="/maternite-photo.jpg" alt="Aicha maternité" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} /></div>
               </div>
@@ -144,9 +143,8 @@ export default function About() {
                 <div className="tl-text">
                   <p className="story-eyebrow" style={{ color: "var(--gold)" }}>Aujourd'hui</p>
                   <p className="about-story-body">
-                    J'ai travaillé profondément sur mes croyances, mon estime, ma façon de me voir. Et tout a changé.
-                    Je construis mes rêves — ce business de coaching, mon podcast, ma présence sur les réseaux —
-                    avec légèreté et confiance. En étant maman de 2 enfants.
+                    J'ai avancé vers ma reconversion, j'ai travaillé profondément sur mes croyances, mon estime de moi, mes mécanismes intérieurs. Et tout a changé.
+                    Je construis mes rêves — ce business de coaching, mon podcast, ma présence sur les réseaux, tout en étant maman de 2 enfants — avec légèreté et confiance.
                   </p>
                   <p className="about-story-body"><em>Je suis toujours ambitieuse. Mais je vis mon ambition depuis un endroit de confiance — pas de peur.</em></p>
                 </div>
