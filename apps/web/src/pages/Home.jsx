@@ -597,7 +597,7 @@ const FAQ_DATA = [
   },
   {
     q: "« Comment ça se passe concrètement ? »",
-    a: "On commence par une session découverte gratuite de 30 minutes — pour qu'on se rencontre, que tu poses tes questions, et qu'on voie ensemble si c'est le bon fit.\n\nSi on décide d'avancer : 8 sessions en visio sur 4 mois, à un rythme qui s'adapte à toi, avec un support WhatsApp entre les sessions.",
+    a: "On commence par 30 minutes offertes pour une vraie conversation, pas un pitch.\n\nSi ça te donne envie d'aller plus loin : 8 sessions en visio sur 4 mois, des actions dès la première session et avec un support WhatsApp à la demande.",
   },
 ];
 
