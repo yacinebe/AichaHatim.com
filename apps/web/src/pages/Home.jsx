@@ -581,7 +581,7 @@ function QuiSuisJeSection() {
 const FAQ_DATA = [
   {
     q: "« Je devrais pouvoir m'en sortir seule. »",
-    a: "Tu es capable — c'est pas la question. Le problème, c'est que tu essaies de changer ton regard sur toi-même… avec ce même regard. Tu te dis que si tu fais encore plus, si tu prouves encore plus — la confiance va finir par venir. Mais elle ne vient pas comme ça.\n\nCe n'est pas un manque de compétences. C'est un travail de fond sur tes mécanismes — et une mise en action concrète dès la première session.",
+    a: "Tu es capable — c'est pas la question. Le problème, c'est que tu essaies de changer ton regard sur toi-même… avec ce même regard. Tu te dis que si tu fais encore plus, si tu prouves encore plus — la confiance va finir par venir. Mais la confiance ne se construit pas en faisant plus.\n\nCe n'est pas un manque de compétences. C'est un travail de fond sur tes mécanismes — et une mise en action concrète dès la première session.",
   },
   {
     q: "« Je n'ai vraiment pas le temps en ce moment. »",
