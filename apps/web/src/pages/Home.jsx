@@ -593,7 +593,7 @@ const FAQ_DATA = [
   },
   {
     q: "« Est-ce que c'est le bon moment ? »",
-    a: "Si tu te poses la question, c'est souvent que oui. Tu sens qu'il y a un décalage. Tu sens que tu ne peux pas continuer comme ça indéfiniment.\n\nAttendre « le bon moment » c'est souvent attendre que ça aille encore plus mal.\n\nLe bon moment, c'est quand tu décides que tu mérites mieux que de juste tenir.",
+    a: "Si tu te poses la question, c'est souvent que oui. Tu sens qu'il y a un décalage. Tu sais que tu pourrais aller plus loin.\n\nAttendre « le bon moment », c'est souvent laisser passer une promotion de plus, une opportunité de plus.\n\nLe bon moment, c'est quand tu décides que tu ne veux plus jouer en dessous de ce que tu es capable.",
   },
   {
     q: "« Comment ça se passe concrètement ? »",
