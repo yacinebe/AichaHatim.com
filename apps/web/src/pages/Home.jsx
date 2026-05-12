@@ -470,6 +470,16 @@ function QuiSuisJeSection() {
                 Ma mission aujourd'hui — accompagner des femmes à faire la même chose.
               </p>
             </div>
+            <div className="quisuisje-today-card">
+              <p className="quisuisje-today-label">Ma légitimité</p>
+              <p className="quisuisje-today-text">
+                Au-delà des certifications de coaching — je connais ce terrain, je parle ton langage et je sais ce que ça demande, pour de vrai.
+              </p>
+              <div className="quisuisje-certifs">
+                <span className="quisuisje-certif">ICF Certified</span>
+                <span className="quisuisje-certif">+10 ans corporate</span>
+              </div>
+            </div>
           </div>
 
         </div>
