@@ -229,7 +229,7 @@ export default function About() {
               Pas en faisant plus, mais en apprenant à fonctionner autrement.
             </p>
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
-              Réserver ma session offerte
+              Réserver mon diagnostic offert
             </a>
           </div>
         </div>

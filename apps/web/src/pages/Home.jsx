@@ -71,7 +71,7 @@ function HeroSection() {
           </p>
           <div className="hero-actions">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta hero-btn">
-              Réserver ma session offerte →
+              Réserver mon diagnostic offert →
             </a>
             <span className="hero-reassurance">Gratuit · 30 min · Sans engagement</span>
           </div>
@@ -191,7 +191,7 @@ function MiroirSection() {
 
           <div className="section-cta">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
-              Réserver ma session offerte
+              Réserver mon diagnostic offert
             </a>
           </div>
         </div>
@@ -353,7 +353,7 @@ function ProgrammeSection() {
           {/* CTA */}
           <div className="section-cta">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
-              Réserver ma session offerte
+              Réserver mon diagnostic offert
             </a>
           </div>
 
@@ -551,7 +551,7 @@ function FaqLandingSection() {
 
           <div className="section-cta">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
-              Réserver ma session offerte
+              Réserver mon diagnostic offert
             </a>
           </div>
         </div>
@@ -575,7 +575,7 @@ function CtaFinalSection() {
             <div className="cta-final-text">
               <p>
                 Si tu lis ça et que quelque chose résonne, c'est le moment.
-                30 minutes offertes pour explorer ta situation.
+                30 minutes offertes pour diagnostiquer ce qui te retient.
               </p>
               <p style={{ opacity: 0.6, fontSize: "0.88rem" }}>
                 Pas de pitch. Pas de pression. Une vraie conversation.
@@ -584,7 +584,7 @@ function CtaFinalSection() {
 
             <div className="cta-final-action">
               <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta cta-final-btn">
-                Réserver ma session offerte
+                Réserver mon diagnostic offert
               </a>
               <p className="cta-final-reassurance">Gratuit · 30 min · Sans engagement</p>
             </div>

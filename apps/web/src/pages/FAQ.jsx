@@ -53,9 +53,9 @@ export default function FAQ() {
         <div className="container">
           <div className="cta-inner">
             <h2>Vous ne trouvez pas votre réponse ?</h2>
-            <p>Réservez une séance découverte gratuite, on en parle directement.</p>
+            <p>Réserve ton diagnostic offert — 30 min, sans engagement.</p>
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-accent btn-lg">
-              Réserver une séance gratuite
+              Réserver mon diagnostic offert
             </a>
           </div>
         </div>
