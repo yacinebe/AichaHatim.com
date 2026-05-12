@@ -460,24 +460,24 @@ function QuiSuisJeSection() {
 
           {/* Aujourd'hui + légitimité */}
           <div className="quisuisje-today">
-            <div className="quisuisje-today-card">
-              <p className="quisuisje-today-label">Aujourd'hui</p>
-              <p className="quisuisje-today-text">
-                Aujourd'hui je prends ma place — au travail, sur les réseaux, dans mes projets.
-                Le doute revient parfois. Le syndrome de l'imposteur ne disparaît pas complètement mais j'ai les outils pour le reconnaître, calmer cette voix, et me reconnecter à ma vision.
+            <div style={{ background: "var(--surface)", border: "0.5px solid var(--border)", borderRadius: "var(--radius)", padding: "1.5rem 1.75rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+              <p style={{ fontSize: "0.9rem", lineHeight: 1.8, color: "var(--text-muted)", margin: 0 }}>
+                Aujourd'hui je prends ma place — au travail, sur les réseaux, dans mes projets. Le doute revient parfois. Le syndrome de l'imposteur ne disparaît pas complètement, mais j'ai les outils pour le reconnaître, calmer cette voix, et me reconnecter à ma vision.
+                <br /><br />
                 Et c'est ça qui fait la différence : pas l'absence de doute, mais savoir quoi faire face à lui.
                 <br /><br />
-                Ma mission aujourd'hui — accompagner des femmes à faire la même chose.
+                <span style={{ color: "var(--text)", fontWeight: 500 }}>Ma mission : accompagner des femmes à faire la même chose.</span>
               </p>
-            </div>
-            <div className="quisuisje-today-card">
-              <p className="quisuisje-today-label">Ma légitimité</p>
-              <p className="quisuisje-today-text">
-                Au-delà des certifications de coaching — je connais ce terrain, je parle ton langage et je sais ce que ça demande, pour de vrai.
-              </p>
-              <div className="quisuisje-certifs">
-                <span className="quisuisje-certif">ICF Certified</span>
-                <span className="quisuisje-certif">+10 ans corporate</span>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+                <div style={{ padding: "8px 14px", background: "var(--surface-2)", borderRadius: "var(--radius-sm)", border: "0.5px solid var(--border)" }}>
+                  <span style={{ fontSize: "13px", fontWeight: 500, color: "var(--text)" }}>✓ Coach accréditée ICF</span>
+                </div>
+                <div style={{ padding: "8px 14px", background: "var(--surface-2)", borderRadius: "var(--radius-sm)", border: "0.5px solid var(--border)" }}>
+                  <span style={{ fontSize: "13px", fontWeight: 500, color: "var(--text)" }}>✓ Co-Active Training Institute</span>
+                </div>
+                <div style={{ padding: "8px 14px", background: "var(--surface-2)", borderRadius: "var(--radius-sm)", border: "0.5px solid var(--border)" }}>
+                  <span style={{ fontSize: "13px", fontWeight: 500, color: "var(--text)" }}>✓ 10 ans corporate</span>
+                </div>
               </div>
             </div>
           </div>
