@@ -461,7 +461,7 @@ function QuiSuisJeSection() {
           {/* Aujourd'hui + légitimité */}
           <div className="quisuisje-today">
             <div style={{ gridColumn: "1 / -1", display: "flex", justifyContent: "center" }}>
-              <div style={{ background: "var(--surface)", border: "0.5px solid var(--border)", borderRadius: "var(--radius)", padding: "1.5rem 1.75rem", display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "600px", width: "100%", textAlign: "center" }}>
+              <div style={{ background: "var(--surface)", border: "0.5px solid var(--border)", borderRadius: "var(--radius)", padding: "1.5rem 1.75rem", display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "780px", width: "100%", textAlign: "center" }}>
                 <p style={{ fontSize: "0.9rem", lineHeight: 1.8, color: "var(--text-muted)", margin: 0 }}>
                   Aujourd'hui je prends ma place — au travail, sur les réseaux, dans mes projets. Le doute revient parfois. Le syndrome de l'imposteur ne disparaît pas complètement, mais j'ai les outils pour le reconnaître, calmer cette voix, et me reconnecter à ma vision.
                   <br /><br />
