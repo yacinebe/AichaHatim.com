@@ -463,18 +463,12 @@ function QuiSuisJeSection() {
             <div className="quisuisje-today-card">
               <p className="quisuisje-today-label">Aujourd'hui</p>
               <p className="quisuisje-today-text">
-                Aujourd'hui je prends ma place — au travail, sur les réseaux, dans mes projets. Et ma mission est d'accompagner des femmes à faire la même chose.
+                Aujourd'hui je prends ma place — au travail, sur les réseaux, dans mes projets.
+                Le doute revient parfois. Le syndrome de l'imposteur ne disparaît pas complètement mais j'ai les outils pour le reconnaître, calmer cette voix, et me reconnecter à ma vision.
+                Et c'est ça qui fait la différence : pas l'absence de doute, mais savoir quoi faire face à lui.
+                <br /><br />
+                Ma mission aujourd'hui — accompagner des femmes à faire la même chose.
               </p>
-            </div>
-            <div className="quisuisje-today-card">
-              <p className="quisuisje-today-label">Ma légitimité</p>
-              <p className="quisuisje-today-text">
-                Au-delà des certifications de coaching — je connais ce terrain, je parle ton langage et je sais ce que ça demande, pour de vrai.
-              </p>
-              <div className="quisuisje-certifs">
-                <span className="quisuisje-certif">ICF Certified</span>
-                <span className="quisuisje-certif">+10 ans corporate</span>
-              </div>
             </div>
           </div>
 
