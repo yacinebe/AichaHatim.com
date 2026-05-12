@@ -24,7 +24,7 @@ export default function Navbar() {
           }
           <li className="nav-cta">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-accent btn-sm nav-cta-btn">
-              Coaching offert
+              Diagnostic offert
             </a>
           </li>
         </ul>
@@ -44,7 +44,7 @@ export default function Navbar() {
             : <NavLink to="/connexion" onClick={() => setOpen(false)}>Espace Perso</NavLink>
           }
           <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-accent nav-cta-btn">
-            Coaching offert
+            Diagnostic offert
           </a>
         </div>
       )}
