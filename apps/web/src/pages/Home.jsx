@@ -58,8 +58,8 @@ function HeroSection() {
       <div className="landing-hero-inner">
         <div className="landing-hero-content">
           <h1 className="landing-hero-headline">
-            Compétente aux yeux de tous.<br />
-            <span style={{ color: "var(--accent)" }}>Illégitime aux tiens.</span>
+            Compétente. Ambitieuse.<br />
+            <span style={{ color: "var(--accent)" }}>Mais pas encore confiante.</span>
           </h1>
           <p className="landing-hero-body">
             Tu livres, tu performes, tu obtiens des résultats. Mais la promotion va à quelqu'un d'autre.
