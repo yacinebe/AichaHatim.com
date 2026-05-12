@@ -106,7 +106,7 @@ function MiroirSection() {
     <section className="landing-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <div className="miroir-content">
-          <h2 className="landing-title" style={{ textAlign: "center" }}>Performante, mais bloquée ?</h2>
+          <h2 className="landing-title" style={{ textAlign: "center" }}>Tu te reconnais ?</h2>
 
           {/* 3 cards */}
           <div className="miroir-cards">
