@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link to="/" className="navbar-logo">Aicha Hatim</Link>
 
         <ul className="navbar-links">
-          <li><NavLink to="/">Réinvention Intérieure</NavLink></li>
+          <li><NavLink to="/">Prends ta place</NavLink></li>
           <li><NavLink to="/a-propos">Mon histoire</NavLink></li>
           <li><NavLink to="/podcast">Mon podcast</NavLink></li>
           {client
@@ -36,7 +36,7 @@ export default function Navbar() {
 
       {open && (
         <div className="mobile-menu">
-          <NavLink to="/" onClick={() => setOpen(false)}>Réinvention Intérieure</NavLink>
+          <NavLink to="/" onClick={() => setOpen(false)}>Prends ta place</NavLink>
           <NavLink to="/a-propos" onClick={() => setOpen(false)}>Mon histoire</NavLink>
           <NavLink to="/podcast" onClick={() => setOpen(false)}>Mon podcast</NavLink>
           {client

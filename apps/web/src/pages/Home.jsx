@@ -213,7 +213,7 @@ function ProgrammeSection() {
       {/* Bandeau header bordeaux */}
       <div className="programme-bandeau">
         <p className="programme-bandeau-eyebrow">Bienvenue dans ton programme</p>
-        <h2 className="programme-bandeau-title">Réinvention Intérieure</h2>
+        <h2 className="programme-bandeau-title">Prends ta place</h2>
       </div>
 
       {/* Contenu sur fond beige */}
