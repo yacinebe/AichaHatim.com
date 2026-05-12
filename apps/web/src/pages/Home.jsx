@@ -460,26 +460,28 @@ function QuiSuisJeSection() {
 
           {/* Aujourd'hui + légitimité */}
           <div className="quisuisje-today">
-            <div style={{ gridColumn: "1 / -1", background: "var(--surface)", border: "0.5px solid var(--border)", borderRadius: "var(--radius)", padding: "1.5rem 1.75rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
-              <p style={{ fontSize: "0.9rem", lineHeight: 1.8, color: "var(--text-muted)", margin: 0 }}>
-                Aujourd'hui je prends ma place — au travail, sur les réseaux, dans mes projets. Le doute revient parfois. Le syndrome de l'imposteur ne disparaît pas complètement, mais j'ai les outils pour le reconnaître, calmer cette voix, et me reconnecter à ma vision.
-                <br /><br />
-                Et c'est ça qui fait la différence : pas l'absence de doute, mais savoir quoi faire face à lui.
-                <br /><br />
-                <span style={{ color: "var(--text)", fontWeight: 500 }}>Ma mission : accompagner des femmes à faire la même chose.</span>
-              </p>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
-                <div style={{ flex: "1 1 160px", padding: "12px 16px", background: "var(--surface-2)", borderRadius: "var(--radius-sm)", border: "0.5px solid var(--border)" }}>
-                  <div style={{ fontSize: "13px", fontWeight: 500, color: "var(--text)" }}>✓ Coach accréditée ICF</div>
-                  <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "3px" }}>Certification internationale</div>
-                </div>
-                <div style={{ flex: "1 1 160px", padding: "12px 16px", background: "var(--surface-2)", borderRadius: "var(--radius-sm)", border: "0.5px solid var(--border)" }}>
-                  <div style={{ fontSize: "13px", fontWeight: 500, color: "var(--text)" }}>✓ Co-Active Training Institute</div>
-                  <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "3px" }}>Formation certifiante</div>
-                </div>
-                <div style={{ flex: "1 1 160px", padding: "12px 16px", background: "var(--surface-2)", borderRadius: "var(--radius-sm)", border: "0.5px solid var(--border)" }}>
-                  <div style={{ fontSize: "13px", fontWeight: 500, color: "var(--text)" }}>✓ 10 ans+ corporate</div>
-                  <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "3px" }}>Big companies & startups</div>
+            <div style={{ gridColumn: "1 / -1", display: "flex", justifyContent: "center" }}>
+              <div style={{ background: "var(--surface)", border: "0.5px solid var(--border)", borderRadius: "var(--radius)", padding: "1.5rem 1.75rem", display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "600px", width: "100%", textAlign: "center" }}>
+                <p style={{ fontSize: "0.9rem", lineHeight: 1.8, color: "var(--text-muted)", margin: 0 }}>
+                  Aujourd'hui je prends ma place — au travail, sur les réseaux, dans mes projets. Le doute revient parfois. Le syndrome de l'imposteur ne disparaît pas complètement, mais j'ai les outils pour le reconnaître, calmer cette voix, et me reconnecter à ma vision.
+                  <br /><br />
+                  Et c'est ça qui fait la différence : pas l'absence de doute, mais savoir quoi faire face à lui.
+                  <br /><br />
+                  <span style={{ color: "var(--text)", fontWeight: 500 }}>Ma mission : accompagner des femmes à faire la même chose.</span>
+                </p>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", justifyContent: "center" }}>
+                  <div style={{ padding: "10px 16px", background: "var(--surface-2)", borderRadius: "var(--radius-sm)", border: "0.5px solid var(--border)", textAlign: "center" }}>
+                    <div style={{ fontSize: "13px", fontWeight: 500, color: "var(--text)" }}>✓ Coach accréditée ICF</div>
+                    <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "3px" }}>Certification internationale</div>
+                  </div>
+                  <div style={{ padding: "10px 16px", background: "var(--surface-2)", borderRadius: "var(--radius-sm)", border: "0.5px solid var(--border)", textAlign: "center" }}>
+                    <div style={{ fontSize: "13px", fontWeight: 500, color: "var(--text)" }}>✓ Co-Active Training Institute</div>
+                    <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "3px" }}>Formation certifiante</div>
+                  </div>
+                  <div style={{ padding: "10px 16px", background: "var(--surface-2)", borderRadius: "var(--radius-sm)", border: "0.5px solid var(--border)", textAlign: "center" }}>
+                    <div style={{ fontSize: "13px", fontWeight: 500, color: "var(--text)" }}>✓ 10 ans+ corporate</div>
+                    <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "3px" }}>Big companies & startups</div>
+                  </div>
                 </div>
               </div>
             </div>
