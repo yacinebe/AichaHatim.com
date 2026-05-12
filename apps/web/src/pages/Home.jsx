@@ -158,7 +158,7 @@ function MiroirSection() {
               <p className="miroir-pourtant-label">Et pourtant…</p>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Tu as le diplôme, l'expérience, les résultats</span>
+                <span>Tu as les compétences, l'expérience, les résultats</span>
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
@@ -166,21 +166,19 @@ function MiroirSection() {
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Tout le monde sait que si quelque chose doit être bien fait, c'est toi qu'on appelle</span>
+                <span>Tu as la meilleure éthique de travail du bureau</span>
               </div>
               <div className="miroir-pourtant-item">
                 <div className="miroir-pourtant-check">✓</div>
-                <span>Ton manager te fait confiance pour livrer, toujours</span>
+                <span>Formations, podcasts, livres : tu travailles ta croissance</span>
               </div>
             </div>
             <div className="miroir-pourtant-right">
               <p className="miroir-pourtant-but">Mais…</p>
               <p className="miroir-punchline">
-                La promotion est allée à Thomas. Encore.<br />
-                Le projet stratégique ? Quelqu'un d'autre aussi.<br />
-                Le poste qui t'attirait ? "Pas encore prête".<br />
-                Les années passent.<br /><br />
-                <strong>Dans 5 ans, tu seras compétente, indispensable mais invisible.</strong>
+                Ce n'est pas plus de performance qui va résoudre ça. Ni des tips sur le leadership ou la visibilité.
+                <br /><br />
+                <strong>C'est un travail de fond sur tes croyances et tes mécanismes — ET une mise en action concrète dès la première session.</strong>
               </p>
             </div>
           </div>
@@ -205,95 +203,6 @@ function MiroirSection() {
 // ═══════════════════════════════════════════════════════════════════════
 // SECTION 3 — CE QUE TU AS ESSAYÉ
 // ═══════════════════════════════════════════════════════════════════════
-function EssayeSection() {
-  return (
-    <section className="landing-section" style={{ background: "var(--surface-2)" }}>
-      <div className="container">
-        <div className="essaye-content">
-          <h2 className="landing-title" style={{ textAlign: "center" }}>
-            Tes réflexes face au doute<br />
-            <span style={{ fontSize: "1.2rem", fontWeight: 400, color: "var(--text-muted)" }}>(et pourquoi ça ne marchera pas)</span>
-          </h2>
-
-          <div className="essaye-two-col">
-            {/* Col 1 */}
-            <div className="essaye-col">
-              <h3 className="essaye-col-title">Tu en fais toujours « plus »</h3>
-              <div className="essaye-thoughts">
-                <div className="essaye-thought">« Manque de leadership » → tu t'inscris à une formation.</div>
-                <div className="essaye-thought">Réunion ratée → tu prépares deux fois plus la prochaine.</div>
-                <div className="essaye-thought">Promotion manquée → tu te fixes de nouveaux objectifs de performance.</div>
-              </div>
-              <p className="essaye-col-body">
-                Mais la confiance ne se construit pas en livrant plus, en étant plus disponible, en obtenant de meilleurs résultats.
-                Tu peux performer au-delà de toutes les attentes — la voix qui doute, elle, ne s'arrête pas pour autant.
-              </p>
-              <p className="essaye-col-punchline">Parce que le problème n'est pas là.</p>
-            </div>
-
-            {/* Col 2 */}
-            <div className="essaye-col">
-              <h3 className="essaye-col-title">Tu veux tout plaquer</h3>
-              <p className="essaye-col-body">
-                Ou alors tu te dis que la solution c'est de repartir de zéro.
-                Changer d'air. Changer de cadre. Que quelque chose à l'extérieur
-                va enfin changer ce que tu ressens à l'intérieur.
-              </p>
-              <div className="essaye-strike-list">
-                <div className="essaye-strike-item">
-                  <div className="essaye-strike-x">✕</div>
-                  <span className="essaye-strike-text">quitter ton job</span>
-                </div>
-                <div className="essaye-strike-item">
-                  <div className="essaye-strike-x">✕</div>
-                  <span className="essaye-strike-text">changer de carrière</span>
-                </div>
-                <div className="essaye-strike-item">
-                  <div className="essaye-strike-x">✕</div>
-                  <span className="essaye-strike-text">déménager</span>
-                </div>
-                <div className="essaye-strike-item">
-                  <div className="essaye-strike-x">✕</div>
-                  <span className="essaye-strike-text">tout recommencer ailleurs</span>
-                </div>
-              </div>
-              <p className="essaye-col-body">
-                Mais au fond tu le sais déjà. Tu ne veux pas vraiment tout envoyer balader.
-                Et même si tu changeais tout…
-              </p>
-              <p className="essaye-col-punchline">Tu recrééerais la même pression ailleurs.</p>
-            </div>
-          </div>
-
-          <div className="essaye-highlight">
-            <div className="essaye-highlight-stat">
-              <div className="essaye-highlight-num">250K – 375K€</div>
-              <p style={{ fontSize: "0.88rem", color: "var(--text-muted)", lineHeight: 1.6, margin: 0 }}>
-                de manque à gagner sur une carrière pour une promotion non obtenue à 35 ans
-              </p>
-              <p className="essaye-highlight-sublabel">10 à 15K€/an × 25 ans</p>
-            </div>
-            <div className="essaye-highlight-right">
-              <p>Pendant ce temps, les promotions vont à d'autres. Et cette honte silencieuse de ne pas être là où tu t'imaginais être, qui s'installe doucement, année après année.</p>
-              <p>Ce n'est pas une formation de plus qui va changer ça. <strong>C'est un travail de fond sur tes croyances et tes mécanismes ET une mise en action concrète dès la première session.</strong></p>
-            </div>
-          </div>
-
-          <p className="essaye-closer">
-            Tu dépenses ton énergie à prouver ta valeur.<br />
-            Il est temps de la mettre ailleurs : à incarner la leader que tu veux être.
-          </p>
-
-          <div className="section-cta">
-            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-cta">
-              Voir si c'est fait pour moi
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
 
 // ═══════════════════════════════════════════════════════════════════════
 // SECTION 4 — PROGRAMME (unifié : définition + vision + méthode + structure)
@@ -697,7 +606,6 @@ export default function Home() {
       <WaveDivider from="#edd5c8" to="var(--bg)" />
       <MiroirSection />
       <WaveDivider from="var(--bg)" to="var(--surface-2)" />
-      <EssayeSection />
       <WaveDivider from="var(--surface-2)" to="var(--accent)" />
       <ProgrammeSection />
       <WaveDivider from="var(--bg)" to="var(--bg)" />
